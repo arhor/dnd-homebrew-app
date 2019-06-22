@@ -32,8 +32,7 @@
 </template>
 
 <script>
-import store from '../data/store.js';
-import { async } from 'q';
+import store from '../store.js';
 
 export default {
   name: 'MonsterList',
