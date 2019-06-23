@@ -2,21 +2,22 @@
   <v-card>
     <v-card-title>
       Monsters
-      <v-spacer/>
+      <v-spacer />
       <v-text-field
         v-model="search"
         append-icon="search"
         label="Search"
         single-line
-        hide-details>
-      </v-text-field>
+        hide-details
+      />
     </v-card-title>
     <v-data-table
       :headers="headers"
       :items="monsters"
       :search="search"
       :loading="loading"
-      class="evelation-1">
+      class="evelation-1"
+    >
       <template v-slot:items="props">
         <td>{{ props.item.name }}</td>
         <td>{{ props.item.size }}</td>
@@ -24,7 +25,8 @@
         <td>{{ props.item.challenge_rating }}</td>
       </template>
       <template v-slot:no-results>
-        <v-alert :value="true"
+        <v-alert
+          :value="true"
           color="error"
           icon="warning"
         >
@@ -69,6 +71,6 @@ export default {
       this.monsters = store.findMonsters();
       this.loading = false;
     }, 200);
-  }
+  },
 };
 </script>

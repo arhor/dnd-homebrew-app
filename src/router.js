@@ -29,5 +29,10 @@ export default new Router({
       name: 'monsters',
       component: () => import('./views/Monsters.vue'),
     },
+    {
+      path: '/settings',
+      name: 'settings',
+      component: () => import('./views/Settings.vue'),
+    },
   ],
 });

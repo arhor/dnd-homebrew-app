@@ -1,16 +1,27 @@
 <template>
   <v-container>
     <v-layout>
-      <v-flex sm6 offset-sm3>
-        <v-container v-bind="{ [`grid-list-${size}`]: true }" fluid>
-          <v-layout row wrap>
+      <v-flex
+        sm6
+        offset-sm3
+      >
+        <v-container
+          v-bind="{ [`grid-list-${size}`]: true }"
+          fluid
+        >
+          <v-layout
+            row
+            wrap
+          >
             <v-flex
               v-for="(component, i) in testComponents"
               :key="i"
-              xs3>
+              xs3
+            >
               <v-btn
                 :to="`/${component.name}`"
-                :color="component.color">
+                :color="component.color"
+              >
                 {{ component.name }}
               </v-btn>
             </v-flex>
@@ -19,7 +30,6 @@
       </v-flex>
     </v-layout>
   </v-container>
-  
 </template>
 
 <script>
