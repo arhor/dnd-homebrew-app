@@ -70,12 +70,5 @@ export default {
       this.loading = false;
     }, 200);
   }
-  // computed: {
-  //   monsters() {
-  //     console.log(store.findMonsters());
-      
-  //     return store.findMonsters();
-  //   },
-  // },
 };
 </script>
