@@ -11,11 +11,7 @@
       overflow
       app
     />
-    <v-toolbar
-      :clipped-left="primaryDrawer.clipped"
-      app
-      absolute
-    >
+    <v-toolbar :clipped-left="primaryDrawer.clipped" app absolute>
       <v-toolbar-side-icon
         v-if="primaryDrawer.type !== 'permanent'"
         @click.stop="primaryDrawer.model = !primaryDrawer.model"
@@ -23,65 +19,40 @@
       <v-toolbar-title class="headline text-uppercase">
         <span class="font-weight-light">{{ app_name }}</span>
       </v-toolbar-title>
-      <v-spacer />
-      <v-btn
-        to="/"
-        flat
-      >
-        Home
-      </v-btn>
-      <v-btn
-        to="/about"
-        flat
-      >
-        About
-      </v-btn>
-      <v-btn
-        to="/dev"
-        flat
-      >
-        Dev
-      </v-btn>
-      <v-btn
-        to="/settings"
-        flat
-      >
-        Settings
-      </v-btn>
+      <v-spacer/>
+      <v-btn to="/" flat>Home</v-btn>
+      <v-btn to="/about" flat>About</v-btn>
+      <v-btn to="/dev" flat>Dev</v-btn>
+      <v-btn to="/settings" flat>Settings</v-btn>
     </v-toolbar>
     <v-content>
-      <router-view />
+      <router-view/>
     </v-content>
-    <v-footer
-      :inset="footer.inset"
-      app
-    >
+    <v-footer :inset="footer.inset" app>
       <span class="px-3">&copy; {{ new Date().getFullYear() }}</span>
     </v-footer>
   </v-app>
 </template>
 
 <script>
-import store from './store.js';
+import { mapState } from "vuex";
 
 export default {
-  name: 'App',
-  data: () => ({
+  name: "App",
+  computed: mapState({
+    app_name: state => state.application.name,
     dark: true,
-    drawers: ['Default (no property)', 'Permanent', 'Temporary'],
+    drawers: ["Default (no property)", "Permanent", "Temporary"],
     primaryDrawer: {
       model: null,
-      type: 'default (no property)',
+      type: "default (no property)",
       clipped: false,
       floating: false,
-      mini: false,
+      mini: false
     },
     footer: {
-      inset: false,
-    },
-  }),
-  computed: {
-    app_name: () => store.appData.name,
-  },
+      inset: false
+    }
+  })
 };
 </script>
