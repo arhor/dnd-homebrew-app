@@ -5,8 +5,7 @@
 	"ability_score": {
 		"url": "http://www.dnd5eapi.co/api/ability-scores/2",
 		"name": "DEX"
-	},
-	"url": "http://www.dnd5eapi.co/api/skills/1"
+	}
 }, {
 	"index": 2,
 	"name": "Animal Handling",
@@ -14,8 +13,7 @@
 	"ability_score": {
 		"url": "http://www.dnd5eapi.co/api/ability-scores/5",
 		"name": "WIS"
-	},
-	"url": "http://www.dnd5eapi.co/api/skills/2"
+	}
 }, {
 	"index": 3,
 	"name": "Arcana",
@@ -23,8 +21,7 @@
 	"ability_score": {
 		"url": "http://www.dnd5eapi.co/api/ability-scores/4",
 		"name": "INT"
-	},
-	"url": "http://www.dnd5eapi.co/api/skills/3"
+	}
 }, {
 	"index": 4,
 	"name": "Athletics",
@@ -32,8 +29,7 @@
 	"ability_score": {
 		"url": "http://www.dnd5eapi.co/api/ability-scores/1",
 		"name": "STR"
-	},
-	"url": "http://www.dnd5eapi.co/api/skills/4"
+	}
 }, {
 	"index": 5,
 	"name": "Deception",
@@ -41,8 +37,7 @@
 	"ability_score": {
 		"url": "http://www.dnd5eapi.co/api/ability-scores/6",
 		"name": "CHA"
-	},
-	"url": "http://www.dnd5eapi.co/api/skills/5"
+	}
 }, {
 	"index": 6,
 	"name": "History",
@@ -50,8 +45,7 @@
 	"ability_score": {
 		"url": "http://www.dnd5eapi.co/api/ability-scores/4",
 		"name": "INT"
-	},
-	"url": "http://www.dnd5eapi.co/api/skills/6"
+	}
 }, {
 	"index": 7,
 	"name": "Insight",
@@ -59,8 +53,7 @@
 	"ability_score": {
 		"url": "http://www.dnd5eapi.co/api/ability-scores/5",
 		"name": "WIS"
-	},
-	"url": "http://www.dnd5eapi.co/api/skills/7"
+	}
 }, {
 	"index": 8,
 	"name": "Intimidation",
@@ -68,8 +61,7 @@
 	"ability_score": {
 		"url": "http://www.dnd5eapi.co/api/ability-scores/6",
 		"name": "CHA"
-	},
-	"url": "http://www.dnd5eapi.co/api/skills/8"
+	}
 }, {
 	"index": 9,
 	"name": "Investigation",
@@ -77,8 +69,7 @@
 	"ability_score": {
 		"url": "http://www.dnd5eapi.co/api/ability-scores/4",
 		"name": "INT"
-	},
-	"url": "http://www.dnd5eapi.co/api/skills/9"
+	}
 }, {
 	"index": 10,
 	"name": "Medicine",
@@ -86,8 +77,7 @@
 	"ability_score": {
 		"url": "http://www.dnd5eapi.co/api/ability-scores/5",
 		"name": "WIS"
-	},
-	"url": "http://www.dnd5eapi.co/api/skills/10"
+	}
 }, {
 	"index": 11,
 	"name": "Nature",
@@ -95,8 +85,7 @@
 	"ability_score": {
 		"url": "http://www.dnd5eapi.co/api/ability-scores/4",
 		"name": "INT"
-	},
-	"url": "http://www.dnd5eapi.co/api/skills/11"
+	}
 }, {
 	"index": 12,
 	"name": "Perception",
@@ -104,8 +93,7 @@
 	"ability_score": {
 		"url": "http://www.dnd5eapi.co/api/ability-scores/5",
 		"name": "WIS"
-	},
-	"url": "http://www.dnd5eapi.co/api/skills/12"
+	}
 }, {
 	"index": 13,
 	"name": "Performance",
@@ -113,8 +101,7 @@
 	"ability_score": {
 		"url": "http://www.dnd5eapi.co/api/ability-scores/6",
 		"name": "CHA"
-	},
-	"url": "http://www.dnd5eapi.co/api/skills/13"
+	}
 }, {
 	"index": 14,
 	"name": "Persuasion",
@@ -122,8 +109,7 @@
 	"ability_score": {
 		"url": "http://www.dnd5eapi.co/api/ability-scores/6",
 		"name": "CHA"
-	},
-	"url": "http://www.dnd5eapi.co/api/skills/14"
+	}
 }, {
 	"index": 15,
 	"name": "Religion",
@@ -131,8 +117,7 @@
 	"ability_score": {
 		"url": "http://www.dnd5eapi.co/api/ability-scores/4",
 		"name": "INT"
-	},
-	"url": "http://www.dnd5eapi.co/api/skills/15"
+	}
 }, {
 	"index": 16,
 	"name": "Sleight of Hand",
@@ -140,8 +125,7 @@
 	"ability_score": {
 		"url": "http://www.dnd5eapi.co/api/ability-scores/2",
 		"name": "DEX"
-	},
-	"url": "http://www.dnd5eapi.co/api/skills/16"
+	}
 }, {
 	"index": 17,
 	"name": "Stealth",
@@ -149,8 +133,7 @@
 	"ability_score": {
 		"url": "http://www.dnd5eapi.co/api/ability-scores/2",
 		"name": "DEX"
-	},
-	"url": "http://www.dnd5eapi.co/api/skills/17"
+	}
 }, {
 	"index": 18,
 	"name": "Survival",
@@ -158,6 +141,5 @@
 	"ability_score": {
 		"url": "http://www.dnd5eapi.co/api/ability-scores/5",
 		"name": "WIS"
-	},
-	"url": "http://www.dnd5eapi.co/api/skills/18"
+	}
 }]

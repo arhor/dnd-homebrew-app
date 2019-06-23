@@ -5,32 +5,42 @@
       <v-spacer/>
       <v-text-field v-model="search" append-icon="search" label="Search" single-line hide-details/>
     </v-card-title>
-    <v-data-table :headers="headers" :items="monsters" :search="search" class="evelation-1">
+    <v-data-table class="evelation-1"
+      :headers="headers"
+      :items="monsters"
+      :search="search"
+    >
       <template v-slot:items="props">
         <td>{{ props.item.name }}</td>
         <td>{{ props.item.size }}</td>
         <td>{{ props.item.type }}</td>
         <td>{{ props.item.challenge_rating }}</td>
+        <td><v-btn @click="showDetails(props.item)"></v-btn></td>
       </template>
       <template v-slot:no-results>
         <v-alert :value="true" color="error" icon="warning">Nothing found for '{{ search }}'.</v-alert>
       </template>
     </v-data-table>
-    <!-- <v-dialog v-model="dialog" max-width="300">
+    <v-dialog v-model="dialog" max-width="300">
       <MonsterDetails :monster="monster" />
-    </v-dialog>-->
+    </v-dialog>
   </v-card>
 </template>
 
 <script>
-import { mapState } from "vuex";
+import { mapState } from 'vuex';
+import MonsterDetails from './MonsterDetails';
 
 export default {
-  name: "MonsterList",
+  name: 'MonsterList',
+  components: {
+    MonsterDetails,
+  },
   data() {
     return {
       search: "",
       dialog: false,
+      monster: null,
       errors: [],
       headers: [
         { text: "Name", value: "name" },
