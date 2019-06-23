@@ -16,12 +16,12 @@
 </template>
 
 <script>
-import store from './store.js';
+import { mapState } from 'vuex';
 
 export default {
   name: 'App',
-  computed: {
-    app_name: () => store.appData.name,
-  },
+  computed: mapState({
+    app_name: state => state.application.name,
+  }),
 };
 </script>

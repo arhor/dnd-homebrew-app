@@ -15,7 +15,6 @@
       :headers="headers"
       :items="monsters"
       :search="search"
-      :loading="loading"
       class="evelation-1">
       <template v-slot:items="props">
         <td>{{ props.item.name }}</td>
@@ -39,7 +38,7 @@
 </template>
 
 <script>
-import store from '../store.js';
+import { mapState } from 'vuex';
 
 export default {
   name: 'MonsterList',
@@ -47,8 +46,6 @@ export default {
     return {
       search: '',
       dialog: false,
-      loading: 'info',
-      monsters: [],
       errors: [],
       headers: [
         { text: 'Name', value: 'name' },
@@ -64,11 +61,11 @@ export default {
       this.dialog = true;
     },
   },
-  async mounted() {
-    await setTimeout(() => {
-      this.monsters = store.findMonsters();
-      this.loading = false;
-    }, 200);
+  computed: mapState({
+    monsters: state => state.monsters.all,
+  }),
+  mounted() {
+    this.$store.dispatch('monsters/loadMonsters');
   }
 };
 </script>
