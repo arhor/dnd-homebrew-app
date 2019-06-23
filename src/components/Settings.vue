@@ -1,41 +1,19 @@
 <template>
-  <v-app
-    id="sandbox"
-    :dark="dark"
-  >
+  <v-app id="sandbox" :dark="dark">
     <v-content>
       <v-container fluid>
-        <v-layout
-          align-center
-          justify-center
-        >
+        <v-layout align-center justify-center>
           <v-flex xs10>
             <v-card>
               <v-card-text>
-                <v-layout
-                  row
-                  wrap
-                >
-                  <v-flex
-                    xs12
-                    md6
-                  >
+                <v-layout row wrap>
+                  <v-flex xs12 md6>
                     <span>Scheme</span>
-                    <v-switch
-                      v-model="dark"
-                      primary
-                      label="Dark"
-                    />
+                    <v-switch @click="switchTheme" v-model="dark" primary label="Dark"/>
                   </v-flex>
-                  <v-flex
-                    xs12
-                    md6
-                  >
+                  <v-flex xs12 md6>
                     <span>Drawer</span>
-                    <v-radio-group
-                      v-model="primaryDrawer.type"
-                      column
-                    >
+                    <v-radio-group v-model="primaryDrawer.type" column>
                       <v-radio
                         v-for="drawer in drawers"
                         :key="drawer"
@@ -45,27 +23,28 @@
                       />
                     </v-radio-group>
                     <v-switch
+                      @switch="switchClippedMode"
                       v-model="primaryDrawer.clipped"
                       label="Clipped"
                       primary
                     />
                     <v-switch
+                      @switch="switchFloatingMode"
                       v-model="primaryDrawer.floating"
                       label="Floating"
                       primary
                     />
                     <v-switch
+                      @switch="switchMiniMode"
                       v-model="primaryDrawer.mini"
                       label="Mini"
                       primary
                     />
                   </v-flex>
-                  <v-flex
-                    xs12
-                    md6
-                  >
+                  <v-flex xs12 md6>
                     <span>Footer</span>
                     <v-switch
+                      @switch="switchFooterInsetMode"
                       v-model="footer.inset"
                       label="Inset"
                       primary
@@ -74,16 +53,9 @@
                 </v-layout>
               </v-card-text>
               <v-card-actions>
-                <v-spacer />
-                <v-btn flat>
-                  Cancel
-                </v-btn>
-                <v-btn
-                  flat
-                  color="primary"
-                >
-                  Submit
-                </v-btn>
+                <v-spacer/>
+                <v-btn flat>Cancel</v-btn>
+                <v-btn flat color="primary">Submit</v-btn>
               </v-card-actions>
             </v-card>
           </v-flex>
@@ -94,20 +66,30 @@
 </template>
 
 <script>
+import { mapState } from "vuex";
 export default {
-  data: () => ({
-    dark: true,
-    drawers: ['Default (no property)', 'Permanent', 'Temporary'],
-    primaryDrawer: {
-      model: null,
-      type: 'default (no property)',
-      clipped: false,
-      floating: false,
-      mini: false,
-    },
-    footer: {
-      inset: false,
-    },
+  computed: mapState({
+    dark: state => state.application.dark,
+    drawers: state => state.application.drawers,
+    primaryDrawer: state => state.application.primaryDrawer,
+    footer: state => state.application.footer
   }),
+  methods: {
+    switchTheme() {
+      this.$store.dispatch("application/switchTheme");
+    },
+    switchMiniMode() {
+      this.$store.dispatch("application/switchMiniMode");
+    },
+    switchFloatingMode() {
+      this.$store.dispatch("application/switchFloatingMode");
+    },
+    switchClippedMode() {
+      this.$store.dispatch("application/switchClippedMode");
+    },
+    switchFooterInsetMode() {
+      this.$store.dispatch("application/switchFooterInsetMode");
+    }
+  }
 };
 </script>

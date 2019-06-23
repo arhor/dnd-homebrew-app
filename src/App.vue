@@ -41,18 +41,10 @@ export default {
   name: "App",
   computed: mapState({
     app_name: state => state.application.name,
-    dark: true,
-    drawers: ["Default (no property)", "Permanent", "Temporary"],
-    primaryDrawer: {
-      model: null,
-      type: "default (no property)",
-      clipped: false,
-      floating: false,
-      mini: false
-    },
-    footer: {
-      inset: false
-    }
+    dark: state => state.application.dark,
+    drawers: state => state.application.drawers,
+    primaryDrawer: state => state.application.primaryDrawer,
+    footer: state => state.application.footer
   })
 };
 </script>
