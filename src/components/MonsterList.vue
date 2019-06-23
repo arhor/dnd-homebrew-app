@@ -2,10 +2,10 @@
   <v-card>
     <v-card-title>
       Monsters
-      <v-spacer></v-spacer>
+      <v-spacer/>
       <v-text-field
         v-model="search"
-        append-icon=search
+        append-icon="search"
         label="Search"
         single-line
         hide-details>
@@ -15,6 +15,7 @@
       :headers="headers"
       :items="monsters"
       :search="search"
+      :loading="loading"
       class="evelation-1">
       <template v-slot:items="props">
         <td>{{ props.item.name }}</td>
@@ -23,11 +24,17 @@
         <td>{{ props.item.challenge_rating }}</td>
       </template>
       <template v-slot:no-results>
-        <v-alert :value="true" color="error" icon="warning">
+        <v-alert :value="true"
+          color="error"
+          icon="warning"
+        >
           Nothing found for '{{ search }}'.
         </v-alert>
       </template>
     </v-data-table>
+    <!-- <v-dialog v-model="dialog" max-width="300">
+      <MonsterDetails :monster="monster" />
+    </v-dialog> -->
   </v-card>
 </template>
 
@@ -39,6 +46,8 @@ export default {
   data() {
     return {
       search: '',
+      dialog: false,
+      loading: 'info',
       monsters: [],
       errors: [],
       headers: [
@@ -46,16 +55,27 @@ export default {
         { text: 'Size', value: 'size' },
         { text: 'Type', value: 'type' },
         { text: 'CR', value: 'challenge_rating' },
-      ]
+      ],
     };
   },
-  async mounted() {
-    try {
-      const response = await store.findMonsters();
-      this.monsters = response.data;
-    } catch(error) {
-      this.errors.push(error);
-    }
+  methods: {
+    showDetails(concreteMonster) {
+      this.monster = concreteMonster;
+      this.dialog = true;
+    },
   },
-}
+  async mounted() {
+    await setTimeout(() => {
+      this.monsters = store.findMonsters();
+      this.loading = false;
+    }, 200);
+  }
+  // computed: {
+  //   monsters() {
+  //     console.log(store.findMonsters());
+      
+  //     return store.findMonsters();
+  //   },
+  // },
+};
 </script>
