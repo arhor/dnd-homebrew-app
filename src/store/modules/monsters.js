@@ -8,13 +8,13 @@ const getters = {};
 
 const actions = {
   async loadMonsters({ commit }) {
-    const response = await axios.get('data/5e-SRD-Monsters.json');    
+    const response = await axios.get('data/5e-SRD-Monsters.json');
     commit('setMonsters', response.data);
   },
 };
 
 const mutations = {
-  setMonsters(state, monsters) {    
+  setMonsters(state, monsters) {
     state.all = monsters;
   },
 };

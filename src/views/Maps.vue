@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import Maps from '../components/Maps';
+import Maps from '../components/Maps.vue';
 
 export default {
   components: {

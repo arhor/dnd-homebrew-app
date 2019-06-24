@@ -1,19 +1,42 @@
 <template>
-  <v-app id="sandbox" :dark="dark">
+  <v-app
+    id="sandbox"
+    :dark="dark"
+  >
     <v-content>
       <v-container fluid>
-        <v-layout align-center justify-center>
+        <v-layout
+          align-center
+          justify-center
+        >
           <v-flex xs10>
             <v-card>
               <v-card-text>
-                <v-layout row wrap>
-                  <v-flex xs12 md6>
+                <v-layout
+                  row
+                  wrap
+                >
+                  <v-flex
+                    xs12
+                    md6
+                  >
                     <span>Scheme</span>
-                    <v-switch @click="switchTheme" v-model="dark" primary label="Dark"/>
+                    <v-switch
+                      @click="switchTheme"
+                      v-model="dark"
+                      primary
+                      label="Dark"
+                    />
                   </v-flex>
-                  <v-flex xs12 md6>
+                  <v-flex
+                    xs12
+                    md6
+                  >
                     <span>Drawer</span>
-                    <v-radio-group v-model="primaryDrawer.type" column>
+                    <v-radio-group
+                      v-model="primaryDrawer.type"
+                      column
+                    >
                       <v-radio
                         v-for="drawer in drawers"
                         :key="drawer"
@@ -41,7 +64,10 @@
                       primary
                     />
                   </v-flex>
-                  <v-flex xs12 md6>
+                  <v-flex
+                    xs12
+                    md6
+                  >
                     <span>Footer</span>
                     <v-switch
                       @switch="switchFooterInsetMode"
@@ -53,9 +79,16 @@
                 </v-layout>
               </v-card-text>
               <v-card-actions>
-                <v-spacer/>
-                <v-btn flat>Cancel</v-btn>
-                <v-btn flat color="primary">Submit</v-btn>
+                <v-spacer />
+                <v-btn flat>
+                  Cancel
+                </v-btn>
+                <v-btn
+                  flat
+                  color="primary"
+                >
+                  Submit
+                </v-btn>
               </v-card-actions>
             </v-card>
           </v-flex>
@@ -66,30 +99,31 @@
 </template>
 
 <script>
-import { mapState } from "vuex";
+import { mapState } from 'vuex';
+
 export default {
   computed: mapState({
     dark: state => state.application.dark,
     drawers: state => state.application.drawers,
     primaryDrawer: state => state.application.primaryDrawer,
-    footer: state => state.application.footer
+    footer: state => state.application.footer,
   }),
   methods: {
     switchTheme() {
-      this.$store.dispatch("application/switchTheme");
+      this.$store.dispatch('application/switchTheme');
     },
     switchMiniMode() {
-      this.$store.dispatch("application/switchMiniMode");
+      this.$store.dispatch('application/switchMiniMode');
     },
     switchFloatingMode() {
-      this.$store.dispatch("application/switchFloatingMode");
+      this.$store.dispatch('application/switchFloatingMode');
     },
     switchClippedMode() {
-      this.$store.dispatch("application/switchClippedMode");
+      this.$store.dispatch('application/switchClippedMode');
     },
     switchFooterInsetMode() {
-      this.$store.dispatch("application/switchFooterInsetMode");
-    }
-  }
+      this.$store.dispatch('application/switchFooterInsetMode');
+    },
+  },
 };
 </script>

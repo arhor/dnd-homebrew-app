@@ -5,14 +5,11 @@ module.exports = {
     node: true,
   },
 
-  extends: [
-    'plugin:vue/essential',
-    '@vue/airbnb',
-  ],
-
   rules: {
     'no-console': 'off',
     'no-debugger': 'off',
+    'no-shadow': 'off',
+    'no-param-reassign': 'off',
   },
 
   parserOptions: {
@@ -20,6 +17,7 @@ module.exports = {
   },
 
   extends: [
+    'plugin:vue/essential',
     'plugin:vue/strongly-recommended',
     '@vue/airbnb',
   ],

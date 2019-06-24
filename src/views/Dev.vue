@@ -36,9 +36,7 @@
 export default {
   data: () => ({
     size: 'xs',
-    testComponents: [
-      { name: 'monsters', color: 'success' },
-    ],
+    testComponents: [{ name: 'monsters', color: 'success' }],
   }),
 };
 </script>
