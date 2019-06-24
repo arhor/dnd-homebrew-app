@@ -23,6 +23,7 @@
       <v-btn to="/" flat>Home</v-btn>
       <v-btn to="/about" flat>About</v-btn>
       <v-btn to="/dev" flat>Dev</v-btn>
+      <v-btn to="/maps" flat>Maps</v-btn>
       <v-btn to="/settings" flat>Settings</v-btn>
     </v-toolbar>
     <v-content>
