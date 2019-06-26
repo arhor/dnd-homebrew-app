@@ -3,7 +3,13 @@
     <v-card-title>
       Monsters
       <v-spacer/>
-      <v-text-field v-model="search" append-icon="search" label="Search" single-line hide-details/>
+      <v-text-field
+        v-model="search"
+        append-icon="search"
+        label="Search"
+        single-line
+        hide-details>
+      </v-text-field>
     </v-card-title>
     <v-data-table class="evelation-1"
       :headers="headers"
@@ -18,10 +24,15 @@
         <td><v-btn @click="showDetails(props.item)"></v-btn></td>
       </template>
       <template v-slot:no-results>
-        <v-alert :value="true" color="error" icon="warning">Nothing found for '{{ search }}'.</v-alert>
+        <v-alert :value="true"
+          color="error"
+          icon="warning"
+        >
+          Nothing found for '{{ search }}'.
+        </v-alert>
       </template>
     </v-data-table>
-    <v-dialog v-model="dialog" max-width="300">
+    <v-dialog v-model="dialog" max-width="800">
       <MonsterDetails :monster="monster" />
     </v-dialog>
   </v-card>
@@ -38,29 +49,29 @@ export default {
   },
   data() {
     return {
-      search: "",
+      search: '',
       dialog: false,
       monster: null,
       errors: [],
       headers: [
-        { text: "Name", value: "name" },
-        { text: "Size", value: "size" },
-        { text: "Type", value: "type" },
-        { text: "CR", value: "challenge_rating" }
-      ]
+        { text: 'Name', value: 'name' },
+        { text: 'Size', value: 'size' },
+        { text: 'Type', value: 'type' },
+        { text: 'CR', value: 'challenge_rating' },
+      ],
     };
   },
   methods: {
     showDetails(concreteMonster) {
       this.monster = concreteMonster;
       this.dialog = true;
-    }
+    },
   },
   computed: mapState({
-    monsters: state => state.monsters.all
+    monsters: state => state.monsters.all,
   }),
   mounted() {
-    this.$store.dispatch("monsters/loadMonsters");
+    this.$store.dispatch('monsters/loadMonsters');
   }
 };
 </script>
