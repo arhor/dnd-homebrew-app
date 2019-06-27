@@ -8,14 +8,14 @@ const state = {
 const getters = {};
 
 const actions = {
-  async loadMonsters({ commit }) {
-    const { data } = await axios.get('data/5e-SRD-Monsters.json');
-    commit('SET_MONSTERS', data);
+  async loadAbilities({ commit }) {
+    const { data } = await axios.get('data/5e-SRD-Ability-Scores.json');
+    commit('SET_ABILITIES', data);
   },
 };
 
 const mutations = {
-  SET_MONSTERS(store, payload) {
+  SET_ABILITIES(store, payload) {
     store.all = payload;
   },
 };

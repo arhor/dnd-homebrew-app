@@ -45,6 +45,10 @@ export default {
     drawers: state => state.application.drawers,
     primaryDrawer: state => state.application.primaryDrawer,
     footer: state => state.application.footer
-  })
+  }),
+  mounted() {
+    this.$store.dispatch('abilities/loadAbilities');
+    this.$store.dispatch('monsters/loadMonsters');
+  }
 };
 </script>

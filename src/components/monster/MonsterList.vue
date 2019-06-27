@@ -40,7 +40,7 @@
 
 <script>
 import { mapState } from 'vuex';
-import MonsterDetails from './MonsterDetails';
+import MonsterDetails from './MonsterDetails.vue';
 
 export default {
   name: 'MonsterList',
@@ -70,8 +70,5 @@ export default {
   computed: mapState({
     monsters: state => state.monsters.all,
   }),
-  mounted() {
-    this.$store.dispatch('monsters/loadMonsters');
-  }
 };
 </script>
