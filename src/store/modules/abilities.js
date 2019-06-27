@@ -8,7 +8,7 @@ const state = {
 const getters = {};
 
 const actions = {
-  async loadAbilities({ commit }) {
+  async load({ commit }) {
     const { data } = await axios.get('data/5e-SRD-Ability-Scores.json');
     commit('SET_ABILITIES', data);
   },

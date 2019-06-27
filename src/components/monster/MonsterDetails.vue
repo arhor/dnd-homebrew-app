@@ -22,7 +22,9 @@
         </v-flex>
       </v-layout>
       <v-divider/>
-      <AbilityList :abilities="abilities" :monster="monster"/>
+      <ability-list :creature="monster"/>
+      <v-divider/>
+      <skill-list :creature="monster"/>
       <v-divider/>
       <!-- place other content here -->
     </v-container>
@@ -32,16 +34,15 @@
 <script>
 import { mapState } from 'vuex';
 import AbilityList from '../ability/AbilityList.vue';
+import SkillList from '../skill/SkillList.vue';
 
 export default {
   name: 'MonsterDetails',
   props: ['monster'],
   components: {
     AbilityList,
+    SkillList,
   },
-  computed: mapState({
-    abilities: state => state.abilities.all,
-  }),
   data() {
     return {
       secondary: [

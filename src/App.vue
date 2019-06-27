@@ -47,8 +47,9 @@ export default {
     footer: state => state.application.footer
   }),
   mounted() {
-    this.$store.dispatch('abilities/loadAbilities');
-    this.$store.dispatch('monsters/loadMonsters');
+    this.$store.dispatch('abilities/load');
+    this.$store.dispatch('monsters/load');
+    this.$store.dispatch('skills/load');
   }
 };
 </script>

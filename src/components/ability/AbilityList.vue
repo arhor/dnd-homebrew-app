@@ -7,17 +7,21 @@
 </template>
 
 <script>
+import { mapState } from 'vuex';
 import AbilityDetails from './AbilityDetails.vue';
 
 export default {
   name: 'AbilityList',
-  props: ['abilities', 'monster'],
+  props: ['creature'],
   components: {
     AbilityDetails,
   },
+  computed: mapState({
+    abilities: state => state.abilities.all,
+  }),
   methods: {
     valueOf(ability) {         
-      return this.monster[ability.full_name.toLowerCase()];
+      return this.creature[ability.full_name.toLowerCase()];
     }
   }
 };

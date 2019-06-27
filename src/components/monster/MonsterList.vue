@@ -3,9 +3,8 @@
     <v-card-title>
       Monsters
       <v-spacer/>
-      <v-text-field
-        v-model="search"
-        append-icon="search"
+      <v-text-field v-model="search"
+        append-icon="android"
         label="Search"
         single-line
         hide-details>
@@ -14,8 +13,7 @@
     <v-data-table class="evelation-1"
       :headers="headers"
       :items="monsters"
-      :search="search"
-    >
+      :search="search">
       <template v-slot:items="props">
         <td>{{ props.item.name }}</td>
         <td>{{ props.item.size }}</td>
@@ -26,8 +24,7 @@
       <template v-slot:no-results>
         <v-alert :value="true"
           color="error"
-          icon="warning"
-        >
+          icon="warning">
           Nothing found for '{{ search }}'.
         </v-alert>
       </template>
