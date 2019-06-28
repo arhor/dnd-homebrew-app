@@ -1,12 +1,13 @@
 <template>
-  <span v-if="skill" class="ml-2">
-    {{ skill.name }} {{ skill.value }}
+  <span v-if="value"
+    class="ml-2">
+    {{ skill.name }} {{ value }}
   </span>
 </template>
 
 <script>
 export default {
   name: 'SkillDetails',
-  props: ['skill'],
+  props: ['skill', 'value'],
 }
 </script>

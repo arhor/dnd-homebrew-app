@@ -4,7 +4,8 @@
       Skills:
       <skill-details v-for="(skill, i) in skills"
         :key="`skill-${i}`"
-        :skill="valueOf(skill)">
+        :skill="skill"
+        :value="valueOf(skill)">
       </skill-details>
     </v-flex>
   </v-layout>
@@ -26,10 +27,7 @@ export default {
   methods: {
     valueOf(skill) {
       const name = skill.name.replace(/ /g, '_').toLowerCase();
-      const value = this.creature[name];      
-      return (value === null || value === undefined)
-          ? undefined
-          : { name, value };
+      return this.creature[name];
     }
   }
 }
