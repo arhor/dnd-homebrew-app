@@ -1,10 +1,10 @@
 
 
 import { app, protocol, BrowserWindow } from 'electron';
-import {
-  createProtocol,
-  installVueDevtools,
-} from 'vue-cli-plugin-electron-builder/lib';
+import { createProtocol, installVueDevtools } from 'vue-cli-plugin-electron-builder/lib';
+import { fork } from 'child_process';
+
+const ps = fork(`${__dirname}/server/runner.js`);
 
 const isDevelopment = process.env.NODE_ENV !== 'production';
 
