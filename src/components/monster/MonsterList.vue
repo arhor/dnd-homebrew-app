@@ -1,38 +1,57 @@
 <template>
-  <v-card>
+    <v-layout align-center justify-center fill-height>
+      <v-flex xs12>
+        <v-card>
     <v-card-title>
       Monsters
-      <v-spacer/>
-      <v-text-field v-model="search"
+      <v-spacer />
+      <v-text-field
+        v-model="search"
         append-icon="android"
         label="Search"
         single-line
-        hide-details>
-      </v-text-field>
+        hide-details
+      />
     </v-card-title>
-    <v-data-table class="evelation-1"
+    <v-data-table
+      class="evelation-1"
       :headers="headers"
       :items="monsters"
-      :search="search">
+      :search="search"
+    >
       <template v-slot:items="props">
-        <td>{{ props.item.name }}</td>
-        <td>{{ props.item.size }}</td>
-        <td>{{ props.item.type }}</td>
-        <td>{{ props.item.challenge_rating }}</td>
-        <td><v-btn @click="showDetails(props.item)"></v-btn></td>
+        <td @click="showDetails(props.item)">
+          {{ props.item.name }}
+        </td>
+        <td @click="showDetails(props.item)">
+          {{ props.item.size }}
+        </td>
+        <td @click="showDetails(props.item)">
+          {{ props.item.type }}
+        </td>
+        <td @click="showDetails(props.item)">
+          {{ props.item.challenge_rating }}
+        </td>
       </template>
       <template v-slot:no-results>
-        <v-alert :value="true"
+        <v-alert
+          :value="true"
           color="error"
-          icon="warning">
+          icon="warning"
+        >
           Nothing found for '{{ search }}'.
         </v-alert>
       </template>
     </v-data-table>
-    <v-dialog v-model="dialog" max-width="800">
-      <MonsterDetails :monster="monster" />
+    <v-dialog
+      v-model="dialog"
+      max-width="800"
+    >
+      <monster-details :monster="monster" />
     </v-dialog>
   </v-card>
+      </v-flex>
+    </v-layout>
 </template>
 
 <script>

@@ -5,8 +5,12 @@
         class="text-xs-center"
         color="primary"
         v-if="ability && value"
-        v-on="on">
-        <v-layout row wrap>
+        v-on="on"
+      >
+        <v-layout
+          row
+          wrap
+        >
           <v-flex xs12>
             <strong>{{ ability.name }}</strong>
           </v-flex>
@@ -23,7 +27,16 @@
 <script>
 export default {
   name: 'AbilityDetails',
-  props: ['ability', 'value'],
+  props: {
+    ability: {
+      type: Object,
+      default: null,
+    },
+    value: {
+      type: Number,
+      default: 0,
+    },
+  },
   filters: {
     calcBonus(stat) {
       const result = Math.floor((stat - 10) / 2);

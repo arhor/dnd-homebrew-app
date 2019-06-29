@@ -35,6 +35,16 @@
           Languages: {{ monster.languages }}
         </v-flex>
       </v-layout>
+      <v-layout row wrap>
+        <v-flex xs12 text-xs-left>
+          Challenge: {{ monster.challenge_rating }} (# XP)
+        </v-flex>
+      </v-layout>
+      <v-layout row wrap>
+        <v-flex v-for="(ab, i) in monster.special_abilities" :key="i" xs12 text-xs-left>
+          <strong>{{ ab.name }}</strong>: <span v-html="processLinebreaks(ab.desc)"></span>
+        </v-flex>
+      </v-layout>
       <v-divider/>
       <!-- place other content here -->
     </v-container>
@@ -43,25 +53,24 @@
 
 <script>
 import { mapState } from 'vuex';
+import { processLinebreaks } from '../../utils/StringUtils';
 import AbilityList from '../ability/AbilityList.vue';
 import SkillList from '../skill/SkillList.vue';
 
 export default {
   name: 'MonsterDetails',
   props: {
-    monster: Object
+    monster: {
+      type: Object,
+      default: null,
+    },
   },
   components: {
     AbilityList,
     SkillList,
   },
-  data() {
-    return {
-      secondary: [
-        { abbv: 'HP', name: 'hit_points' },
-        { abbv: 'CR', name: 'challenge_rating' },
-      ],
-    };
+  methods: {
+    processLinebreaks,
   },
 };
 </script>

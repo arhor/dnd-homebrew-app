@@ -11,7 +11,7 @@
       overflow
       app
     />
-    <v-toolbar :clipped-left="primaryDrawer.clipped" app absolute>
+    <v-toolbar :clipped-left="primaryDrawer.clipped" app>
       <v-toolbar-side-icon
         v-if="primaryDrawer.type !== 'permanent'"
         @click.stop="primaryDrawer.model = !primaryDrawer.model"
@@ -53,3 +53,9 @@ export default {
   }
 };
 </script>
+
+<style>
+.html {
+  overflow-y: auto;
+}
+</style>

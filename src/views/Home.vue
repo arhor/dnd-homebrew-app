@@ -1,13 +1,13 @@
 <template>
-  <HelloWorld />
+  <main-menu />
 </template>
 
 <script>
-import HelloWorld from '../components/HelloWorld';
+import MainMenu from '../components/MainMenu.vue';
 
 export default {
   components: {
-    HelloWorld,
+    MainMenu,
   },
 };
 </script>
