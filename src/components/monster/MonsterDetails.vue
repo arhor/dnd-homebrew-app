@@ -25,6 +25,16 @@
       <ability-list :creature="monster"/>
       <v-divider/>
       <skill-list :creature="monster"/>
+      <v-layout row wrap>
+        <v-flex class="xs12 text-xs-left">
+          Senses: {{ monster.senses }}
+        </v-flex>
+      </v-layout>
+      <v-layout row wrap>
+        <v-flex class="xs12 text-xs-left">
+          Languages: {{ monster.languages }}
+        </v-flex>
+      </v-layout>
       <v-divider/>
       <!-- place other content here -->
     </v-container>
@@ -38,7 +48,9 @@ import SkillList from '../skill/SkillList.vue';
 
 export default {
   name: 'MonsterDetails',
-  props: ['monster'],
+  props: {
+    monster: Object
+  },
   components: {
     AbilityList,
     SkillList,
@@ -48,7 +60,7 @@ export default {
       secondary: [
         { abbv: 'HP', name: 'hit_points' },
         { abbv: 'CR', name: 'challenge_rating' },
-      ]
+      ],
     };
   },
 };

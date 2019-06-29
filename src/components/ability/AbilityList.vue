@@ -1,7 +1,10 @@
 <template>
   <v-layout row wrap>
-    <v-flex v-for="ability in abilities" :key="`ability-${ability.index}`" xs2>
-      <AbilityDetails :ability="ability" :value="valueOf(ability)"/>
+    <v-flex v-for="(ability, i) in abilities"
+      :key="`ability-${i}`"
+      xs2>
+      <AbilityDetails :ability="ability"
+        :value="valueOf(ability)"/>
     </v-flex>
   </v-layout>
 </template>
@@ -12,7 +15,9 @@ import AbilityDetails from './AbilityDetails.vue';
 
 export default {
   name: 'AbilityList',
-  props: ['creature'],
+  props: {
+    creature: Object
+  },
   components: {
     AbilityDetails,
   },
@@ -26,7 +31,3 @@ export default {
   }
 };
 </script>
-
-<style>
-
-</style>

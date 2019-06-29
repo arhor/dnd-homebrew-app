@@ -28,7 +28,7 @@ export default {
     calcBonus(stat) {
       const result = Math.floor((stat - 10) / 2);
       return (result >= 0 ? '+' : '').concat(result);
-    }
+    },
   },
-}
+};
 </script>
