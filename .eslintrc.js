@@ -13,14 +13,32 @@ module.exports = {
   rules: {
     'no-console': 'off',
     'no-debugger': 'off',
+    'no-param-reassign': [
+      'error',
+      {
+        props: true,
+        ignorePropertyModificationsFor: [
+          'state',
+        ],
+      },
+    ],
+    'no-shadow': [
+      'error',
+      {
+        allow: [
+          'state',
+        ],
+      },
+    ],
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: true,
+      },
+    ],
   },
 
   parserOptions: {
     parser: 'babel-eslint',
   },
-
-  extends: [
-    'plugin:vue/strongly-recommended',
-    '@vue/airbnb',
-  ],
 };

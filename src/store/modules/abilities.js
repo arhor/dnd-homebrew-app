@@ -1,4 +1,3 @@
-/* eslint-disable no-param-reassign */
 import axios from 'axios';
 
 const state = {
@@ -15,8 +14,8 @@ const actions = {
 };
 
 const mutations = {
-  SET_ABILITIES(store, payload) {
-    store.all = payload;
+  SET_ABILITIES(state, payload) {
+    state.all = payload;
   },
 };
 

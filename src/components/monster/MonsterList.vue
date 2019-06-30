@@ -7,7 +7,7 @@
       <v-spacer />
       <v-text-field
         v-model="search"
-        append-icon="android"
+        append-icon="search"
         label="Search"
         single-line
         hide-details

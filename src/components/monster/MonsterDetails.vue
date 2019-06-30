@@ -41,20 +41,24 @@
         </v-flex>
       </v-layout>
       <v-layout row wrap>
-        <v-flex v-for="(ab, i) in monster.special_abilities" :key="i" xs12 text-xs-left>
+        <v-flex
+          v-for="(ab, i) in monster.special_abilities"
+          :key="`special-ability${i}`"
+          xs12
+          text-xs-left>
           <strong>{{ ab.name }}</strong>: <span v-html="processLinebreaks(ab.desc)"></span>
         </v-flex>
       </v-layout>
-      <v-divider/>
+      <action-list :actions="monster.actions" />
       <!-- place other content here -->
     </v-container>
   </v-card>
 </template>
 
 <script>
-import { mapState } from 'vuex';
 import { processLinebreaks } from '../../utils/StringUtils';
 import AbilityList from '../ability/AbilityList.vue';
+import ActionList from '../action/ActionList.vue';
 import SkillList from '../skill/SkillList.vue';
 
 export default {
@@ -67,6 +71,7 @@ export default {
   },
   components: {
     AbilityList,
+    ActionList,
     SkillList,
   },
   methods: {

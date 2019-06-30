@@ -35,27 +35,21 @@
 </template>
 
 <script>
-import { mapState } from "vuex";
+import { mapState } from 'vuex';
 
 export default {
-  name: "App",
+  name: 'App',
   computed: mapState({
     app_name: state => state.application.name,
     dark: state => state.application.dark,
     drawers: state => state.application.drawers,
     primaryDrawer: state => state.application.primaryDrawer,
-    footer: state => state.application.footer
+    footer: state => state.application.footer,
   }),
   mounted() {
     this.$store.dispatch('abilities/load');
     this.$store.dispatch('monsters/load');
     this.$store.dispatch('skills/load');
-  }
+  },
 };
 </script>
-
-<style>
-.html {
-  overflow-y: auto;
-}
-</style>

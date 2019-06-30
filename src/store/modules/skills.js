@@ -15,8 +15,8 @@ const actions = {
 };
 
 const mutations = {
-  SET_SKILLS(store, payload) {
-    store.all = payload;
+  SET_SKILLS(state, payload) {
+    state.all = payload;
   },
 };
 

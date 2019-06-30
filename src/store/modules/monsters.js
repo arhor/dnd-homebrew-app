@@ -15,8 +15,8 @@ const actions = {
 };
 
 const mutations = {
-  SET_MONSTERS(store, payload) {
-    store.all = payload;
+  SET_MONSTERS(state, payload) {
+    state.all = payload;
   },
 };
 

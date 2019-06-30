@@ -28,9 +28,9 @@ export default {
     valueOf(skill) {
       const name = skill.name.replace(/ /g, '_').toLowerCase();
       return this.creature[name];
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style>
