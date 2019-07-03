@@ -1,9 +1,13 @@
 <template>
   <v-card v-if="monster" xs10 md10>
     <v-card-title primary-title>
-      <div class="headline text-md-center">{{ monster.name }}</div>
+      <v-layout row wrap>
+        <v-flex headline xs12>
+          {{ monster.name }}
+        </v-flex>
+      </v-layout>
     </v-card-title>
-    <v-container grid-list-md text-xs-center>
+    <v-container grid-list-md>
       <v-layout row wrap>
         <v-flex xs12 text-xs-left>
           {{ monster.size }} {{ monster.type }}, {{ monster.alignment }}
@@ -24,31 +28,24 @@
       <v-divider/>
       <ability-list :creature="monster"/>
       <v-divider/>
+      <generic-list title="Damage vulnerabilities" :items="monster.damage_vulnerabilities" />
+      <generic-list title="Damage resistances" :items="monster.damage_resistances" />
+      <generic-list title="Damage immunities" :items="monster.damage_immunities" />
+      <generic-list title="Condition immunities" :items="monster.condition_immunities" />
       <skill-list :creature="monster"/>
-      <v-layout row wrap>
-        <v-flex class="xs12 text-xs-left">
-          Senses: {{ monster.senses }}
-        </v-flex>
-      </v-layout>
-      <v-layout row wrap>
-        <v-flex class="xs12 text-xs-left">
-          Languages: {{ monster.languages }}
-        </v-flex>
-      </v-layout>
+      <generic-list title="Senses" :items="[monster.senses]" />
+      <generic-list title="Languages" :items="[monster.languages]" />
       <v-layout row wrap>
         <v-flex xs12 text-xs-left>
-          Challenge: {{ monster.challenge_rating }} (# XP)
+          <strong>Challenge:</strong>
+          {{ monster.challenge_rating }} (# XP)
         </v-flex>
       </v-layout>
-      <v-layout row wrap>
-        <v-flex
-          v-for="(ab, i) in monster.special_abilities"
-          :key="`special-ability${i}`"
-          xs12
-          text-xs-left>
-          <strong>{{ ab.name }}</strong>: <span v-html="processLinebreaks(ab.desc)"></span>
-        </v-flex>
-      </v-layout>
+      <special-ability-list :special-abilities="monster.special_abilities" />
+      <v-flex xs12 text-xs-left>
+        Actions
+      </v-flex>
+      <v-divider />
       <action-list :actions="monster.actions" />
       <!-- place other content here -->
     </v-container>
@@ -56,10 +53,11 @@
 </template>
 
 <script>
-import { processLinebreaks } from '../../utils/StringUtils';
 import AbilityList from '../ability/AbilityList.vue';
 import ActionList from '../action/ActionList.vue';
+import GenericList from '../generic/GenericList.vue';
 import SkillList from '../skill/SkillList.vue';
+import SpecialAbilityList from '../ability/special/SpecialAbilityList.vue';
 
 export default {
   name: 'MonsterDetails',
@@ -72,10 +70,9 @@ export default {
   components: {
     AbilityList,
     ActionList,
+    GenericList,
     SkillList,
-  },
-  methods: {
-    processLinebreaks,
+    SpecialAbilityList,
   },
 };
 </script>

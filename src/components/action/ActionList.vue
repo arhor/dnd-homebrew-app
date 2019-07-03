@@ -1,9 +1,5 @@
 <template>
   <v-layout row wrap>
-    <v-flex xs12 text-xs-left>
-      Actions
-    </v-flex>
-    <v-divider />
     <action-details
       v-for="(action, i) in actions"
       :key="`action-${i}`"

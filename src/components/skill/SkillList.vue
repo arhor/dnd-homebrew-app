@@ -1,38 +1,42 @@
 <template>
-  <v-layout row wrap>
-    <v-flex xs12 text-xs-left>
-      Skills:
-      <skill-details v-for="(skill, i) in skills"
-        :key="`skill-${i}`"
-        :skill="skill"
-        :value="valueOf(skill)">
-      </skill-details>
-    </v-flex>
-  </v-layout>
+  <generic-list title="Skills" :items="skills" />
 </template>
 
 <script>
 import { mapState } from 'vuex';
-import SkillDetails from './SkillDetails.vue';
+import { signed, toPropName } from '../../utils/StringUtils';
+import GenericList from '../generic/GenericList.vue';
 
 export default {
   name: 'SkillList',
-  props: ['creature'],
+  props: {
+    creature: {
+      type: Object,
+      default: null,
+    },
+  },
   components: {
-    SkillDetails,
+    GenericList,
   },
   computed: mapState({
-    skills: state => state.skills.all,
+    allSkills: state => state.skills.all,
   }),
-  methods: {
-    valueOf(skill) {
-      const name = skill.name.replace(/ /g, '_').toLowerCase();
-      return this.creature[name];
-    },
+  data() {
+    return {
+      skills: [],
+    };
+  },
+  mounted() {
+    const isTraversable = this.allSkills && this.allSkills instanceof Array;
+    if (isTraversable) {
+      this.allSkills.forEach((it) => {
+        const propName = toPropName(it.name);
+        const value = this.creature[propName];
+        if (value) {
+          this.skills.push(`${it.name} ${signed(value)}`);
+        }
+      });
+    }
   },
 };
 </script>
-
-<style>
-
-</style>
