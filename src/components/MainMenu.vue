@@ -6,7 +6,7 @@
     >
       <v-flex xs12>
         <v-img
-          :src="require('../assets/dnd_logo.svg')"
+          src="logo.svg"
           class="my-3"
           contain
           height="200"
