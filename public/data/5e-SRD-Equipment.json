@@ -13,7 +13,6 @@
 		"dice_count": 1,
 		"dice_value": 4,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/2",
 			"name": "Bludgeoning"
 		}
 	},
@@ -23,13 +22,10 @@
 	},
 	"weight": 2,
 	"properties": [{
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/4",
 		"name": "Light"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/11",
 		"name": "Monk"
-	}],
-	"url": "http://www.dnd5eapi.co/api/equipment/1"
+	}]
 }, {
 	"index": 2,
 	"name": "Dagger",
@@ -45,7 +41,6 @@
 		"dice_count": 1,
 		"dice_value": 4,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/8",
 			"name": "Piercing"
 		}
 	},
@@ -55,23 +50,18 @@
 	},
 	"weight": 1,
 	"properties": [{
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/2",
 		"name": "Finesse"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/4",
 		"name": "Light"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/8",
 		"name": "Thrown"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/11",
 		"name": "Monk"
 	}],
 	"throw_range": {
 		"normal": 20,
 		"long": 60
-	},
-	"url": "http://www.dnd5eapi.co/api/equipment/2"
+	}
 }, {
 	"index": 3,
 	"name": "Greatclub",
@@ -87,7 +77,6 @@
 		"dice_count": 1,
 		"dice_value": 8,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/2",
 			"name": "Bludgeoning"
 		}
 	},
@@ -97,10 +86,8 @@
 	},
 	"weight": 10,
 	"properties": [{
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/9",
 		"name": "Two-Handed"
-	}],
-	"url": "http://www.dnd5eapi.co/api/equipment/3"
+	}]
 }, {
 	"index": 4,
 	"name": "Handaxe",
@@ -116,7 +103,6 @@
 		"dice_count": 1,
 		"dice_value": 6,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/12",
 			"name": "Slashing"
 		}
 	},
@@ -126,20 +112,16 @@
 	},
 	"weight": 2,
 	"properties": [{
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/4",
 		"name": "Light"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/8",
 		"name": "Thrown"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/11",
 		"name": "Monk"
 	}],
 	"throw_range": {
 		"normal": 20,
 		"long": 60
-	},
-	"url": "http://www.dnd5eapi.co/api/equipment/4"
+	}
 }, {
 	"index": 5,
 	"name": "Javelin",
@@ -155,7 +137,6 @@
 		"dice_count": 1,
 		"dice_value": 6,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/8",
 			"name": "Piercing"
 		}
 	},
@@ -165,17 +146,14 @@
 	},
 	"weight": 2,
 	"properties": [{
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/8",
 		"name": "Thrown"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/11",
 		"name": "Monk"
 	}],
 	"throw_range": {
 		"normal": 30,
 		"long": 120
-	},
-	"url": "http://www.dnd5eapi.co/api/equipment/5"
+	}
 }, {
 	"index": 6,
 	"name": "Light hammer",
@@ -191,7 +169,6 @@
 		"dice_count": 1,
 		"dice_value": 4,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/2",
 			"name": "Bludgeoning"
 		}
 	},
@@ -201,20 +178,16 @@
 	},
 	"weight": 2,
 	"properties": [{
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/4",
 		"name": "Light"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/8",
 		"name": "Thrown"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/11",
 		"name": "Monk"
 	}],
 	"throw_range": {
 		"normal": 20,
 		"long": 60
-	},
-	"url": "http://www.dnd5eapi.co/api/equipment/6"
+	}
 }, {
 	"index": 7,
 	"name": "Mace",
@@ -230,7 +203,6 @@
 		"dice_count": 1,
 		"dice_value": 6,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/2",
 			"name": "Bludgeoning"
 		}
 	},
@@ -240,10 +212,8 @@
 	},
 	"weight": 4,
 	"properties": [{
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/11",
 		"name": "Monk"
-	}],
-	"url": "http://www.dnd5eapi.co/api/equipment/7"
+	}]
 }, {
 	"index": 8,
 	"name": "Quarterstaff",
@@ -259,7 +229,6 @@
 		"dice_count": 1,
 		"dice_value": 6,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/2",
 			"name": "Bludgeoning"
 		}
 	},
@@ -269,21 +238,17 @@
 	},
 	"weight": 4,
 	"properties": [{
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/10",
 		"name": "Versatile"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/11",
 		"name": "Monk"
 	}],
 	"2h_damage": {
 		"dice_count": 1,
 		"dice_value": 8,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/2",
 			"name": "Bludgeoning"
 		}
-	},
-	"url": "http://www.dnd5eapi.co/api/equipment/8"
+	}
 }, {
 	"index": 9,
 	"name": "Sickle",
@@ -299,7 +264,6 @@
 		"dice_count": 1,
 		"dice_value": 4,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/12",
 			"name": "Slashing"
 		}
 	},
@@ -309,13 +273,10 @@
 	},
 	"weight": 2,
 	"properties": [{
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/4",
 		"name": "Light"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/11",
 		"name": "Monk"
-	}],
-	"url": "http://www.dnd5eapi.co/api/equipment/9"
+	}]
 }, {
 	"index": 10,
 	"name": "Spear",
@@ -331,7 +292,6 @@
 		"dice_count": 1,
 		"dice_value": 4,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/8",
 			"name": "Piercing"
 		}
 	},
@@ -341,13 +301,10 @@
 	},
 	"weight": 3,
 	"properties": [{
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/8",
 		"name": "Thrown"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/10",
 		"name": "Versatile"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/11",
 		"name": "Monk"
 	}],
 	"throw_range": {
@@ -358,11 +315,9 @@
 		"dice_count": 1,
 		"dice_value": 8,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/8",
 			"name": "Piercing"
 		}
-	},
-	"url": "http://www.dnd5eapi.co/api/equipment/10"
+	}
 }, {
 	"index": 11,
 	"name": "Crossbow, light",
@@ -378,7 +333,6 @@
 		"dice_count": 1,
 		"dice_value": 8,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/8",
 			"name": "Piercing"
 		}
 	},
@@ -388,16 +342,12 @@
 	},
 	"weight": 5,
 	"properties": [{
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/1",
 		"name": "Ammunition"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/5",
 		"name": "Loading"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/9",
 		"name": "Two-Handed"
-	}],
-	"url": "http://www.dnd5eapi.co/api/equipment/11"
+	}]
 }, {
 	"index": 12,
 	"name": "Dart",
@@ -413,7 +363,6 @@
 		"dice_count": 1,
 		"dice_value": 4,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/8",
 			"name": "Piercing"
 		}
 	},
@@ -423,17 +372,14 @@
 	},
 	"weight": 0.25,
 	"properties": [{
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/2",
 		"name": "Finesse"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/8",
 		"name": "Thrown"
 	}],
 	"throw_range": {
 		"normal": 20,
 		"long": 60
-	},
-	"url": "http://www.dnd5eapi.co/api/equipment/12"
+	}
 }, {
 	"index": 13,
 	"name": "Shortbow",
@@ -449,7 +395,6 @@
 		"dice_count": 1,
 		"dice_value": 6,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/8",
 			"name": "Piercing"
 		}
 	},
@@ -459,13 +404,10 @@
 	},
 	"weight": 2,
 	"properties": [{
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/1",
 		"name": "Ammunition"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/9",
 		"name": "Two-Handed"
-	}],
-	"url": "http://www.dnd5eapi.co/api/equipment/13"
+	}]
 }, {
 	"index": 14,
 	"name": "Sling",
@@ -481,7 +423,6 @@
 		"dice_count": 1,
 		"dice_value": 4,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/2",
 			"name": "Bludgeoning"
 		}
 	},
@@ -491,10 +432,8 @@
 	},
 	"weight": 0,
 	"properties": [{
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/1",
 		"name": "Ammunition"
-	}],
-	"url": "http://www.dnd5eapi.co/api/equipment/14"
+	}]
 }, {
 	"index": 15,
 	"name": "Battleaxe",
@@ -510,7 +449,6 @@
 		"dice_count": 1,
 		"dice_value": 8,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/12",
 			"name": "Slashing"
 		}
 	},
@@ -520,18 +458,15 @@
 	},
 	"weight": 4,
 	"properties": [{
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/10",
 		"name": "Versatile"
 	}],
 	"2h_damage": {
 		"dice_count": 1,
 		"dice_value": 10,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/12",
 			"name": "Slashing"
 		}
-	},
-	"url": "http://www.dnd5eapi.co/api/equipment/15"
+	}
 }, {
 	"index": 16,
 	"name": "Flail",
@@ -547,7 +482,6 @@
 		"dice_count": 1,
 		"dice_value": 8,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/2",
 			"name": "Bludgeoning"
 		}
 	},
@@ -556,8 +490,7 @@
 		"long": null
 	},
 	"weight": 2,
-	"properties": [],
-	"url": "http://www.dnd5eapi.co/api/equipment/16"
+	"properties": []
 }, {
 	"index": 17,
 	"name": "Glaive",
@@ -573,7 +506,6 @@
 		"dice_count": 1,
 		"dice_value": 10,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/12",
 			"name": "Slashing"
 		}
 	},
@@ -583,16 +515,12 @@
 	},
 	"weight": 6,
 	"properties": [{
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/3",
 		"name": "Heavy"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/6",
 		"name": "Reach"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/9",
 		"name": "Two-Handed"
-	}],
-	"url": "http://www.dnd5eapi.co/api/equipment/17"
+	}]
 }, {
 	"index": 18,
 	"name": "Greataxe",
@@ -608,7 +536,6 @@
 		"dice_count": 1,
 		"dice_value": 12,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/12",
 			"name": "Slashing"
 		}
 	},
@@ -618,13 +545,10 @@
 	},
 	"weight": 7,
 	"properties": [{
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/3",
 		"name": "Heavy"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/9",
 		"name": "Two-Handed"
-	}],
-	"url": "http://www.dnd5eapi.co/api/equipment/18"
+	}]
 }, {
 	"index": 19,
 	"name": "Greatsword",
@@ -640,7 +564,6 @@
 		"dice_count": 2,
 		"dice_value": 6,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/12",
 			"name": "Slashing"
 		}
 	},
@@ -650,13 +573,10 @@
 	},
 	"weight": 6,
 	"properties": [{
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/3",
 		"name": "Heavy"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/9",
 		"name": "Two-Handed"
-	}],
-	"url": "http://www.dnd5eapi.co/api/equipment/19"
+	}]
 }, {
 	"index": 20,
 	"name": "Halberd",
@@ -672,7 +592,6 @@
 		"dice_count": 1,
 		"dice_value": 10,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/12",
 			"name": "Slashing"
 		}
 	},
@@ -682,16 +601,12 @@
 	},
 	"weight": 6,
 	"properties": [{
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/3",
 		"name": "Heavy"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/6",
 		"name": "Reach"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/9",
 		"name": "Two-Handed"
-	}],
-	"url": "http://www.dnd5eapi.co/api/equipment/20"
+	}]
 }, {
 	"index": 21,
 	"name": "Lance",
@@ -707,7 +622,6 @@
 		"dice_count": 1,
 		"dice_value": 12,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/8",
 			"name": "Piercing"
 		}
 	},
@@ -717,14 +631,11 @@
 	},
 	"weight": 6,
 	"properties": [{
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/6",
 		"name": "Reach"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/7",
 		"name": "Special"
 	}],
-	"special": ["You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted."],
-	"url": "http://www.dnd5eapi.co/api/equipment/21"
+	"special": ["You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted."]
 }, {
 	"index": 22,
 	"name": "Longsword",
@@ -740,7 +651,6 @@
 		"dice_count": 1,
 		"dice_value": 8,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/12",
 			"name": "Slashing"
 		}
 	},
@@ -750,18 +660,15 @@
 	},
 	"weight": 3,
 	"properties": [{
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/10",
 		"name": "Versatile"
 	}],
 	"2h_damage": {
 		"dice_count": 1,
 		"dice_value": 10,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/12",
 			"name": "Slashing"
 		}
-	},
-	"url": "http://www.dnd5eapi.co/api/equipment/22"
+	}
 }, {
 	"index": 23,
 	"name": "Maul",
@@ -777,7 +684,6 @@
 		"dice_count": 2,
 		"dice_value": 6,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/2",
 			"name": "Bludgeoning"
 		}
 	},
@@ -787,13 +693,10 @@
 	},
 	"weight": 10,
 	"properties": [{
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/3",
 		"name": "Heavy"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/9",
 		"name": "Two-Handed"
-	}],
-	"url": "http://www.dnd5eapi.co/api/equipment/23"
+	}]
 }, {
 	"index": 24,
 	"name": "Morningstar",
@@ -809,7 +712,6 @@
 		"dice_count": 1,
 		"dice_value": 8,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/8",
 			"name": "Piercing"
 		}
 	},
@@ -818,8 +720,7 @@
 		"long": null
 	},
 	"weight": 4,
-	"properties": [],
-	"url": "http://www.dnd5eapi.co/api/equipment/24"
+	"properties": []
 }, {
 	"index": 25,
 	"name": "Pike",
@@ -835,7 +736,6 @@
 		"dice_count": 1,
 		"dice_value": 10,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/8",
 			"name": "Piercing"
 		}
 	},
@@ -845,16 +745,12 @@
 	},
 	"weight": 18,
 	"properties": [{
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/3",
 		"name": "Heavy"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/6",
 		"name": "Reach"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/9",
 		"name": "Two-Handed"
-	}],
-	"url": "http://www.dnd5eapi.co/api/equipment/25"
+	}]
 }, {
 	"index": 26,
 	"name": "Rapier",
@@ -870,7 +766,6 @@
 		"dice_count": 1,
 		"dice_value": 8,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/8",
 			"name": "Piercing"
 		}
 	},
@@ -880,10 +775,8 @@
 	},
 	"weight": 2,
 	"properties": [{
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/2",
 		"name": "Finesse"
-	}],
-	"url": "http://www.dnd5eapi.co/api/equipment/26"
+	}]
 }, {
 	"index": 27,
 	"name": "Scimitar",
@@ -899,7 +792,6 @@
 		"dice_count": 1,
 		"dice_value": 6,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/12",
 			"name": "Slashing"
 		}
 	},
@@ -909,13 +801,10 @@
 	},
 	"weight": 3,
 	"properties": [{
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/2",
 		"name": "Finesse"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/4",
 		"name": "Light"
-	}],
-	"url": "http://www.dnd5eapi.co/api/equipment/27"
+	}]
 }, {
 	"index": 28,
 	"name": "Shortsword",
@@ -931,7 +820,6 @@
 		"dice_count": 1,
 		"dice_value": 6,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/8",
 			"name": "Piercing"
 		}
 	},
@@ -941,16 +829,12 @@
 	},
 	"weight": 2,
 	"properties": [{
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/2",
 		"name": "Finesse"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/4",
 		"name": "Light"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/11",
 		"name": "Monk"
-	}],
-	"url": "http://www.dnd5eapi.co/api/equipment/28"
+	}]
 }, {
 	"index": 29,
 	"name": "Trident",
@@ -966,7 +850,6 @@
 		"dice_count": 1,
 		"dice_value": 6,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/12",
 			"name": "Slashing"
 		}
 	},
@@ -976,10 +859,8 @@
 	},
 	"weight": 4,
 	"properties": [{
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/8",
 		"name": "Thrown"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/10",
 		"name": "Versatile"
 	}],
 	"throw_range": {
@@ -990,11 +871,9 @@
 		"dice_count": 1,
 		"dice_value": 8,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/8",
 			"name": "Piercing"
 		}
-	},
-	"url": "http://www.dnd5eapi.co/api/equipment/29"
+	}
 }, {
 	"index": 30,
 	"name": "War pick",
@@ -1010,7 +889,6 @@
 		"dice_count": 1,
 		"dice_value": 8,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/8",
 			"name": "Piercing"
 		}
 	},
@@ -1019,8 +897,7 @@
 		"long": null
 	},
 	"weight": 2,
-	"properties": [],
-	"url": "http://www.dnd5eapi.co/api/equipment/30"
+	"properties": []
 }, {
 	"index": 31,
 	"name": "Warhammer",
@@ -1036,7 +913,6 @@
 		"dice_count": 1,
 		"dice_value": 8,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/2",
 			"name": "Bludgeoning"
 		}
 	},
@@ -1046,18 +922,15 @@
 	},
 	"weight": 2,
 	"properties": [{
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/10",
 		"name": "Versatile"
 	}],
 	"2h_damage": {
 		"dice_count": 1,
 		"dice_value": 10,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/2",
 			"name": "Bludgeoning"
 		}
-	},
-	"url": "http://www.dnd5eapi.co/api/equipment/31"
+	}
 }, {
 	"index": 32,
 	"name": "Whip",
@@ -1073,7 +946,6 @@
 		"dice_count": 1,
 		"dice_value": 4,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/12",
 			"name": "Slashing"
 		}
 	},
@@ -1083,13 +955,10 @@
 	},
 	"weight": 3,
 	"properties": [{
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/2",
 		"name": "Finesse"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/6",
 		"name": "Reach"
-	}],
-	"url": "http://www.dnd5eapi.co/api/equipment/32"
+	}]
 }, {
 	"index": 33,
 	"name": "Blowgun",
@@ -1105,7 +974,6 @@
 		"dice_count": 1,
 		"dice_value": 1,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/8",
 			"name": "Piercing"
 		}
 	},
@@ -1115,13 +983,10 @@
 	},
 	"weight": 1,
 	"properties": [{
-			"name": "Ammunition",
-			"url": "http://www.dnd5eapi.co/api/weapon-properties/1"
+			"name": "Ammunition"
 		}, {
-			"name": "Loading",
-			"url": "http://www.dnd5eapi.co/api/weapon-properties/5"
-		}],
-	"url": "http://www.dnd5eapi.co/api/equipment/33"
+			"name": "Loading"
+		}]
 }, {
 	"index": 34,
 	"name": "Crossbow, hand",
@@ -1137,7 +1002,6 @@
 		"dice_count": 1,
 		"dice_value": 6,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/8",
 			"name": "Piercing"
 		}
 	},
@@ -1147,16 +1011,12 @@
 	},
 	"weight": 3,
 	"properties": [{
-			"name": "Ammunition",
-			"url": "http://www.dnd5eapi.co/api/weapon-properties/1"
+			"name": "Ammunition"
 		}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/4",
 		"name": "Light"
 	}, {
-			"name": "Loading",
-			"url": "http://www.dnd5eapi.co/api/weapon-properties/5"
-		}],
-	"url": "http://www.dnd5eapi.co/api/equipment/34"
+			"name": "Loading"
+		}]
 }, {
 	"index": 35,
 	"name": "Crossbow, heavy",
@@ -1172,7 +1032,6 @@
 		"dice_count": 1,
 		"dice_value": 10,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/8",
 			"name": "Piercing"
 		}
 	},
@@ -1182,19 +1041,14 @@
 	},
 	"weight": 18,
 	"properties": [{
-			"name": "Ammunition",
-			"url": "http://www.dnd5eapi.co/api/weapon-properties/1"
+			"name": "Ammunition"
 		}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/4",
 		"name": "Light"
 	}, {
-			"name": "Loading",
-			"url": "http://www.dnd5eapi.co/api/weapon-properties/5"
+			"name": "Loading"
 		}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/9",
 		"name": "Two-Handed"
-	}],
-	"url": "http://www.dnd5eapi.co/api/equipment/35"
+	}]
 }, {
 	"index": 36,
 	"name": "Longbow",
@@ -1210,7 +1064,6 @@
 		"dice_count": 1,
 		"dice_value": 8,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/8",
 			"name": "Piercing"
 		}
 	},
@@ -1220,16 +1073,12 @@
 	},
 	"weight": 2,
 	"properties": [{
-			"name": "Ammunition",
-			"url": "http://www.dnd5eapi.co/api/weapon-properties/1"
+			"name": "Ammunition"
 		}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/3",
 		"name": "Heavy"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/9",
 		"name": "Two-Handed"
-	}],
-	"url": "http://www.dnd5eapi.co/api/equipment/36"
+	}]
 }, {
 	"index": 37,
 	"name": "Net",
@@ -1245,7 +1094,6 @@
 		"dice_count": 1,
 		"dice_value": 0,
 		"damage_type": {
-			"url": "http://www.dnd5eapi.co/api/damage-types/12",
 			"name": "Slashing"
 		}
 	},
@@ -1255,18 +1103,15 @@
 	},
 	"weight": 3,
 	"properties": [{
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/8",
 		"name": "Thrown"
 	}, {
-		"url": "http://www.dnd5eapi.co/api/weapon-properties/7",
 		"name": "Special"
 	}],
 	"special": ["A Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make."],
 	"throw_range": {
 		"normal": 5,
 		"long": 15
-	},
-	"url": "http://www.dnd5eapi.co/api/equipment/37"
+	}
 }, {
 	"index": 38,
 	"name": "Padded",
@@ -1283,8 +1128,7 @@
 	"cost": {
 		"quantity": 5,
 		"unit": "gp"
-	},
-	"url": "http://www.dnd5eapi.co/api/equipment/38"
+	}
 }, {
 	"index": 39,
 	"name": "Leather",
@@ -1301,8 +1145,7 @@
 	"cost": {
 		"quantity": 10,
 		"unit": "gp"
-	},
-	"url": "http://www.dnd5eapi.co/api/equipment/39"
+	}
 }, {
 	"index": 40,
 	"name": "Studded Leather",
@@ -1319,8 +1162,7 @@
 	"cost": {
 		"quantity": 45,
 		"unit": "gp"
-	},
-	"url": "http://www.dnd5eapi.co/api/equipment/40"
+	}
 }, {
 	"index": 41,
 	"name": "Hide",
@@ -1337,8 +1179,7 @@
 	"cost": {
 		"quantity": 10,
 		"unit": "gp"
-	},
-	"url": "http://www.dnd5eapi.co/api/equipment/41"
+	}
 }, {
 	"index": 42,
 	"name": "Chain Shirt",
@@ -1355,8 +1196,7 @@
 	"cost": {
 		"quantity": 50,
 		"unit": "gp"
-	},
-	"url": "http://www.dnd5eapi.co/api/equipment/42"
+	}
 }, {
 	"index": 43,
 	"name": "Scale Mail",
@@ -1373,8 +1213,7 @@
 	"cost": {
 		"quantity": 50,
 		"unit": "gp"
-	},
-	"url": "http://www.dnd5eapi.co/api/equipment/43"
+	}
 }, {
 	"index": 44,
 	"name": "Breastplate",
@@ -1391,8 +1230,7 @@
 	"cost": {
 		"quantity": 400,
 		"unit": "gp"
-	},
-	"url": "http://www.dnd5eapi.co/api/equipment/44"
+	}
 }, {
 	"index": 45,
 	"name": "Half Plate",
@@ -1409,8 +1247,7 @@
 	"cost": {
 		"quantity": 750,
 		"unit": "gp"
-	},
-	"url": "http://www.dnd5eapi.co/api/equipment/45"
+	}
 }, {
 	"index": 46,
 	"name": "Ring Mail",
@@ -1427,8 +1264,7 @@
 	"cost": {
 		"quantity": 30,
 		"unit": "gp"
-	},
-	"url": "http://www.dnd5eapi.co/api/equipment/46"
+	}
 }, {
 	"index": 47,
 	"name": "Chain Mail",
@@ -1445,8 +1281,7 @@
 	"cost": {
 		"quantity": 75,
 		"unit": "gp"
-	},
-	"url": "http://www.dnd5eapi.co/api/equipment/47"
+	}
 }, {
 	"index": 48,
 	"name": "Splint",
@@ -1463,8 +1298,7 @@
 	"cost": {
 		"quantity": 200,
 		"unit": "gp"
-	},
-	"url": "http://www.dnd5eapi.co/api/equipment/48"
+	}
 }, {
 	"index": 49,
 	"name": "Plate",
@@ -1481,8 +1315,7 @@
 	"cost": {
 		"quantity": 1500,
 		"unit": "gp"
-	},
-	"url": "http://www.dnd5eapi.co/api/equipment/49"
+	}
 }, {
 	"index": 50,
 	"name": "Shield",
@@ -1499,8 +1332,7 @@
 	"cost": {
 		"quantity": 10,
 		"unit": "gp"
-	},
-	"url": "http://www.dnd5eapi.co/api/equipment/50"
+	}
 }, {
 	"index": 51,
 	"name": "Abacus",
@@ -1510,8 +1342,7 @@
 		"quantity": 2,
 		"unit": "gp"
 	},
-	"weight": 2,
-	"url": "http://www.dnd5eapi.co/api/equipment/51"
+	"weight": 2
 }, {
 	"index": 52,
 	"name": "Acid (vial)",
@@ -1522,8 +1353,7 @@
 		"unit": "gp"
 	},
 	"weight": 1,
-	"desc": ["As an action, you can splash the contents of this vial onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an improvised weapon.", "On a hit, the target takes 2d6 acid damage."],
-	"url": "http://www.dnd5eapi.co/api/equipment/52"
+	"desc": ["As an action, you can splash the contents of this vial onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an improvised weapon.", "On a hit, the target takes 2d6 acid damage."]
 }, {
 	"index": 53,
 	"name": "Alchemist's fire (flask)",
@@ -1534,8 +1364,7 @@
 		"unit": "gp"
 	},
 	"desc": ["This sticky, adhesive fluid ignites when exposed to air.", "As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon.", "On a hit, the target takes 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames."],
-	"weight": 1,
-	"url": "http://www.dnd5eapi.co/api/equipment/53"
+	"weight": 1
 }, {
 	"index": 54,
 	"name": "Arrow",
@@ -1545,8 +1374,7 @@
 		"quantity": 5,
 		"unit": "cp"
 	},
-	"weight": 1,
-	"url": "http://www.dnd5eapi.co/api/equipment/54"
+	"weight": 1
 }, {
 	"index": 55,
 	"name": "Blowgun needle",
@@ -1556,8 +1384,7 @@
 		"quantity": 2,
 		"unit": "cp"
 	},
-	"weight": 1,
-	"url": "http://www.dnd5eapi.co/api/equipment/55"
+	"weight": 1
 }, {
 	"index": 56,
 	"name": "Crossbow bolt",
@@ -1567,8 +1394,7 @@
 		"quantity": 5,
 		"unit": "cp"
 	},
-	"weight": 1.5,
-	"url": "http://www.dnd5eapi.co/api/equipment/56"
+	"weight": 1.5
 }, {
 	"index": 57,
 	"name": "Sling bullet",
@@ -1578,8 +1404,7 @@
 		"quantity": 1,
 		"unit": "cp"
 	},
-	"weight": 1.5,
-	"url": "http://www.dnd5eapi.co/api/equipment/57"
+	"weight": 1.5
 }, {
 	"index": 58,
 	"name": "Amulet",
@@ -1590,8 +1415,7 @@
 		"unit": "gp"
 	},
 	"weight": 1,
-	"desc": ["A holy symbol is a representation of a god or pantheon. It might be an amulet depicting a symbol representing a deity, the same symbol carefully engraved or inlaid as an emblem on a shield, or a tiny box holding a fragment of a sacred relic.", "Appendix B lists the symbols commonly associated with many gods in the multiverse. A cleric or paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield."],
-	"url": "http://www.dnd5eapi.co/api/equipment/58"
+	"desc": ["A holy symbol is a representation of a god or pantheon. It might be an amulet depicting a symbol representing a deity, the same symbol carefully engraved or inlaid as an emblem on a shield, or a tiny box holding a fragment of a sacred relic.", "Appendix B lists the symbols commonly associated with many gods in the multiverse. A cleric or paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield."]
 }, {
 	"index": 59,
 	"name": "Antitoxin (vial)",
@@ -1602,8 +1426,7 @@
 		"unit": "gp"
 	},
 	"weight": 0,
-	"desc": ["A creature that drinks this vial of liquid gains advantage on saving throws against poison for 1 hour. It confers no benefit to undead or constructs."],
-	"url": "http://www.dnd5eapi.co/api/equipment/59"
+	"desc": ["A creature that drinks this vial of liquid gains advantage on saving throws against poison for 1 hour. It confers no benefit to undead or constructs."]
 }, {
 	"index": 60,
 	"name": "Crystal",
@@ -1614,8 +1437,7 @@
 		"unit": "gp"
 	},
 	"weight": 1,
-	"desc": ["An arcane focus is a special item--an orb, a crystal, a rod, a specially constructed staff, a wand-like length of wood, or some similar item--designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus."],
-	"url": "http://www.dnd5eapi.co/api/equipment/60"
+	"desc": ["An arcane focus is a special item--an orb, a crystal, a rod, a specially constructed staff, a wand-like length of wood, or some similar item--designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus."]
 }, {
 	"index": 61,
 	"name": "Orb",
@@ -1626,8 +1448,7 @@
 		"unit": "gp"
 	},
 	"weight": 3,
-	"desc": ["An arcane focus is a special item--an orb, a crystal, a rod, a specially constructed staff, a wand-like length of wood, or some similar item--designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus."],
-	"url": "http://www.dnd5eapi.co/api/equipment/61"
+	"desc": ["An arcane focus is a special item--an orb, a crystal, a rod, a specially constructed staff, a wand-like length of wood, or some similar item--designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus."]
 }, {
 	"index": 62,
 	"name": "Rod",
@@ -1638,8 +1459,7 @@
 		"unit": "gp"
 	},
 	"weight": 2,
-	"desc": ["An arcane focus is a special item--an orb, a crystal, a rod, a specially constructed staff, a wand-like length of wood, or some similar item--designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus."],
-	"url": "http://www.dnd5eapi.co/api/equipment/62"
+	"desc": ["An arcane focus is a special item--an orb, a crystal, a rod, a specially constructed staff, a wand-like length of wood, or some similar item--designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus."]
 }, {
 	"index": 63,
 	"name": "Staff",
@@ -1650,8 +1470,7 @@
 		"unit": "gp"
 	},
 	"weight": 4,
-	"desc": ["An arcane focus is a special item--an orb, a crystal, a rod, a specially constructed staff, a wand-like length of wood, or some similar item--designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus."],
-	"url": "http://www.dnd5eapi.co/api/equipment/63"
+	"desc": ["An arcane focus is a special item--an orb, a crystal, a rod, a specially constructed staff, a wand-like length of wood, or some similar item--designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus."]
 }, {
 	"index": 64,
 	"name": "Wand",
@@ -1662,8 +1481,7 @@
 		"unit": "gp"
 	},
 	"weight": 1,
-	"desc": ["An arcane focus is a special item--an orb, a crystal, a rod, a specially constructed staff, a wand-like length of wood, or some similar item--designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus."],
-	"url": "http://www.dnd5eapi.co/api/equipment/64"
+	"desc": ["An arcane focus is a special item--an orb, a crystal, a rod, a specially constructed staff, a wand-like length of wood, or some similar item--designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus."]
 }, {
 	"index": 65,
 	"name": "Backpack",
@@ -1673,8 +1491,7 @@
 		"quantity": 2,
 		"unit": "gp"
 	},
-	"weight": 5,
-	"url": "http://www.dnd5eapi.co/api/equipment/65"
+	"weight": 5
 }, {
 	"index": 66,
 	"name": "Ball bearings (bag of 1,000)",
@@ -1685,8 +1502,7 @@
 		"unit": "gp"
 	},
 	"weight": 2,
-	"desc": ["As an action, you can spill these tiny metal balls from their pouch to cover a level, square area that is 10 feet on a side.", "A creature moving across the covered area must succeed on a DC 10 Dexterity saving throw or fall prone.", "A creature moving through the area at half speed doesn't need to make the save."],
-	"url": "http://www.dnd5eapi.co/api/equipment/66"
+	"desc": ["As an action, you can spill these tiny metal balls from their pouch to cover a level, square area that is 10 feet on a side.", "A creature moving across the covered area must succeed on a DC 10 Dexterity saving throw or fall prone.", "A creature moving through the area at half speed doesn't need to make the save."]
 }, {
 	"index": 67,
 	"name": "Barrel",
@@ -1696,8 +1512,7 @@
 		"quantity": 2,
 		"unit": "gp"
 	},
-	"weight": 70,
-	"url": "http://www.dnd5eapi.co/api/equipment/67"
+	"weight": 70
 }, {
 	"index": 68,
 	"name": "Basket",
@@ -1707,8 +1522,7 @@
 		"quantity": 4,
 		"unit": "sp"
 	},
-	"weight": 2,
-	"url": "http://www.dnd5eapi.co/api/equipment/68"
+	"weight": 2
 }, {
 	"index": 69,
 	"name": "Bedroll",
@@ -1718,8 +1532,7 @@
 		"quantity": 1,
 		"unit": "gp"
 	},
-	"weight": 7,
-	"url": "http://www.dnd5eapi.co/api/equipment/69"
+	"weight": 7
 }, {
 	"index": 70,
 	"name": "Bell",
@@ -1729,8 +1542,7 @@
 		"quantity": 1,
 		"unit": "gp"
 	},
-	"weight": 0,
-	"url": "http://www.dnd5eapi.co/api/equipment/70"
+	"weight": 0
 }, {
 	"index": 71,
 	"name": "Blanket",
@@ -1740,8 +1552,7 @@
 		"quantity": 5,
 		"unit": "sp"
 	},
-	"weight": 3,
-	"url": "http://www.dnd5eapi.co/api/equipment/71"
+	"weight": 3
 }, {
 	"index": 72,
 	"name": "Block and tackle",
@@ -1752,8 +1563,7 @@
 		"unit": "gp"
 	},
 	"weight": 5,
-	"desc": ["A set of pulleys with a cable threaded through them and a hook to attach to objects, a block and tackle allows you to hoist up to four times the weight you can normally lift."],
-	"url": "http://www.dnd5eapi.co/api/equipment/72"
+	"desc": ["A set of pulleys with a cable threaded through them and a hook to attach to objects, a block and tackle allows you to hoist up to four times the weight you can normally lift."]
 }, {
 	"index": 73,
 	"name": "Book",
@@ -1764,8 +1574,7 @@
 		"unit": "gp"
 	},
 	"weight": 5,
-	"desc": ["A book might contain poetry, historical accounts, information pertaining to a particular field of lore, diagrams and notes on gnomish contraptions, or just about anything else that can be represented using text or pictures. A book of spells is a spellbook (described later in this section)."],
-	"url": "http://www.dnd5eapi.co/api/equipment/73"
+	"desc": ["A book might contain poetry, historical accounts, information pertaining to a particular field of lore, diagrams and notes on gnomish contraptions, or just about anything else that can be represented using text or pictures. A book of spells is a spellbook (described later in this section)."]
 }, {
 	"index": 74,
 	"name": "Bottle, glass",
@@ -1775,8 +1584,7 @@
 		"quantity": 2,
 		"unit": "gp"
 	},
-	"weight": 2,
-	"url": "http://www.dnd5eapi.co/api/equipment/74"
+	"weight": 2
 }, {
 	"index": 75,
 	"name": "Bucket",
@@ -1786,8 +1594,7 @@
 		"quantity": 5,
 		"unit": "cp"
 	},
-	"weight": 2,
-	"url": "http://www.dnd5eapi.co/api/equipment/75"
+	"weight": 2
 }, {
 	"index": 76,
 	"name": "Caltrops",
@@ -1798,8 +1605,7 @@
 		"unit": "cp"
 	},
 	"weight": 2,
-	"desc": ["As an action, you can spread a bag of caltrops to cover a square area that is 5 feet on a side.", "Any creature that enters the area must succeed on a DC 15 Dexterity saving throw or stop moving this turn and take 1 piercing damage.", "Taking this damage reduces the creature's walking speed by 10 feet until the creature regains at least 1 hit point.", "A creature moving through the area at half speed doesn't need to make the save."],
-	"url": "http://www.dnd5eapi.co/api/equipment/76"
+	"desc": ["As an action, you can spread a bag of caltrops to cover a square area that is 5 feet on a side.", "Any creature that enters the area must succeed on a DC 15 Dexterity saving throw or stop moving this turn and take 1 piercing damage.", "Taking this damage reduces the creature's walking speed by 10 feet until the creature regains at least 1 hit point.", "A creature moving through the area at half speed doesn't need to make the save."]
 }, {
 	"index": 77,
 	"name": "Candle",
@@ -1810,8 +1616,7 @@
 		"unit": "cp"
 	},
 	"weight": 0,
-	"desc": ["For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for an additional 5 feet."],
-	"url": "http://www.dnd5eapi.co/api/equipment/77"
+	"desc": ["For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for an additional 5 feet."]
 }, {
 	"index": 78,
 	"name": "Case, crossbow bolt",
@@ -1822,8 +1627,7 @@
 		"unit": "gp"
 	},
 	"weight": 1,
-	"desc": ["This wooden case can hold up to twenty crossbow bolts."],
-	"url": "http://www.dnd5eapi.co/api/equipment/78"
+	"desc": ["This wooden case can hold up to twenty crossbow bolts."]
 }, {
 	"index": 79,
 	"name": "Case, map or scroll",
@@ -1834,8 +1638,7 @@
 		"unit": "gp"
 	},
 	"weight": 1,
-	"desc": ["This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment."],
-	"url": "http://www.dnd5eapi.co/api/equipment/79"
+	"desc": ["This cylindrical leather case can hold up to ten rolled-up sheets of paper or five rolled-up sheets of parchment."]
 }, {
 	"index": 80,
 	"name": "Chain (10 feet)",
@@ -1846,8 +1649,7 @@
 		"unit": "gp"
 	},
 	"weight": 10,
-	"desc": ["A chain has 10 hit points. It can be burst with a successful DC 20 Strength check."],
-	"url": "http://www.dnd5eapi.co/api/equipment/80"
+	"desc": ["A chain has 10 hit points. It can be burst with a successful DC 20 Strength check."]
 }, {
 	"index": 81,
 	"name": "Chalk (1 piece)",
@@ -1857,8 +1659,7 @@
 		"quantity": 1,
 		"unit": "cp"
 	},
-	"weight": 0,
-	"url": "http://www.dnd5eapi.co/api/equipment/81"
+	"weight": 0
 }, {
 	"index": 82,
 	"name": "Chest",
@@ -1868,8 +1669,7 @@
 		"quantity": 5,
 		"unit": "gp"
 	},
-	"weight": 25,
-	"url": "http://www.dnd5eapi.co/api/equipment/82"
+	"weight": 25
 }, {
 	"index": 83,
 	"name": "Clothes, common",
@@ -1879,8 +1679,7 @@
 		"quantity": 5,
 		"unit": "sp"
 	},
-	"weight": 3,
-	"url": "http://www.dnd5eapi.co/api/equipment/83"
+	"weight": 3
 }, {
 	"index": 84,
 	"name": "Clothes, costume",
@@ -1890,8 +1689,7 @@
 		"quantity": 5,
 		"unit": "gp"
 	},
-	"weight": 4,
-	"url": "http://www.dnd5eapi.co/api/equipment/84"
+	"weight": 4
 }, {
 	"index": 85,
 	"name": "Clothes, fine",
@@ -1901,8 +1699,7 @@
 		"quantity": 15,
 		"unit": "gp"
 	},
-	"weight": 6,
-	"url": "http://www.dnd5eapi.co/api/equipment/85"
+	"weight": 6
 }, {
 	"index": 86,
 	"name": "Clothes, traveler's",
@@ -1912,8 +1709,7 @@
 		"quantity": 2,
 		"unit": "gp"
 	},
-	"weight": 4,
-	"url": "http://www.dnd5eapi.co/api/equipment/86"
+	"weight": 4
 }, {
 	"index": 87,
 	"name": "Component pouch",
@@ -1924,8 +1720,7 @@
 		"unit": "gp"
 	},
 	"weight": 2,
-	"desc": [" A component pouch is a small, watertight leather belt pouch that has compartments to hold all the material components and other special items you need to cast your spells, except for those components that have a specific cost (as indicated in a spell's description)."],
-	"url": "http://www.dnd5eapi.co/api/equipment/87"
+	"desc": [" A component pouch is a small, watertight leather belt pouch that has compartments to hold all the material components and other special items you need to cast your spells, except for those components that have a specific cost (as indicated in a spell's description)."]
 }, {
 	"index": 88,
 	"name": "Crowbar",
@@ -1936,8 +1731,7 @@
 		"unit": "gp"
 	},
 	"weight": 5,
-	"desc": ["Using a crowbar grants advantage to Strength checks where the crowbar's leverage can be applied."],
-	"url": "http://www.dnd5eapi.co/api/equipment/88"
+	"desc": ["Using a crowbar grants advantage to Strength checks where the crowbar's leverage can be applied."]
 }, {
 	"index": 89,
 	"name": "Sprig of mistletoe",
@@ -1948,8 +1742,7 @@
 		"unit": "gp"
 	},
 	"weight": 0,
-	"desc": ["A druidic focus might be a sprig of mistletoe or holly, a wand or scepter made of yew or another special wood, a staff drawn whole out of a living tree, or a totem object incorporating feathers, fur, bones, and teeth from sacred animals. A druid can use such an object as a spellcasting focus."],
-	"url": "http://www.dnd5eapi.co/api/equipment/89"
+	"desc": ["A druidic focus might be a sprig of mistletoe or holly, a wand or scepter made of yew or another special wood, a staff drawn whole out of a living tree, or a totem object incorporating feathers, fur, bones, and teeth from sacred animals. A druid can use such an object as a spellcasting focus."]
 }, {
 	"index": 90,
 	"name": "Totem",
@@ -1960,8 +1753,7 @@
 		"unit": "gp"
 	},
 	"weight": 0,
-	"desc": ["A druidic focus might be a sprig of mistletoe or holly, a wand or scepter made of yew or another special wood, a staff drawn whole out of a living tree, or a totem object incorporating feathers, fur, bones, and teeth from sacred animals. A druid can use such an object as a spellcasting focus."],
-	"url": "http://www.dnd5eapi.co/api/equipment/90"
+	"desc": ["A druidic focus might be a sprig of mistletoe or holly, a wand or scepter made of yew or another special wood, a staff drawn whole out of a living tree, or a totem object incorporating feathers, fur, bones, and teeth from sacred animals. A druid can use such an object as a spellcasting focus."]
 }, {
 	"index": 91,
 	"name": "Wooden staff",
@@ -1972,8 +1764,7 @@
 		"unit": "gp"
 	},
 	"weight": 4,
-	"desc": ["A druidic focus might be a sprig of mistletoe or holly, a wand or scepter made of yew or another special wood, a staff drawn whole out of a living tree, or a totem object incorporating feathers, fur, bones, and teeth from sacred animals. A druid can use such an object as a spellcasting focus."],
-	"url": "http://www.dnd5eapi.co/api/equipment/91"
+	"desc": ["A druidic focus might be a sprig of mistletoe or holly, a wand or scepter made of yew or another special wood, a staff drawn whole out of a living tree, or a totem object incorporating feathers, fur, bones, and teeth from sacred animals. A druid can use such an object as a spellcasting focus."]
 }, {
 	"index": 92,
 	"name": "Yew wand",
@@ -1984,8 +1775,7 @@
 		"unit": "gp"
 	},
 	"weight": 1,
-	"desc": ["A druidic focus might be a sprig of mistletoe or holly, a wand or scepter made of yew or another special wood, a staff drawn whole out of a living tree, or a totem object incorporating feathers, fur, bones, and teeth from sacred animals. A druid can use such an object as a spellcasting focus."],
-	"url": "http://www.dnd5eapi.co/api/equipment/92"
+	"desc": ["A druidic focus might be a sprig of mistletoe or holly, a wand or scepter made of yew or another special wood, a staff drawn whole out of a living tree, or a totem object incorporating feathers, fur, bones, and teeth from sacred animals. A druid can use such an object as a spellcasting focus."]
 }, {
 	"index": 93,
 	"name": "Emblem",
@@ -1996,8 +1786,7 @@
 		"unit": "gp"
 	},
 	"weight": 0,
-	"desc": ["A holy symbol is a representation of a god or pantheon. It might be an amulet depicting a symbol representing a deity, the same symbol carefully engraved or inlaid as an emblem on a shield, or a tiny box holding a fragment of a sacred relic.", "Appendix B lists the symbols commonly associated with many gods in the multiverse. A cleric or paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield."],
-	"url": "http://www.dnd5eapi.co/api/equipment/93"
+	"desc": ["A holy symbol is a representation of a god or pantheon. It might be an amulet depicting a symbol representing a deity, the same symbol carefully engraved or inlaid as an emblem on a shield, or a tiny box holding a fragment of a sacred relic.", "Appendix B lists the symbols commonly associated with many gods in the multiverse. A cleric or paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield."]
 }, {
 	"index": 94,
 	"name": "Fishing tackle",
@@ -2008,8 +1797,7 @@
 		"unit": "gp"
 	},
 	"weight": 4,
-	"desc": ["This kit includes a wooden rod, silken line, corkwood bobbers, steel hooks, lead sinkers, velvet lures, and narrow netting."],
-	"url": "http://www.dnd5eapi.co/api/equipment/94"
+	"desc": ["This kit includes a wooden rod, silken line, corkwood bobbers, steel hooks, lead sinkers, velvet lures, and narrow netting."]
 }, {
 	"index": 95,
 	"name": "Flask or tankard",
@@ -2019,8 +1807,7 @@
 		"quantity": 2,
 		"unit": "cp"
 	},
-	"weight": 1,
-	"url": "http://www.dnd5eapi.co/api/equipment/95"
+	"weight": 1
 }, {
 	"index": 96,
 	"name": "Grappling hook",
@@ -2030,8 +1817,7 @@
 		"quantity": 2,
 		"unit": "gp"
 	},
-	"weight": 4,
-	"url": "http://www.dnd5eapi.co/api/equipment/96"
+	"weight": 4
 }, {
 	"index": 97,
 	"name": "Hammer",
@@ -2041,8 +1827,7 @@
 		"quantity": 1,
 		"unit": "gp"
 	},
-	"weight": 3,
-	"url": "http://www.dnd5eapi.co/api/equipment/97"
+	"weight": 3
 }, {
 	"index": 98,
 	"name": "Hammer, sledge",
@@ -2052,8 +1837,7 @@
 		"quantity": 2,
 		"unit": "gp"
 	},
-	"weight": 10,
-	"url": "http://www.dnd5eapi.co/api/equipment/98"
+	"weight": 10
 }, {
 	"index": 99,
 	"name": "Holy water (flask)",
@@ -2064,8 +1848,7 @@
 		"unit": "gp"
 	},
 	"weight": 1,
-	"desc": ["As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged attack against a target creature, treating the holy water as an improvised weapon.", "If the target is a fiend or undead, it takes 2d6 radiant damage.", "A cleric or paladin may create holy water by performing a special ritual.", "The ritual takes 1 hour to perform, uses 25 gp worth of powdered silver, and requires the caster to expend a 1st-level spell slot."],
-	"url": "http://www.dnd5eapi.co/api/equipment/99"
+	"desc": ["As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged attack against a target creature, treating the holy water as an improvised weapon.", "If the target is a fiend or undead, it takes 2d6 radiant damage.", "A cleric or paladin may create holy water by performing a special ritual.", "The ritual takes 1 hour to perform, uses 25 gp worth of powdered silver, and requires the caster to expend a 1st-level spell slot."]
 }, {
 	"index": 100,
 	"name": "Hourglass",
@@ -2075,8 +1858,7 @@
 		"quantity": 25,
 		"unit": "gp"
 	},
-	"weight": 1,
-	"url": "http://www.dnd5eapi.co/api/equipment/100"
+	"weight": 1
 }, {
 	"index": 101,
 	"name": "Hunting trap",
@@ -2087,8 +1869,7 @@
 		"unit": "gp"
 	},
 	"desc": ["When you use your action to set it, this trap forms a saw-toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground.", "A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet long).", "A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. Each failed check deals 1 piercing damage to the trapped creature."],
-	"weight": 25,
-	"url": "http://www.dnd5eapi.co/api/equipment/101"
+	"weight": 25
 }, {
 	"index": 102,
 	"name": "Ink (1 ounce bottle)",
@@ -2098,8 +1879,7 @@
 		"quantity": 10,
 		"unit": "gp"
 	},
-	"weight": 0,
-	"url": "http://www.dnd5eapi.co/api/equipment/102"
+	"weight": 0
 }, {
 	"index": 103,
 	"name": "Ink pen",
@@ -2109,8 +1889,7 @@
 		"quantity": 2,
 		"unit": "cp"
 	},
-	"weight": 0,
-	"url": "http://www.dnd5eapi.co/api/equipment/103"
+	"weight": 0
 }, {
 	"index": 104,
 	"name": "Jug or pitcher",
@@ -2120,8 +1899,7 @@
 		"quantity": 2,
 		"unit": "cp"
 	},
-	"weight": 4,
-	"url": "http://www.dnd5eapi.co/api/equipment/104"
+	"weight": 4
 }, {
 	"index": 105,
 	"name": "Climber's Kit",
@@ -2132,8 +1910,7 @@
 		"unit": "gp"
 	},
 	"weight": 12,
-	"desc": ["A climber's kit includes special pitons, boot tips, gloves, and a harness. You can use the climber's kit as an action to anchor yourself; when you do, you can't fall more than 25 feet from the point where you anchored yourself, and you can't climb more than 25 feet away from that point without undoing the anchor."],
-	"url": "http://www.dnd5eapi.co/api/equipment/105"
+	"desc": ["A climber's kit includes special pitons, boot tips, gloves, and a harness. You can use the climber's kit as an action to anchor yourself; when you do, you can't fall more than 25 feet from the point where you anchored yourself, and you can't climb more than 25 feet away from that point without undoing the anchor."]
 }, {
 	"index": 106,
 	"name": "Disguise Kit",
@@ -2144,8 +1921,7 @@
 		"unit": "gp"
 	},
 	"weight": 3,
-	"desc": ["This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise."],
-	"url": "http://www.dnd5eapi.co/api/equipment/106"
+	"desc": ["This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise."]
 }, {
 	"index": 107,
 	"name": "Forgery Kit",
@@ -2156,8 +1932,7 @@
 		"unit": "gp"
 	},
 	"weight": 5,
-	"desc": ["This small box contains a variety of papers and parchments, pens and inks, seals and sealing wax, gold and silver leaf, and other supplies necessary to create convincing forgeries of physical documents. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a physical forgery of a document."],
-	"url": "http://www.dnd5eapi.co/api/equipment/107"
+	"desc": ["This small box contains a variety of papers and parchments, pens and inks, seals and sealing wax, gold and silver leaf, and other supplies necessary to create convincing forgeries of physical documents. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a physical forgery of a document."]
 }, {
 	"index": 108,
 	"name": "Herbalism Kit",
@@ -2168,8 +1943,7 @@
 		"unit": "gp"
 	},
 	"weight": 3,
-	"desc": ["This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing."],
-	"url": "http://www.dnd5eapi.co/api/equipment/108"
+	"desc": ["This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing."]
 }, {
 	"index": 109,
 	"name": "Healer's Kit",
@@ -2180,8 +1954,7 @@
 		"unit": "gp"
 	},
 	"weight": 3,
-	"desc": ["This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check."],
-	"url": "http://www.dnd5eapi.co/api/equipment/109"
+	"desc": ["This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check."]
 }, {
 	"index": 110,
 	"name": "Mess Kit",
@@ -2192,8 +1965,7 @@
 		"unit": "sp"
 	},
 	"weight": 1,
-	"desc": ["This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl."],
-	"url": "http://www.dnd5eapi.co/api/equipment/110"
+	"desc": ["This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl."]
 }, {
 	"index": 111,
 	"name": "Poisoner's Kit",
@@ -2204,8 +1976,7 @@
 		"unit": "gp"
 	},
 	"weight": 2,
-	"desc": ["A poisoner's kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons."],
-	"url": "http://www.dnd5eapi.co/api/equipment/111"
+	"desc": ["A poisoner's kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons."]
 }, {
 	"index": 112,
 	"name": "Ladder (10-foot)",
@@ -2215,8 +1986,7 @@
 		"quantity": 1,
 		"unit": "sp"
 	},
-	"weight": 25,
-	"url": "http://www.dnd5eapi.co/api/equipment/112"
+	"weight": 25
 }, {
 	"index": 113,
 	"name": "Lamp",
@@ -2227,8 +1997,7 @@
 		"unit": "sp"
 	},
 	"weight": 1,
-	"desc": ["A lamp casts bright light in a 15-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil."],
-	"url": "http://www.dnd5eapi.co/api/equipment/113"
+	"desc": ["A lamp casts bright light in a 15-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil."]
 }, {
 	"index": 114,
 	"name": "Lantern, bullseye",
@@ -2239,8 +2008,7 @@
 		"unit": "gp"
 	},
 	"weight": 2,
-	"desc": ["A bullseye lantern casts bright light in a 60-foot cone and dim light for an additional 60 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil."],
-	"url": "http://www.dnd5eapi.co/api/equipment/114"
+	"desc": ["A bullseye lantern casts bright light in a 60-foot cone and dim light for an additional 60 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil."]
 }, {
 	"index": 115,
 	"name": "Lantern, hooded",
@@ -2251,8 +2019,7 @@
 		"unit": "gp"
 	},
 	"weight": 2,
-	"desc": ["A hooded lantern casts bright light in a 30-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil. As an action, you can lower the hood, reducing the light to dim light in a 5-foot radius."],
-	"url": "http://www.dnd5eapi.co/api/equipment/115"
+	"desc": ["A hooded lantern casts bright light in a 30-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil. As an action, you can lower the hood, reducing the light to dim light in a 5-foot radius."]
 }, {
 	"index": 116,
 	"name": "Lock",
@@ -2263,8 +2030,7 @@
 		"unit": "gp"
 	},
 	"weight": 1,
-	"desc": ["A key is provided with the lock. Without the key, a creature proficient with thieves' tools can pick this lock with a successful DC 15 Dexterity check. Your GM may decide that better locks are available for higher prices."],
-	"url": "http://www.dnd5eapi.co/api/equipment/116"
+	"desc": ["A key is provided with the lock. Without the key, a creature proficient with thieves' tools can pick this lock with a successful DC 15 Dexterity check. Your GM may decide that better locks are available for higher prices."]
 }, {
 	"index": 117,
 	"name": "Magnifying glass",
@@ -2275,8 +2041,7 @@
 		"unit": "gp"
 	},
 	"weight": 0,
-	"desc": ["This lens allows a closer look at small objects. It is also useful as a substitute for flint and steel when starting fires. Lighting a fire with a magnifying glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite.", "A magnifying glass grants advantage on any ability check made to appraise or inspect an item that is small or highly detailed."],
-	"url": "http://www.dnd5eapi.co/api/equipment/117"
+	"desc": ["This lens allows a closer look at small objects. It is also useful as a substitute for flint and steel when starting fires. Lighting a fire with a magnifying glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite.", "A magnifying glass grants advantage on any ability check made to appraise or inspect an item that is small or highly detailed."]
 }, {
 	"index": 118,
 	"name": "Manacles",
@@ -2287,8 +2052,7 @@
 		"unit": "gp"
 	},
 	"weight": 6,
-	"desc": ["These metal restraints can bind a Small or Medium creature. Escaping the manacles requires a successful DC 20 Dexterity check. Breaking them requires a successful DC 20 Strength check.", "Each set of manacles comes with one key. Without the key, a creature proficient with thieves' tools can pick the manacles' lock with a successful DC 15 Dexterity check. Manacles have 15 hit points."],
-	"url": "http://www.dnd5eapi.co/api/equipment/118"
+	"desc": ["These metal restraints can bind a Small or Medium creature. Escaping the manacles requires a successful DC 20 Dexterity check. Breaking them requires a successful DC 20 Strength check.", "Each set of manacles comes with one key. Without the key, a creature proficient with thieves' tools can pick the manacles' lock with a successful DC 15 Dexterity check. Manacles have 15 hit points."]
 }, {
 	"index": 119,
 	"name": "Mirror, steel",
@@ -2298,8 +2062,7 @@
 		"quantity": 5,
 		"unit": "gp"
 	},
-	"weight": 0.5,
-	"url": "http://www.dnd5eapi.co/api/equipment/119"
+	"weight": 0.5
 }, {
 	"index": 120,
 	"name": "Oil (flask)",
@@ -2310,8 +2073,7 @@
 		"unit": "sp"
 	},
 	"weight": 1,
-	"desc": ["Oil usually comes in a clay flask that holds 1 pint.", "As an action, you can splash the oil in this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. Make a ranged attack against a target creature or object, treating the oil as an improvised weapon.", "On a hit, the target is covered in oil. If the target takes any fire damage before the oil dries (after 1 minute), the target takes an additional 5 fire damage from the burning oil.", "You can also pour a flask of oil on the ground to cover a 5-foot-square area, provided that the surface is level.", "If lit, the oil burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn."],
-	"url": "http://www.dnd5eapi.co/api/equipment/120"
+	"desc": ["Oil usually comes in a clay flask that holds 1 pint.", "As an action, you can splash the oil in this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. Make a ranged attack against a target creature or object, treating the oil as an improvised weapon.", "On a hit, the target is covered in oil. If the target takes any fire damage before the oil dries (after 1 minute), the target takes an additional 5 fire damage from the burning oil.", "You can also pour a flask of oil on the ground to cover a 5-foot-square area, provided that the surface is level.", "If lit, the oil burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn."]
 }, {
 	"index": 121,
 	"name": "Paper (one sheet)",
@@ -2321,8 +2083,7 @@
 		"quantity": 2,
 		"unit": "sp"
 	},
-	"weight": 0,
-	"url": "http://www.dnd5eapi.co/api/equipment/121"
+	"weight": 0
 }, {
 	"index": 122,
 	"name": "Parchment (one sheet)",
@@ -2332,8 +2093,7 @@
 		"quantity": 1,
 		"unit": "sp"
 	},
-	"weight": 0,
-	"url": "http://www.dnd5eapi.co/api/equipment/122"
+	"weight": 0
 }, {
 	"index": 123,
 	"name": "Perfume (vial)",
@@ -2343,8 +2103,7 @@
 		"quantity": 5,
 		"unit": "gp"
 	},
-	"weight": 0,
-	"url": "http://www.dnd5eapi.co/api/equipment/123"
+	"weight": 0
 }, {
 	"index": 124,
 	"name": "Pick, miner's",
@@ -2354,8 +2113,7 @@
 		"quantity": 2,
 		"unit": "gp"
 	},
-	"weight": 10,
-	"url": "http://www.dnd5eapi.co/api/equipment/124"
+	"weight": 10
 }, {
 	"index": 125,
 	"name": "Piton",
@@ -2365,8 +2123,7 @@
 		"quantity": 5,
 		"unit": "cp"
 	},
-	"weight": 0.25,
-	"url": "http://www.dnd5eapi.co/api/equipment/125"
+	"weight": 0.25
 }, {
 	"index": 126,
 	"name": "Poison, basic (vial)",
@@ -2377,8 +2134,7 @@
 		"unit": "gp"
 	},
 	"weight": 0,
-	"desc": ["You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 10 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying."],
-	"url": "http://www.dnd5eapi.co/api/equipment/126"
+	"desc": ["You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 10 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying."]
 }, {
 	"index": 127,
 	"name": "Pole (10-foot)",
@@ -2388,8 +2144,7 @@
 		"quantity": 5,
 		"unit": "cp"
 	},
-	"weight": 7,
-	"url": "http://www.dnd5eapi.co/api/equipment/127"
+	"weight": 7
 }, {
 	"index": 128,
 	"name": "Pot, iron",
@@ -2399,8 +2154,7 @@
 		"quantity": 2,
 		"unit": "gp"
 	},
-	"weight": 10,
-	"url": "http://www.dnd5eapi.co/api/equipment/128"
+	"weight": 10
 }, {
 	"index": 129,
 	"name": "Potion of healing",
@@ -2411,8 +2165,7 @@
 		"unit": "gp"
 	},
 	"weight": 0.5,
-	"desc": ["A character who drinks the magical red fluid in this vial regains 2d4 + 2 hit points. Drinking or administering a potion takes an action."],
-	"url": "http://www.dnd5eapi.co/api/equipment/129"
+	"desc": ["A character who drinks the magical red fluid in this vial regains 2d4 + 2 hit points. Drinking or administering a potion takes an action."]
 }, {
 	"index": 130,
 	"name": "Pouch",
@@ -2423,8 +2176,7 @@
 		"unit": "sp"
 	},
 	"weight": 1,
-	"desc": ["A cloth or leather pouch can hold up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch (described earlier in this section)."],
-	"url": "http://www.dnd5eapi.co/api/equipment/130"
+	"desc": ["A cloth or leather pouch can hold up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch (described earlier in this section)."]
 }, {
 	"index": 131,
 	"name": "Quiver",
@@ -2435,8 +2187,7 @@
 		"unit": "gp"
 	},
 	"weight": 1,
-	"desc": ["A quiver can hold up to 20 arrows."],
-	"url": "http://www.dnd5eapi.co/api/equipment/131"
+	"desc": ["A quiver can hold up to 20 arrows."]
 }, {
 	"index": 132,
 	"name": "Ram, portable",
@@ -2447,8 +2198,7 @@
 		"unit": "gp"
 	},
 	"weight": 35,
-	"desc": ["You can use a portable ram to break down doors. When doing so, you gain a +4 bonus on the Strength check. One other character can help you use the ram, giving you advantage on this check."],
-	"url": "http://www.dnd5eapi.co/api/equipment/132"
+	"desc": ["You can use a portable ram to break down doors. When doing so, you gain a +4 bonus on the Strength check. One other character can help you use the ram, giving you advantage on this check."]
 }, {
 	"index": 133,
 	"name": "Rations (1 day)",
@@ -2459,8 +2209,7 @@
 		"unit": "sp"
 	},
 	"weight": 2,
-	"desc": ["Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts."],
-	"url": "http://www.dnd5eapi.co/api/equipment/133"
+	"desc": ["Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts."]
 }, {
 	"index": 134,
 	"name": "Reliquary",
@@ -2471,8 +2220,7 @@
 		"unit": "gp"
 	},
 	"weight": 2,
-	"desc": ["A holy symbol is a representation of a god or pantheon. It might be an amulet depicting a symbol representing a deity, the same symbol carefully engraved or inlaid as an emblem on a shield, or a tiny box holding a fragment of a sacred relic.", "Appendix B lists the symbols commonly associated with many gods in the multiverse. A cleric or paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield."],
-	"url": "http://www.dnd5eapi.co/api/equipment/134"
+	"desc": ["A holy symbol is a representation of a god or pantheon. It might be an amulet depicting a symbol representing a deity, the same symbol carefully engraved or inlaid as an emblem on a shield, or a tiny box holding a fragment of a sacred relic.", "Appendix B lists the symbols commonly associated with many gods in the multiverse. A cleric or paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield."]
 }, {
 	"index": 135,
 	"name": "Robes",
@@ -2482,8 +2230,7 @@
 		"quantity": 1,
 		"unit": "gp"
 	},
-	"weight": 4,
-	"url": "http://www.dnd5eapi.co/api/equipment/135"
+	"weight": 4
 }, {
 	"index": 136,
 	"name": "Rope, hempen (50 feet)",
@@ -2494,8 +2241,7 @@
 		"unit": "gp"
 	},
 	"weight": 10,
-	"desc": ["Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check."],
-	"url": "http://www.dnd5eapi.co/api/equipment/136"
+	"desc": ["Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check."]
 }, {
 	"index": 137,
 	"name": "Rope, silk (50 feet)",
@@ -2506,8 +2252,7 @@
 		"unit": "gp"
 	},
 	"weight": 5,
-	"desc": ["Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check."],
-	"url": "http://www.dnd5eapi.co/api/equipment/137"
+	"desc": ["Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check."]
 }, {
 	"index": 138,
 	"name": "Sack",
@@ -2517,8 +2262,7 @@
 		"quantity": 1,
 		"unit": "cp"
 	},
-	"weight": 0.5,
-	"url": "http://www.dnd5eapi.co/api/equipment/138"
+	"weight": 0.5
 }, {
 	"index": 139,
 	"name": "Scale, merchant's",
@@ -2529,8 +2273,7 @@
 		"unit": "gp"
 	},
 	"weight": 3,
-	"desc": ["A scale includes a small balance, pans, and a suitable assortment of weights up to 2 pounds. With it, you can measure the exact weight of small objects, such as raw precious metals or trade goods, to help determine their worth."],
-	"url": "http://www.dnd5eapi.co/api/equipment/139"
+	"desc": ["A scale includes a small balance, pans, and a suitable assortment of weights up to 2 pounds. With it, you can measure the exact weight of small objects, such as raw precious metals or trade goods, to help determine their worth."]
 }, {
 	"index": 140,
 	"name": "Sealing wax",
@@ -2540,8 +2283,7 @@
 		"quantity": 5,
 		"unit": "sp"
 	},
-	"weight": 0,
-	"url": "http://www.dnd5eapi.co/api/equipment/140"
+	"weight": 0
 }, {
 	"index": 141,
 	"name": "Shovel",
@@ -2551,8 +2293,7 @@
 		"quantity": 2,
 		"unit": "gp"
 	},
-	"weight": 5,
-	"url": "http://www.dnd5eapi.co/api/equipment/141"
+	"weight": 5
 }, {
 	"index": 142,
 	"name": "Signal whistle",
@@ -2562,8 +2303,7 @@
 		"quantity": 5,
 		"unit": "cp"
 	},
-	"weight": 0,
-	"url": "http://www.dnd5eapi.co/api/equipment/142"
+	"weight": 0
 }, {
 	"index": 143,
 	"name": "Signet ring",
@@ -2573,8 +2313,7 @@
 		"quantity": 5,
 		"unit": "gp"
 	},
-	"weight": 0,
-	"url": "http://www.dnd5eapi.co/api/equipment/143"
+	"weight": 0
 }, {
 	"index": 144,
 	"name": "Soap",
@@ -2584,8 +2323,7 @@
 		"quantity": 2,
 		"unit": "cp"
 	},
-	"weight": 0,
-	"url": "http://www.dnd5eapi.co/api/equipment/144"
+	"weight": 0
 }, {
 	"index": 145,
 	"name": "Spellbook",
@@ -2596,8 +2334,7 @@
 		"unit": "gp"
 	},
 	"weight": 3,
-	"desc": ["Essential for wizards, a spellbook is a leather-bound tome with 100 blank vellum pages suitable for recording spells."],
-	"url": "http://www.dnd5eapi.co/api/equipment/145"
+	"desc": ["Essential for wizards, a spellbook is a leather-bound tome with 100 blank vellum pages suitable for recording spells."]
 }, {
 	"index": 146,
 	"name": "Spike, iron",
@@ -2607,8 +2344,7 @@
 		"quantity": 1,
 		"unit": "sp"
 	},
-	"weight": 5,
-	"url": "http://www.dnd5eapi.co/api/equipment/146"
+	"weight": 5
 }, {
 	"index": 147,
 	"name": "Spyglass",
@@ -2619,8 +2355,7 @@
 		"unit": "gp"
 	},
 	"weight": 1,
-	"desc": ["Objects viewed through a spyglass are magnified to twice their size."],
-	"url": "http://www.dnd5eapi.co/api/equipment/147"
+	"desc": ["Objects viewed through a spyglass are magnified to twice their size."]
 }, {
 	"index": 148,
 	"name": "Tent, two-person",
@@ -2631,8 +2366,7 @@
 		"unit": "gp"
 	},
 	"weight": 20,
-	"desc": ["A simple and portable canvas shelter, a tent sleeps two."],
-	"url": "http://www.dnd5eapi.co/api/equipment/148"
+	"desc": ["A simple and portable canvas shelter, a tent sleeps two."]
 }, {
 	"index": 149,
 	"name": "Tinderbox",
@@ -2643,8 +2377,7 @@
 		"unit": "sp"
 	},
 	"weight": 1,
-	"desc": ["This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch--or anything else with abundant, exposed fuel--takes an action.", "Lighting any other fire takes 1 minute."],
-	"url": "http://www.dnd5eapi.co/api/equipment/149"
+	"desc": ["This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch--or anything else with abundant, exposed fuel--takes an action.", "Lighting any other fire takes 1 minute."]
 }, {
 	"index": 150,
 	"name": "Torch",
@@ -2655,8 +2388,7 @@
 		"unit": "cp"
 	},
 	"weight": 1,
-	"desc": ["A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage."],
-	"url": "http://www.dnd5eapi.co/api/equipment/150"
+	"desc": ["A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage."]
 }, {
 	"index": 151,
 	"name": "Vial",
@@ -2666,8 +2398,7 @@
 		"quantity": 1,
 		"unit": "gp"
 	},
-	"weight": 0,
-	"url": "http://www.dnd5eapi.co/api/equipment/151"
+	"weight": 0
 }, {
 	"index": 152,
 	"name": "Waterskin",
@@ -2677,8 +2408,7 @@
 		"quantity": 2,
 		"unit": "sp"
 	},
-	"weight": 5,
-	"url": "http://www.dnd5eapi.co/api/equipment/152"
+	"weight": 5
 }, {
 	"index": 153,
 	"name": "Whetstone",
@@ -2688,8 +2418,7 @@
 		"quantity": 1,
 		"unit": "cp"
 	},
-	"weight": 1,
-	"url": "http://www.dnd5eapi.co/api/equipment/153"
+	"weight": 1
 }, {
 	"index": 154,
 	"name": "Burglar's Pack",
@@ -2735,8 +2464,7 @@
 	}, {
 		"item_url": "http://www.dnd5eapi.co/api/equipment/136",
 		"quantity": 1
-	}],
-	"url": "http://www.dnd5eapi.co/api/equipment/154"
+	}]
 }, {
 	"index": 155,
 	"name": "Diplomat's Pack",
@@ -2779,8 +2507,7 @@
 	}, {
 		"item_url": "http://www.dnd5eapi.co/api/equipment/144",
 		"quantity": 1
-	}],
-	"url": "http://www.dnd5eapi.co/api/equipment/155"
+	}]
 }, {
 	"index": 156,
 	"name": "Dungeoneer's Pack",
@@ -2814,8 +2541,7 @@
 	}, {
 		"item_url": "http://www.dnd5eapi.co/api/equipment/136",
 		"quantity": 1
-	}],
-	"url": "http://www.dnd5eapi.co/api/equipment/156"
+	}]
 }, {
 	"index": 157,
 	"name": "Entertainer's Pack",
@@ -2846,8 +2572,7 @@
 	}, {
 		"item_url": "http://www.dnd5eapi.co/api/equipment/106",
 		"quantity": 1
-	}],
-	"url": "http://www.dnd5eapi.co/api/equipment/157"
+	}]
 }, {
 	"index": 158,
 	"name": "Explorer's Pack",
@@ -2881,8 +2606,7 @@
 	}, {
 		"item_url": "http://www.dnd5eapi.co/api/equipment/106",
 		"quantity": 1
-	}],
-	"url": "http://www.dnd5eapi.co/api/equipment/158"
+	}]
 }, {
 	"index": 159,
 	"name": "Priest's Pack",
@@ -2910,8 +2634,7 @@
 	}, {
 		"item_url": "http://www.dnd5eapi.co/api/equipment/152",
 		"quantity": 1
-	}],
-	"url": "http://www.dnd5eapi.co/api/equipment/159"
+	}]
 }, {
 	"index": 160,
 	"name": "Scholar's Pack",
@@ -2936,8 +2659,7 @@
 	}, {
 		"item_url": "http://www.dnd5eapi.co/api/equipment/122",
 		"quantity": 10
-	}],
-	"url": "http://www.dnd5eapi.co/api/equipment/160"
+	}]
 }, {
 	"index": 161,
 	"name": "Alchemist's supplies",
@@ -2948,8 +2670,7 @@
 		"unit": "gp"
 	},
 	"weight": 8,
-	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."],
-	"url": "http://www.dnd5eapi.co/api/equipment/161"
+	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."]
 }, {
 	"index": 162,
 	"name": "Brewer's supplies",
@@ -2960,8 +2681,7 @@
 		"unit": "gp"
 	},
 	"weight": 9,
-	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."],
-	"url": "http://www.dnd5eapi.co/api/equipment/162"
+	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."]
 }, {
 	"index": 163,
 	"name": "Calligrapher's supplies",
@@ -2972,8 +2692,7 @@
 		"unit": "gp"
 	},
 	"weight": 5,
-	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."],
-	"url": "http://www.dnd5eapi.co/api/equipment/163"
+	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."]
 }, {
 	"index": 164,
 	"name": "Carpenter's tools",
@@ -2984,8 +2703,7 @@
 		"unit": "gp"
 	},
 	"weight": 6,
-	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."],
-	"url": "http://www.dnd5eapi.co/api/equipment/164"
+	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."]
 }, {
 	"index": 165,
 	"name": "Cartographer's tools",
@@ -2996,8 +2714,7 @@
 		"unit": "gp"
 	},
 	"weight": 6,
-	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."],
-	"url": "http://www.dnd5eapi.co/api/equipment/165"
+	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."]
 }, {
 	"index": 166,
 	"name": "Cobbler's tools",
@@ -3008,8 +2725,7 @@
 		"unit": "gp"
 	},
 	"weight": 5,
-	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."],
-	"url": "http://www.dnd5eapi.co/api/equipment/166"
+	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."]
 }, {
 	"index": 167,
 	"name": "Cook's utensils",
@@ -3020,8 +2736,7 @@
 		"unit": "gp"
 	},
 	"weight": 8,
-	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."],
-	"url": "http://www.dnd5eapi.co/api/equipment/167"
+	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."]
 }, {
 	"index": 168,
 	"name": "Glassblower's tools",
@@ -3032,8 +2747,7 @@
 		"unit": "gp"
 	},
 	"weight": 5,
-	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."],
-	"url": "http://www.dnd5eapi.co/api/equipment/168"
+	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."]
 }, {
 	"index": 169,
 	"name": "Jeweler's tools",
@@ -3044,8 +2758,7 @@
 		"unit": "gp"
 	},
 	"weight": 2,
-	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."],
-	"url": "http://www.dnd5eapi.co/api/equipment/169"
+	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."]
 }, {
 	"index": 170,
 	"name": "Leatherworker's tools",
@@ -3056,8 +2769,7 @@
 		"unit": "gp"
 	},
 	"weight": 5,
-	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."],
-	"url": "http://www.dnd5eapi.co/api/equipment/170"
+	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."]
 }, {
 	"index": 171,
 	"name": "Mason's tools",
@@ -3068,8 +2780,7 @@
 		"unit": "gp"
 	},
 	"weight": 8,
-	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."],
-	"url": "http://www.dnd5eapi.co/api/equipment/171"
+	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."]
 }, {
 	"index": 172,
 	"name": "Painter's supplies",
@@ -3080,8 +2791,7 @@
 		"unit": "gp"
 	},
 	"weight": 5,
-	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."],
-	"url": "http://www.dnd5eapi.co/api/equipment/172"
+	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."]
 }, {
 	"index": 173,
 	"name": "Potter's tools",
@@ -3092,8 +2802,7 @@
 		"unit": "gp"
 	},
 	"weight": 3,
-	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."],
-	"url": "http://www.dnd5eapi.co/api/equipment/173"
+	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."]
 }, {
 	"index": 174,
 	"name": "Smith's tools",
@@ -3104,8 +2813,7 @@
 		"unit": "gp"
 	},
 	"weight": 8,
-	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."],
-	"url": "http://www.dnd5eapi.co/api/equipment/174"
+	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."]
 }, {
 	"index": 175,
 	"name": "Tinker's tools",
@@ -3116,8 +2824,7 @@
 		"unit": "gp"
 	},
 	"weight": 10,
-	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."],
-	"url": "http://www.dnd5eapi.co/api/equipment/175"
+	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."]
 }, {
 	"index": 176,
 	"name": "Weaver's tools",
@@ -3128,8 +2835,7 @@
 		"unit": "gp"
 	},
 	"weight": 5,
-	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."],
-	"url": "http://www.dnd5eapi.co/api/equipment/176"
+	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."]
 }, {
 	"index": 177,
 	"name": "Woodcarver's tools",
@@ -3140,8 +2846,7 @@
 		"unit": "gp"
 	},
 	"weight": 5,
-	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."],
-	"url": "http://www.dnd5eapi.co/api/equipment/177"
+	"desc": ["These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."]
 }, {
 	"index": 178,
 	"name": "Dice set",
@@ -3152,8 +2857,7 @@
 		"unit": "sp"
 	},
 	"weight": 0,
-	"desc": ["This item encompasses a wide range of game pieces, including dice and decks of cards (for games such as Three-Dragon Ante). A few common examples appear on the Tools table, but other kinds of gaming sets exist. If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency."],
-	"url": "http://www.dnd5eapi.co/api/equipment/178"
+	"desc": ["This item encompasses a wide range of game pieces, including dice and decks of cards (for games such as Three-Dragon Ante). A few common examples appear on the Tools table, but other kinds of gaming sets exist. If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency."]
 }, {
 	"index": 179,
 	"name": "Playing card set",
@@ -3164,8 +2868,7 @@
 		"unit": "sp"
 	},
 	"weight": 0,
-	"desc": ["This item encompasses a wide range of game pieces, including dice and decks of cards (for games such as Three-Dragon Ante). A few common examples appear on the Tools table, but other kinds of gaming sets exist. If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency."],
-	"url": "http://www.dnd5eapi.co/api/equipment/179"
+	"desc": ["This item encompasses a wide range of game pieces, including dice and decks of cards (for games such as Three-Dragon Ante). A few common examples appear on the Tools table, but other kinds of gaming sets exist. If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency."]
 }, {
 	"index": 180,
 	"name": "Bagpipes",
@@ -3176,8 +2879,7 @@
 		"unit": "gp"
 	},
 	"weight": 6,
-	"desc": ["Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."],
-	"url": "http://www.dnd5eapi.co/api/equipment/180"
+	"desc": ["Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."]
 }, {
 	"index": 181,
 	"name": "Drum",
@@ -3188,8 +2890,7 @@
 		"unit": "gp"
 	},
 	"weight": 3,
-	"desc": ["Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."],
-	"url": "http://www.dnd5eapi.co/api/equipment/181"
+	"desc": ["Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."]
 }, {
 	"index": 182,
 	"name": "Dulcimer",
@@ -3200,8 +2901,7 @@
 		"unit": "gp"
 	},
 	"weight": 10,
-	"desc": ["Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."],
-	"url": "http://www.dnd5eapi.co/api/equipment/182"
+	"desc": ["Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."]
 }, {
 	"index": 183,
 	"name": "Flute",
@@ -3212,8 +2912,7 @@
 		"unit": "gp"
 	},
 	"weight": 1,
-	"desc": ["Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."],
-	"url": "http://www.dnd5eapi.co/api/equipment/183"
+	"desc": ["Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."]
 }, {
 	"index": 184,
 	"name": "Lute",
@@ -3224,8 +2923,7 @@
 		"unit": "gp"
 	},
 	"weight": 2,
-	"desc": ["Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."],
-	"url": "http://www.dnd5eapi.co/api/equipment/184"
+	"desc": ["Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."]
 }, {
 	"index": 185,
 	"name": "Lyre",
@@ -3236,8 +2934,7 @@
 		"unit": "gp"
 	},
 	"weight": 2,
-	"desc": ["Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."],
-	"url": "http://www.dnd5eapi.co/api/equipment/185"
+	"desc": ["Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."]
 }, {
 	"index": 186,
 	"name": "Horn",
@@ -3248,8 +2945,7 @@
 		"unit": "gp"
 	},
 	"weight": 2,
-	"desc": ["Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."],
-	"url": "http://www.dnd5eapi.co/api/equipment/186"
+	"desc": ["Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."]
 }, {
 	"index": 187,
 	"name": "Pan flute",
@@ -3260,8 +2956,7 @@
 		"unit": "gp"
 	},
 	"weight": 2,
-	"desc": ["Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."],
-	"url": "http://www.dnd5eapi.co/api/equipment/187"
+	"desc": ["Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."]
 }, {
 	"index": 188,
 	"name": "Shawm",
@@ -3272,8 +2967,7 @@
 		"unit": "gp"
 	},
 	"weight": 1,
-	"desc": ["Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."],
-	"url": "http://www.dnd5eapi.co/api/equipment/188"
+	"desc": ["Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."]
 }, {
 	"index": 189,
 	"name": "Viol",
@@ -3284,8 +2978,7 @@
 		"unit": "gp"
 	},
 	"weight": 1,
-	"desc": ["Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."],
-	"url": "http://www.dnd5eapi.co/api/equipment/189"
+	"desc": ["Several of the most common types of musical instruments are shown on the table as examples. If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency."]
 }, {
 	"index": 190,
 	"name": "Navigator's tools",
@@ -3296,8 +2989,7 @@
 		"unit": "gp"
 	},
 	"weight": 2,
-	"desc": ["This set of instruments is used for navigation at sea. Proficiency with navigator's tools lets you chart a ship's course and follow navigation charts. In addition, these tools allow you to add your proficiency bonus to any ability check you make to avoid getting lost at sea."],
-	"url": "http://www.dnd5eapi.co/api/equipment/190"
+	"desc": ["This set of instruments is used for navigation at sea. Proficiency with navigator's tools lets you chart a ship's course and follow navigation charts. In addition, these tools allow you to add your proficiency bonus to any ability check you make to avoid getting lost at sea."]
 }, {
 	"index": 191,
 	"name": "Thieves' tools",
@@ -3308,8 +3000,7 @@
 		"unit": "gp"
 	},
 	"weight": 1,
-	"desc": ["This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks."],
-	"url": "http://www.dnd5eapi.co/api/equipment/191"
+	"desc": ["This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks."]
 }, {
 	"index": 192,
 	"name": "Camel",
@@ -3323,8 +3014,7 @@
 		"quantity": 50,
 		"unit": "ft/round"
 	},
-	"capacity": "480 lb.",
-	"url": "http://www.dnd5eapi.co/api/equipment/192"
+	"capacity": "480 lb."
 }, {
 	"index": 193,
 	"name": "Donkey",
@@ -3338,8 +3028,7 @@
 		"quantity": 40,
 		"unit": "ft/round"
 	},
-	"capacity": "420 lb.",
-	"url": "http://www.dnd5eapi.co/api/equipment/193"
+	"capacity": "420 lb."
 }, {
 	"index": 194,
 	"name": "Mule",
@@ -3353,8 +3042,7 @@
 		"quantity": 40,
 		"unit": "ft/round"
 	},
-	"capacity": "420 lb.",
-	"url": "http://www.dnd5eapi.co/api/equipment/194"
+	"capacity": "420 lb."
 }, {
 	"index": 195,
 	"name": "Elephant",
@@ -3368,8 +3056,7 @@
 		"quantity": 40,
 		"unit": "ft/round"
 	},
-	"capacity": "1,320 lb.",
-	"url": "http://www.dnd5eapi.co/api/equipment/195"
+	"capacity": "1,320 lb."
 }, {
 	"index": 196,
 	"name": "Horse, draft",
@@ -3383,8 +3070,7 @@
 		"quantity": 40,
 		"unit": "ft/round"
 	},
-	"capacity": "540 lb.",
-	"url": "http://www.dnd5eapi.co/api/equipment/196"
+	"capacity": "540 lb."
 }, {
 	"index": 197,
 	"name": "Horse, riding",
@@ -3398,8 +3084,7 @@
 		"quantity": 60,
 		"unit": "ft/round"
 	},
-	"capacity": "480 lb.",
-	"url": "http://www.dnd5eapi.co/api/equipment/197"
+	"capacity": "480 lb."
 }, {
 	"index": 198,
 	"name": "Mastiff",
@@ -3413,8 +3098,7 @@
 		"quantity": 40,
 		"unit": "ft/round"
 	},
-	"capacity": "195 lb.",
-	"url": "http://www.dnd5eapi.co/api/equipment/198"
+	"capacity": "195 lb."
 }, {
 	"index": 199,
 	"name": "Pony",
@@ -3428,8 +3112,7 @@
 		"quantity": 40,
 		"unit": "ft/round"
 	},
-	"capacity": "225 lb.",
-	"url": "http://www.dnd5eapi.co/api/equipment/199"
+	"capacity": "225 lb."
 }, {
 	"index": 200,
 	"name": "Warhorse",
@@ -3443,8 +3126,7 @@
 		"quantity": 60,
 		"unit": "ft/round"
 	},
-	"capacity": "540 lb.",
-	"url": "http://www.dnd5eapi.co/api/equipment/200"
+	"capacity": "540 lb."
 }, {
 	"index": 201,
 	"name": "Barding: Padded",
@@ -3455,8 +3137,7 @@
 		"unit": "gp"
 	},
 	"weight": 16,
-	"desc": ["Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."],
-	"url": "http://www.dnd5eapi.co/api/equipment/201"
+	"desc": ["Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."]
 }, {
 	"index": 202,
 	"name": "Barding: Leather",
@@ -3467,8 +3148,7 @@
 		"unit": "gp"
 	},
 	"weight": 20,
-	"desc": ["Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."],
-	"url": "http://www.dnd5eapi.co/api/equipment/202"
+	"desc": ["Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."]
 }, {
 	"index": 203,
 	"name": "Barding: Studded Leather",
@@ -3479,8 +3159,7 @@
 		"unit": "gp"
 	},
 	"weight": 26,
-	"desc": ["Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."],
-	"url": "http://www.dnd5eapi.co/api/equipment/203"
+	"desc": ["Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."]
 }, {
 	"index": 204,
 	"name": "Barding: Hide",
@@ -3491,8 +3170,7 @@
 		"unit": "gp"
 	},
 	"weight": 24,
-	"desc": ["Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."],
-	"url": "http://www.dnd5eapi.co/api/equipment/204"
+	"desc": ["Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."]
 }, {
 	"index": 205,
 	"name": "Barding: Chain shirt",
@@ -3503,8 +3181,7 @@
 		"unit": "gp"
 	},
 	"weight": 40,
-	"desc": ["Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."],
-	"url": "http://www.dnd5eapi.co/api/equipment/205"
+	"desc": ["Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."]
 }, {
 	"index": 206,
 	"name": "Barding: Scale mail",
@@ -3515,8 +3192,7 @@
 		"unit": "gp"
 	},
 	"weight": 90,
-	"desc": ["Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."],
-	"url": "http://www.dnd5eapi.co/api/equipment/206"
+	"desc": ["Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."]
 }, {
 	"index": 207,
 	"name": "Barding: Breastplate",
@@ -3527,8 +3203,7 @@
 		"unit": "gp"
 	},
 	"weight": 40,
-	"desc": ["Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."],
-	"url": "http://www.dnd5eapi.co/api/equipment/207"
+	"desc": ["Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."]
 }, {
 	"index": 208,
 	"name": "Barding: Half plate",
@@ -3539,8 +3214,7 @@
 		"unit": "gp"
 	},
 	"weight": 80,
-	"desc": ["Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."],
-	"url": "http://www.dnd5eapi.co/api/equipment/208"
+	"desc": ["Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."]
 }, {
 	"index": 209,
 	"name": "Barding: Ring mail",
@@ -3551,8 +3225,7 @@
 		"unit": "gp"
 	},
 	"weight": 80,
-	"desc": ["Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."],
-	"url": "http://www.dnd5eapi.co/api/equipment/209"
+	"desc": ["Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."]
 }, {
 	"index": 210,
 	"name": "Barding: Chain mail",
@@ -3563,8 +3236,7 @@
 		"unit": "gp"
 	},
 	"weight": 110,
-	"desc": ["Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."],
-	"url": "http://www.dnd5eapi.co/api/equipment/210"
+	"desc": ["Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."]
 }, {
 	"index": 211,
 	"name": "Barding: Splint",
@@ -3575,8 +3247,7 @@
 		"unit": "gp"
 	},
 	"weight": 120,
-	"desc": ["Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."],
-	"url": "http://www.dnd5eapi.co/api/equipment/211"
+	"desc": ["Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."]
 }, {
 	"index": 212,
 	"name": "Barding: Plate",
@@ -3587,8 +3258,7 @@
 		"unit": "gp"
 	},
 	"weight": 130,
-	"desc": ["Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."],
-	"url": "http://www.dnd5eapi.co/api/equipment/212"
+	"desc": ["Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."]
 }, {
 	"index": 213,
 	"name": "Bit and bridle",
@@ -3598,8 +3268,7 @@
 		"quantity": 2,
 		"unit": "gp"
 	},
-	"weight": 1,
-	"url": "http://www.dnd5eapi.co/api/equipment/213"
+	"weight": 1
 }, {
 	"index": 214,
 	"name": "Carriage",
@@ -3609,8 +3278,7 @@
 		"quantity": 100,
 		"unit": "gp"
 	},
-	"weight": 600,
-	"url": "http://www.dnd5eapi.co/api/equipment/214"
+	"weight": 600
 }, {
 	"index": 215,
 	"name": "Cart",
@@ -3620,8 +3288,7 @@
 		"quantity": 15,
 		"unit": "gp"
 	},
-	"weight": 200,
-	"url": "http://www.dnd5eapi.co/api/equipment/215"
+	"weight": 200
 }, {
 	"index": 216,
 	"name": "Chariot",
@@ -3631,8 +3298,7 @@
 		"quantity": 250,
 		"unit": "gp"
 	},
-	"weight": 100,
-	"url": "http://www.dnd5eapi.co/api/equipment/216"
+	"weight": 100
 }, {
 	"index": 217,
 	"name": "Animal Feed (1 day)",
@@ -3642,8 +3308,7 @@
 		"quantity": 5,
 		"unit": "cp"
 	},
-	"weight": 10,
-	"url": "http://www.dnd5eapi.co/api/equipment/217"
+	"weight": 10
 }, {
 	"index": 218,
 	"name": "Saddle, Exotic",
@@ -3654,8 +3319,7 @@
 		"unit": "gp"
 	},
 	"weight": 50,
-	"desc": ["A military saddle braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted. An exotic saddle is required for riding any aquatic or flying mount."],
-	"url": "http://www.dnd5eapi.co/api/equipment/218"
+	"desc": ["A military saddle braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted. An exotic saddle is required for riding any aquatic or flying mount."]
 }, {
 	"index": 219,
 	"name": "Saddle, Military",
@@ -3666,8 +3330,7 @@
 		"unit": "gp"
 	},
 	"weight": 30,
-	"desc": ["A military saddle braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted. An exotic saddle is required for riding any aquatic or flying mount."],
-	"url": "http://www.dnd5eapi.co/api/equipment/219"
+	"desc": ["A military saddle braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted. An exotic saddle is required for riding any aquatic or flying mount."]
 }, {
 	"index": 220,
 	"name": "Saddle, Pack",
@@ -3678,8 +3341,7 @@
 		"unit": "gp"
 	},
 	"weight": 15,
-	"desc": ["A military saddle braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted. An exotic saddle is required for riding any aquatic or flying mount."],
-	"url": "http://www.dnd5eapi.co/api/equipment/220"
+	"desc": ["A military saddle braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted. An exotic saddle is required for riding any aquatic or flying mount."]
 }, {
 	"index": 221,
 	"name": "Riding",
@@ -3689,8 +3351,7 @@
 		"quantity": 10,
 		"unit": "gp"
 	},
-	"weight": 25,
-	"url": "http://www.dnd5eapi.co/api/equipment/221"
+	"weight": 25
 }, {
 	"index": 222,
 	"name": "Saddlebags",
@@ -3700,8 +3361,7 @@
 		"quantity": 4,
 		"unit": "gp"
 	},
-	"weight": 8,
-	"url": "http://www.dnd5eapi.co/api/equipment/222"
+	"weight": 8
 }, {
 	"index": 223,
 	"name": "Sled",
@@ -3711,8 +3371,7 @@
 		"quantity": 20,
 		"unit": "gp"
 	},
-	"weight": 300,
-	"url": "http://www.dnd5eapi.co/api/equipment/223"
+	"weight": 300
 }, {
 	"index": 224,
 	"name": "Stabling (1 day)",
@@ -3722,8 +3381,7 @@
 		"quantity": 5,
 		"unit": "sp"
 	},
-	"weight": 0,
-	"url": "http://www.dnd5eapi.co/api/equipment/224"
+	"weight": 0
 }, {
 	"index": 225,
 	"name": "Wagon",
@@ -3733,8 +3391,7 @@
 		"quantity": 35,
 		"unit": "gp"
 	},
-	"weight": 400,
-	"url": "http://www.dnd5eapi.co/api/equipment/225"
+	"weight": 400
 }, {
 	"index": 226,
 	"name": "Galley",
@@ -3747,8 +3404,7 @@
 	"speed": {
 		"quantity": 4,
 		"unit": "mph"
-	},
-	"url": "http://www.dnd5eapi.co/api/equipment/251"
+	}
 }, {
 	"index": 227,
 	"name": "Keelboat",
@@ -3762,8 +3418,7 @@
 		"quantity": 1,
 		"unit": "mph"
 	},
-	"desc": ["Keelboats and rowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores. A rowboat weighs 100 pounds, in case adventurers carry it over land."],
-	"url": "http://www.dnd5eapi.co/api/equipment/252"
+	"desc": ["Keelboats and rowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores. A rowboat weighs 100 pounds, in case adventurers carry it over land."]
 }, {
 	"index": 228,
 	"name": "Longship",
@@ -3776,8 +3431,7 @@
 	"speed": {
 		"quantity": 3,
 		"unit": "mph"
-	},
-	"url": "http://www.dnd5eapi.co/api/equipment/253"
+	}
 }, {
 	"index": 229,
 	"name": "Rowboat",
@@ -3791,8 +3445,7 @@
 		"quantity": 1.5,
 		"unit": "mph"
 	},
-	"desc": ["Keelboats and rowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores. A rowboat weighs 100 pounds, in case adventurers carry it over land."],
-	"url": "http://www.dnd5eapi.co/api/equipment/254"
+	"desc": ["Keelboats and rowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores. A rowboat weighs 100 pounds, in case adventurers carry it over land."]
 }, {
 	"index": 230,
 	"name": "Sailing ship",
@@ -3805,8 +3458,7 @@
 	"speed": {
 		"quantity": 2,
 		"unit": "mph"
-	},
-	"url": "http://www.dnd5eapi.co/api/equipment/255"
+	}
 }, {
 	"index": 231,
 	"name": "Warship",
@@ -3819,6 +3471,5 @@
 	"speed": {
 		"quantity": 2.5,
 		"unit": "mph"
-	},
-	"url": "http://www.dnd5eapi.co/api/equipment/256"
+	}
 }]
