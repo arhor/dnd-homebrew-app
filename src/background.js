@@ -21,17 +21,49 @@ function createWindow() {
     width: 800,
     height: 600,
     webPreferences: { nodeIntegration: true },
+    show: false,
+  });
+
+  // Create loading window.
+  let splashscreen = new BrowserWindow({
+    width: 350,
+    height: 338,
+    center: true,
+    transparent: true,
+    frame: false,
+    alwaysOnTop: true,
+    parent: win,
   });
 
   if (process.env.WEBPACK_DEV_SERVER_URL) {
     // Load the url of the dev server if in development mode
     win.loadURL(process.env.WEBPACK_DEV_SERVER_URL);
-    if (!process.env.IS_TEST) win.webContents.openDevTools();
+    if (!process.env.IS_TEST) {
+      win.webContents.openDevTools();
+    }
   } else {
     createProtocol('app');
     // Load the index.html when not in development
+    splashscreen.loadURL('app://./logo.svg');
     win.loadURL('app://./index.html');
   }
+
+  // When application loaded start fadin splash screen and then show the main window.
+  // Fading may not be animated on Linux.
+  win.once('ready-to-show', () => {
+    let opacity = 1;
+    const fading = setInterval(() => {
+      opacity -= 0.01;
+      if (opacity >= 0) {
+        splashscreen.setOpacity(opacity);
+      } else {
+        splashscreen.destroy();
+        splashscreen = null;
+        win.show();
+        clearInterval(fading);
+      }
+    }, 30);
+  });
 
   win.on('closed', () => {
     win = null;

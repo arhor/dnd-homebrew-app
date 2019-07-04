@@ -6,7 +6,6 @@
 		"ability_bonuses": [
 			{
 				"name": "CON",
-				"url": "http://www.dnd5eapi.co/api/ability-scores/3",
 				"bonus": 2
 			}
 		],
@@ -17,19 +16,15 @@
 		"size_description": "Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.",
 		"starting_proficiencies": [
 			{
-				"url": "http://www.dnd5eapi.co/api/proficiencies/20",
 				"name": "Battleaxes"
 			},
 			{
-				"url": "http://www.dnd5eapi.co/api/proficiencies/24",
 				"name": "Handaxes"
 			},
 			{
-				"url": "http://www.dnd5eapi.co/api/proficiencies/26",
 				"name": "Light hammers"
 			},
 			{
-				"url": "http://www.dnd5eapi.co/api/proficiencies/51",
 				"name": "Warhammers"
 			}
 		],
@@ -38,26 +33,21 @@
 			"type": "proficiencies",
 			"from": [
 				{
-					"url": "http://www.dnd5eapi.co/api/proficiencies/71",
 					"name": "Smith's tools"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/proficiencies/59",
 					"name": "Brewer's supplies"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/proficiencies/68",
 					"name": "Mason's tools"
 				}
 			]
 		},
 		"languages": [
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/1",
 				"name": "Common"
 			},
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/2",
 				"name": "Dwarvish"
 			}
 		],
@@ -67,25 +57,20 @@
 		"language_desc": "You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.",
 		"traits": [
 			{
-				"name": "Darkvision (Dwarf)",
-				"url": "http://www.dnd5eapi.co/api/traits/1"
+				"name": "Darkvision (Dwarf)"
 			},
 			{
-				"name": "Dwarven Resilience",
-				"url": "http://www.dnd5eapi.co/api/traits/2"
+				"name": "Dwarven Resilience"
 			},
 			{
-				"name": "Stonecunning",
-				"url": "http://www.dnd5eapi.co/api/traits/3"
+				"name": "Stonecunning"
 			}
 		],
 		"subraces": [
 			{
-				"url": "http://www.dnd5eapi.co/api/subraces/1",
 				"name": "Hill Dwarf"
 			}
-		],
-		"url": "http://www.dnd5eapi.co/api/races/1"
+		]
 	},
 	{
 		"index": 2,
@@ -94,7 +79,6 @@
 		"ability_bonuses": [
 			{
 				"name": "DEX",
-				"url": "http://www.dnd5eapi.co/api/ability-scores/2",
 				"bonus": 2
 			}
 		],
@@ -105,18 +89,15 @@
 		"size_description": "Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.",
 		"starting_proficiencies": [
 			{
-				"url": "http://www.dnd5eapi.co/api/proficiencies/116",
 				"name": "Skill: Perception"
 			}
 		],
 		"starting_proficiency_options": {},
 		"languages": [
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/1",
 				"name": "Common"
 			},
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/3",
 				"name": "Elvish"
 			}
 		],
@@ -126,25 +107,20 @@
 		"language_desc": "You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.",
 		"traits": [
 			{
-				"name": "Darkvision (Elf)",
-				"url": "http://www.dnd5eapi.co/api/traits/5"
+				"name": "Darkvision (Elf)"
 			},
 			{
-				"name": "Fey Ancestry",
-				"url": "http://www.dnd5eapi.co/api/traits/6"
+				"name": "Fey Ancestry"
 			},
 			{
-				"name": "Trance",
-				"url": "http://www.dnd5eapi.co/api/traits/7"
+				"name": "Trance"
 			}
 		],
 		"subraces": [
 			{
-				"url": "http://www.dnd5eapi.co/api/subraces/2",
 				"name": "High Elf"
 			}
-		],
-		"url": "http://www.dnd5eapi.co/api/races/2"
+		]
 	},
 	{
 		"index": 3,
@@ -153,7 +129,6 @@
 		"ability_bonuses": [
 			{
 				"name": "DEX",
-				"url": "http://www.dnd5eapi.co/api/ability-scores/2",
 				"bonus": 2
 			}
 		],
@@ -166,11 +141,9 @@
 		"starting_proficiency_options": {},
 		"languages": [
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/1",
 				"name": "Common"
 			},
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/7",
 				"name": "Halfling"
 			}
 		],
@@ -178,25 +151,20 @@
 		"language_desc": "You can speak, read, and write Common and Halfling. The Halfling language isn't secret, but halflings are loath to share it with others. They write very little, so they don't have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling.",
 		"traits": [
 			{
-				"name": "Brave",
-				"url": "http://www.dnd5eapi.co/api/traits/21"
+				"name": "Brave"
 			},
 			{
-				"name": "Halfling Nimbleness",
-				"url": "http://www.dnd5eapi.co/api/traits/22"
+				"name": "Halfling Nimbleness"
 			},
 			{
-				"name": "Lucky",
-				"url": "http://www.dnd5eapi.co/api/traits/23"
+				"name": "Lucky"
 			}
 		],
 		"subraces": [
 			{
-				"url": "http://www.dnd5eapi.co/api/subraces/3",
 				"name": "Lightfoot Halfling"
 			}
-		],
-		"url": "http://www.dnd5eapi.co/api/races/3"
+		]
 	},
 	{
 		"index": 4,
@@ -205,32 +173,26 @@
 		"ability_bonuses": [
 			{
 				"name": "STR",
-				"url": "http://www.dnd5eapi.co/api/ability-scores/1",
 				"bonus": 1
 			},
 			{
 				"name": "DEX",
-				"url": "http://www.dnd5eapi.co/api/ability-scores/2",
 				"bonus": 1
 			},
 			{
 				"name": "CON",
-				"url": "http://www.dnd5eapi.co/api/ability-scores/3",
 				"bonus": 1
 			},
 			{
 				"name": "INT",
-				"url": "http://www.dnd5eapi.co/api/ability-scores/4",
 				"bonus": 1
 			},
 			{
 				"name": "WIS",
-				"url": "http://www.dnd5eapi.co/api/ability-scores/5",
 				"bonus": 1
 			},
 			{
 				"name": "CHA",
-				"url": "http://www.dnd5eapi.co/api/ability-scores/6",
 				"bonus": 1
 			}
 		],
@@ -243,7 +205,6 @@
 		"starting_proficiency_options": {},
 		"languages": [
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/1",
 				"name": "Common"
 			}
 		],
@@ -252,71 +213,55 @@
 			"type": "languages",
 			"from": [
 				{
-					"url": "http://www.dnd5eapi.co/api/languages/2",
 					"name": "Dwarvish"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/languages/3",
 					"name": "Elvish"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/languages/4",
 					"name": "Giant"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/languages/5",
 					"name": "Gnomish"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/languages/6",
 					"name": "Goblin"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/languages/7",
 					"name": "Halfling"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/languages/8",
 					"name": "Orc"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/languages/9",
 					"name": "Abyssal"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/languages/10",
 					"name": "Celestial"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/languages/11",
 					"name": "Draconic"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/languages/12",
 					"name": "Deep Speech"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/languages/13",
 					"name": "Infernal"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/languages/14",
 					"name": "Primordial"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/languages/15",
 					"name": "Sylvan"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/languages/16",
 					"name": "Undercommon"
 				}
 			]
 		},
 		"language_desc": "You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.",
 		"traits": [],
-		"subraces": [],
-		"url": "http://www.dnd5eapi.co/api/races/4"
+		"subraces": []
 	},
 	{
 		"index": 5,
@@ -325,12 +270,10 @@
 		"ability_bonuses": [
 			{
 				"name": "STR",
-				"url": "http://www.dnd5eapi.co/api/ability-scores/1",
 				"bonus": 2
 			},
 			{
 				"name": "CHA",
-				"url": "http://www.dnd5eapi.co/api/ability-scores/6",
 				"bonus": 1
 			}
 		],
@@ -343,11 +286,9 @@
 		"starting_proficiency_options": {},
 		"languages": [
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/1",
 				"name": "Common"
 			},
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/11",
 				"name": "Draconic"
 			}
 		],
@@ -357,16 +298,13 @@
 		"language_desc": "You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants.",
 		"traits": [
 			{
-				"name": "Draconic Ancestry",
-				"url": "http://www.dnd5eapi.co/api/traits/24"
+				"name": "Draconic Ancestry"
 			},
 			{
-				"name": "Breath Weapon",
-				"url": "http://www.dnd5eapi.co/api/traits/25"
+				"name": "Breath Weapon"
 			},
 			{
-				"name": "Damage Resistance (Dragonborn)",
-				"url": "http://www.dnd5eapi.co/api/traits/18"
+				"name": "Damage Resistance (Dragonborn)"
 			}
 
 		],
@@ -375,50 +313,39 @@
 				"choose": 1,
 				"from": [
 					{
-						"name": "Breath Weapon (Black)",
-						"url": "http://www.dnd5eapi.co/api/traits/26"
+						"name": "Breath Weapon (Black)"
 					},
 					{
-						"name": "Breath Weapon (Blue)",
-						"url": "http://www.dnd5eapi.co/api/traits/27"
+						"name": "Breath Weapon (Blue)"
 					},
 					{
-						"name": "Breath Weapon (Brass)",
-						"url": "http://www.dnd5eapi.co/api/traits/28"
+						"name": "Breath Weapon (Brass)"
 					},
 					{
-						"name": "Breath Weapon (Bronze)",
-						"url": "http://www.dnd5eapi.co/api/traits/29"
+						"name": "Breath Weapon (Bronze)"
 					},
 					{
-						"name": "Breath Weapon (Copper)",
-						"url": "http://www.dnd5eapi.co/api/traits/30"
+						"name": "Breath Weapon (Copper)"
 					},
 					{
-						"name": "Breath Weapon (Gold)",
-						"url": "http://www.dnd5eapi.co/api/traits/31"
+						"name": "Breath Weapon (Gold)"
 					},
 					{
-						"name": "Breath Weapon (Green)",
-						"url": "http://www.dnd5eapi.co/api/traits/32"
+						"name": "Breath Weapon (Green)"
 					},
 					{
-						"name": "Breath Weapon (Red)",
-						"url": "http://www.dnd5eapi.co/api/traits/33"
+						"name": "Breath Weapon (Red)"
 					},
 					{
-						"name": "Breath Weapon (Silver)",
-						"url": "http://www.dnd5eapi.co/api/traits/34"
+						"name": "Breath Weapon (Silver)"
 					},
 					{
-						"name": "Breath Weapon (White)",
-						"url": "http://www.dnd5eapi.co/api/traits/35"
+						"name": "Breath Weapon (White)"
 					}
 				],
 				"type": "trait"
 			},
-		"subraces": [],
-		"url": "http://www.dnd5eapi.co/api/races/5"
+		"subraces": []
 	},
 	{
 		"index": 6,
@@ -427,7 +354,6 @@
 		"ability_bonuses": [
 			{
 				"name": "INT",
-				"url": "http://www.dnd5eapi.co/api/ability-scores/4",
 				"bonus": 2
 			}
 		],
@@ -440,11 +366,9 @@
 		"starting_proficiency_options": {},
 		"languages": [
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/1",
 				"name": "Common"
 			},
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/5",
 				"name": "Gnomish"
 			}
 		],
@@ -452,22 +376,18 @@
 		"language_desc": "You can speak, read, and write Common and Gnomish. The Gnomish language, which uses the Dwarvish script, is renowned for its technical treatises and its catalogs of knowledge about the natural world.",
 		"traits": [
 			{
-				"name": "Darkvision",
-				"url": "http://www.dnd5eapi.co/api/traits/1"
+				"name": "Darkvision"
 			},
 			{
-				"name": "Gnome Cunning",
-				"url": "http://www.dnd5eapi.co/api/traits/19"
+				"name": "Gnome Cunning"
 			}
 		],
 		"trait_options": {},
 		"subraces": [
 			{
-				"url": "http://www.dnd5eapi.co/api/subraces/4",
 				"name": "Rock Gnome"
 			}
-		],
-		"url": "http://www.dnd5eapi.co/api/races/6"
+		]
 	},
 	{
 		"index": 7,
@@ -476,7 +396,6 @@
 		"ability_bonuses": [
 			{
 				"name": "CHA",
-				"url": "http://www.dnd5eapi.co/api/ability-scores/6",
 				"bonus": 2
 			}
 		],
@@ -486,27 +405,22 @@
 			"from": [
 				{
 					"name": "STR",
-					"url": "http://www.dnd5eapi.co/api/ability-scores/1",
 					"bonus": 1
 				},
 				{
 					"name": "DEX",
-					"url": "http://www.dnd5eapi.co/api/ability-scores/2",
 					"bonus": 1
 				},
 				{
 					"name": "CON",
-					"url": "http://www.dnd5eapi.co/api/ability-scores/3",
 					"bonus": 1
 				},
 				{
 					"name": "INT",
-					"url": "http://www.dnd5eapi.co/api/ability-scores/4",
 					"bonus": 1
 				},
 				{
 					"name": "WIS",
-					"url": "http://www.dnd5eapi.co/api/ability-scores/5",
 					"bonus": 1
 				}
 			]
@@ -519,12 +433,10 @@
 		"starting_proficiency_options": {},
 		"languages": [
 			{
-				"name": "Common",
-				"url": "http://www.dnd5eapi.co/api/languages/1"
+				"name": "Common"
 			},
 			{
-				"name": "Elvish",
-				"url": "http://www.dnd5eapi.co/api/languages/3"
+				"name": "Elvish"
 			}
 		],
 		"language_options": {
@@ -532,82 +444,64 @@
 			"type": "languages",
 			"from": [
 				{
-					"name":"Dwarvish",
-					"url":"http://www.dnd5eapi.co/api/languages/2"
+					"name":"Dwarvish"
 				},
 				{
-					"name":"Giant",
-					"url":"http://www.dnd5eapi.co/api/languages/4"
+					"name":"Giant"
 				},
 				{
-					"name":"Gnomish",
-					"url":"http://www.dnd5eapi.co/api/languages/5"
+					"name":"Gnomish"
 				},
 				{
-					"name":"Goblin",
-					"url":"http://www.dnd5eapi.co/api/languages/6"
+					"name":"Goblin"
 				},
 				{
-					"name":"Halfling",
-					"url":"http://www.dnd5eapi.co/api/languages/7"
+					"name":"Halfling"
 				},
 				{
-					"name":"Orc",
-					"url":"http://www.dnd5eapi.co/api/languages/8"
+					"name":"Orc"
 				},
 				{
-					"name":"Abyssal",
-					"url":"http://www.dnd5eapi.co/api/languages/9"
+					"name":"Abyssal"
 				},
 				{
-					"name":"Celestial",
-					"url":"http://www.dnd5eapi.co/api/languages/10"
+					"name":"Celestial"
 				},
 				{
-					"name":"Draconic",
-					"url":"http://www.dnd5eapi.co/api/languages/11"
+					"name":"Draconic"
 				},
 				{
-					"name":"Deep Speech",
-					"url":"http://www.dnd5eapi.co/api/languages/12"
+					"name":"Deep Speech"
 				},
 				{
-					"name":"Infernal",
-					"url":"http://www.dnd5eapi.co/api/languages/13"
+					"name":"Infernal"
 				},
 				{
-					"name":"Primordial",
-					"url":"http://www.dnd5eapi.co/api/languages/14"
+					"name":"Primordial"
 				},
 				{
-					"name":"Sylvan",
-					"url":"http://www.dnd5eapi.co/api/languages/15"
+					"name":"Sylvan"
 				},
 				{
-					"name":"Undercommon",
-					"url":"http://www.dnd5eapi.co/api/languages/16"
+					"name":"Undercommon"
 				}
 			]
 		},
 		"language_desc": "You can speak, read, and write Common, Elvish, and one extra language of your choice.",
 		"traits": [
 			{
-				"name": "Darkvision (Half-Elf)",
-				"url": "http://www.dnd5eapi.co/api/traits/48"
+				"name": "Darkvision (Half-Elf)"
 			},
 			{
-				"name": "Fey Ancestry",
-				"url": "http://www.dnd5eapi.co/api/traits/49"
+				"name": "Fey Ancestry"
 			},
 			{
-				"name": "Skill Versatility",
-				"url": "http://www.dnd5eapi.co/api/traits/50"
+				"name": "Skill Versatility"
 			}
 
 		],
 		"trait_options": {},
-		"subraces": [],
-		"url": "http://www.dnd5eapi.co/api/races/7"
+		"subraces": []
 	},
 	{
 		"index": 8,
@@ -616,12 +510,10 @@
 		"ability_bonuses": [
 			{
 				"name": "STR",
-				"url": "http://www.dnd5eapi.co/api/ability-scores/1",
 				"bonus": 2
 			},
 			{
 				"name": "CON",
-				"url": "http://www.dnd5eapi.co/api/ability-scores/3",
 				"bonus": 1
 			}
 		],
@@ -632,18 +524,15 @@
 		"size_description": "Half-orcs are somewhat larger and bulkier than humans, and they range from 5 to well over 6 feet tall. Your size is Medium.",
 		"starting_proficiencies": [
 			{
-				"name": "Skill: Intimidation",
-				"url": "http://www.dnd5eapi.co/api/proficiencies/112"
+				"name": "Skill: Intimidation"
 			}
 		],
 		"starting_proficiency_options": {},
 		"languages": [
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/1",
 				"name": "Common"
 			},
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/8",
 				"name": "Orcish"
 			}
 		],
@@ -651,22 +540,18 @@
 		"language_desc": "You can speak, read, and write Common and Orc. Orc is a harsh, grating language with hard consonants. It has no script of its own but is written in the Dwarvish script.",
 		"traits": [
 			{
-				"name": "Darkvision (Half-Orc)",
-				"url": "http://www.dnd5eapi.co/api/traits/51"
+				"name": "Darkvision (Half-Orc)"
 			},
 			{
-				"name": "Savage Attacks",
-				"url": "http://www.dnd5eapi.co/api/traits/52"
+				"name": "Savage Attacks"
 			},
 			{
-				"name": "Restless Endurance",
-				"url": "http://www.dnd5eapi.co/api/traits/53"
+				"name": "Restless Endurance"
 			}
 
 		],
 		"trait_options": {},
-		"subraces": [],
-		"url": "http://www.dnd5eapi.co/api/races/8"
+		"subraces": []
 	},
 	{
 		"index": 9,
@@ -675,12 +560,10 @@
 		"ability_bonuses": [
 			{
 				"name": "INT",
-				"url": "http://www.dnd5eapi.co/api/ability-scores/4",
 				"bonus": 1
 			},
 			{
 				"name": "CHA",
-				"url": "http://www.dnd5eapi.co/api/ability-scores/6",
 				"bonus": 2
 			}
 		],
@@ -693,11 +576,9 @@
 		"starting_proficiency_options": {},
 		"languages": [
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/1",
 				"name": "Common"
 			},
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/9",
 				"name": "Infernal"
 			}
 		],
@@ -705,20 +586,16 @@
 		"language_desc": "You can speak, read, and write Common and Infernal.",
 		"traits": [
 			{
-				"name": "Darkvision (Tiefling)",
-				"url": "http://www.dnd5eapi.co/api/traits/54"
+				"name": "Darkvision (Tiefling)"
 			},
 			{
-				"name": "Hellish Resistance",
-				"url": "http://www.dnd5eapi.co/api/traits/55"
+				"name": "Hellish Resistance"
 			},
 			{
-				"name": "Infernal Legacy",
-				"url": "http://www.dnd5eapi.co/api/traits/56"
+				"name": "Infernal Legacy"
 			}
 		],
 		"trait_options": {},
-		"subraces": [],
-		"url": "http://www.dnd5eapi.co/api/races/9"
+		"subraces": []
 	}
 ]

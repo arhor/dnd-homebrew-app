@@ -1,5 +1,7 @@
 <template>
-  <v-card>
+    <v-layout align-center justify-center fill-height>
+      <v-flex xs12>
+        <v-card>
     <v-card-title>
       Monsters
       <v-spacer />
@@ -12,16 +14,24 @@
       />
     </v-card-title>
     <v-data-table
+      class="evelation-1"
       :headers="headers"
       :items="monsters"
       :search="search"
-      class="evelation-1"
     >
       <template v-slot:items="props">
-        <td>{{ props.item.name }}</td>
-        <td>{{ props.item.size }}</td>
-        <td>{{ props.item.type }}</td>
-        <td>{{ props.item.challenge_rating }}</td>
+        <td @click="showDetails(props.item)">
+          {{ props.item.name }}
+        </td>
+        <td @click="showDetails(props.item)">
+          {{ props.item.size }}
+        </td>
+        <td @click="showDetails(props.item)">
+          {{ props.item.type }}
+        </td>
+        <td @click="showDetails(props.item)">
+          {{ props.item.challenge_rating }}
+        </td>
       </template>
       <template v-slot:no-results>
         <v-alert
@@ -33,21 +43,31 @@
         </v-alert>
       </template>
     </v-data-table>
-    <!-- <v-dialog v-model="dialog" max-width="300">
-      <MonsterDetails :monster="monster" />
-    </v-dialog>-->
+    <v-dialog
+      v-model="dialog"
+      max-width="800"
+    >
+      <monster-details :monster="monster" />
+    </v-dialog>
   </v-card>
+      </v-flex>
+    </v-layout>
 </template>
 
 <script>
 import { mapState } from 'vuex';
+import MonsterDetails from './MonsterDetails.vue';
 
 export default {
   name: 'MonsterList',
+  components: {
+    MonsterDetails,
+  },
   data() {
     return {
       search: '',
       dialog: false,
+      monster: null,
       errors: [],
       headers: [
         { text: 'Name', value: 'name' },
@@ -66,8 +86,5 @@ export default {
   computed: mapState({
     monsters: state => state.monsters.all,
   }),
-  mounted() {
-    this.$store.dispatch('monsters/loadMonsters');
-  },
 };
 </script>

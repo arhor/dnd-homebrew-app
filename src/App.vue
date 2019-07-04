@@ -11,7 +11,7 @@
       overflow
       app
     />
-    <v-toolbar :clipped-left="primaryDrawer.clipped" app absolute>
+    <v-toolbar :clipped-left="primaryDrawer.clipped" app>
       <v-toolbar-side-icon
         v-if="primaryDrawer.type !== 'permanent'"
         @click.stop="primaryDrawer.model = !primaryDrawer.model"
@@ -37,16 +37,21 @@
 </template>
 
 <script>
-import { mapState } from "vuex";
+import { mapState } from 'vuex';
 
 export default {
-  name: "App",
+  name: 'App',
   computed: mapState({
     app_name: state => state.application.name,
     dark: state => state.application.dark,
     drawers: state => state.application.drawers,
     primaryDrawer: state => state.application.primaryDrawer,
-    footer: state => state.application.footer
-  })
+    footer: state => state.application.footer,
+  }),
+  mounted() {
+    this.$store.dispatch('abilities/load');
+    this.$store.dispatch('monsters/load');
+    this.$store.dispatch('skills/load');
+  },
 };
 </script>

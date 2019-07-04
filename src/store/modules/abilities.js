@@ -1,23 +1,22 @@
-/* eslint-disable no-param-reassign */
 import axios from 'axios';
 
 const state = {
-  all: []
+  all: [],
 };
 
 const getters = {};
 
 const actions = {
   async load({ commit }) {
-    const { data } = await axios.get('data/5e-SRD-Monsters.json');
-    commit('SET_MONSTERS', data);
-  }
+    const { data } = await axios.get('data/5e-SRD-Ability-Scores.json');
+    commit('SET_ABILITIES', data);
+  },
 };
 
 const mutations = {
-  SET_MONSTERS(state, payload) {
+  SET_ABILITIES(state, payload) {
     state.all = payload;
-  }
+  },
 };
 
 export default {
@@ -25,5 +24,5 @@ export default {
   state,
   getters,
   actions,
-  mutations
+  mutations,
 };
