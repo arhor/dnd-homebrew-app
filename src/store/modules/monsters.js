@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const state = {
-  all: []
+  all: [],
 };
 
 const getters = {};
@@ -11,13 +11,13 @@ const actions = {
   async load({ commit }) {
     const { data } = await axios.get('data/5e-SRD-Monsters.json');
     commit('SET_MONSTERS', data);
-  }
+  },
 };
 
 const mutations = {
   SET_MONSTERS(state, payload) {
     state.all = payload;
-  }
+  },
 };
 
 export default {
@@ -25,5 +25,5 @@ export default {
   state,
   getters,
   actions,
-  mutations
+  mutations,
 };

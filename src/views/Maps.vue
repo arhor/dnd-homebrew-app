@@ -3,11 +3,11 @@
 </template>
 
 <script>
-import Maps from '../components/Maps.vue';
+import Maps from "../components/Maps/Maps.vue";
 
 export default {
   components: {
-    Maps,
-  },
+    Maps
+  }
 };
 </script>

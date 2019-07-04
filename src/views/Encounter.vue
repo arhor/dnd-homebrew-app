@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import Encounter from "../components/Encounter";
+import Encounter from "../components/Encounter/Encounter";
 
 export default {
   components: {

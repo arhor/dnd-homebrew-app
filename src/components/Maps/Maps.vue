@@ -10,16 +10,16 @@ export default {
     return {
       items: [
         {
-          src: require("../../public/pics/maps/Barovia/baroviaregion.png")
+          src: require("../../../public/pics/maps/Barovia/baroviaregion.png")
         },
         {
-          src: require("../../public/pics/maps/Barovia/krezk.png")
+          src: require("../../../public/pics/maps/Barovia/krezk.png")
         },
         {
-          src: require("../../public/pics/maps/Barovia/vallaki.png")
+          src: require("../../../public/pics/maps/Barovia/vallaki.png")
         },
         {
-          src: require("../../public/pics/maps/Barovia/villageofbarovia.png")
+          src: require("../../../public/pics/maps/Barovia/villageofbarovia.png")
         }
       ]
     };
