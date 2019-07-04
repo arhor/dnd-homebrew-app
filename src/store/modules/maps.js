@@ -1,44 +1,27 @@
-import axios from 'axios';
-import firstMap from '../../../public/pics/maps/Barovia/baroviaregion.png';
-
-const state = {
-  Barovia: [firstMap],
-};
-
 const links = [
   {
-    src: '../../../public/pics/maps/Barovia/baroviaregion.png',
+    pic: require('../../../public/pics/maps/Barovia/baroviaregion.png'),
   },
   {
-    src: '../../../public/pics/maps/Barovia/krezk.png',
+    pic: require('../../../public/pics/maps/Barovia/krezk.png'),
   },
   {
-    src: '../../../public/pics/maps/Barovia/vallaki.png',
+    pic: require('../../../public/pics/maps/Barovia/vallaki.png'),
   },
   {
-    src: '../../../public/pics/maps/Barovia/villageofbarovia.png',
+    pic: require('../../../public/pics/maps/Barovia/villageofbarovia.png'),
   },
 ];
 
+const state = {
+  Barovia: links,
+};
+
 const getters = {};
 
-const actions = {
-  loadMaps({ commit }) {
-    const arrayOfMaps = [];
-    links.forEach(async (link) => {
-      arrayOfMaps.push(await axios.get(link.src));
-      console.log(arrayOfMaps);
-    });
+const actions = {};
 
-    commit('SET_MAPS', arrayOfMaps);
-  },
-};
-
-const mutations = {
-  SET_MAPS(state, arrayOfMaps) {
-    state.Barovia = arrayOfMaps;
-  },
-};
+const mutations = {};
 
 export default {
   namespaced: true,
