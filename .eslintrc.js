@@ -2,7 +2,7 @@ module.exports = {
   root: true,
 
   env: {
-    node: true
+    node: true,
   },
 
   rules: {
@@ -12,26 +12,26 @@ module.exports = {
       'error',
       {
         props: true,
-        ignorePropertyModificationsFor: ['state']
-      }
+        ignorePropertyModificationsFor: ['state'],
+      },
     ],
     'no-shadow': [
       'error',
       {
-        allow: ['state']
-      }
+        allow: ['state'],
+      },
     ],
     'import/no-extraneous-dependencies': [
       'error',
       {
-        devDependencies: true
-      }
-    ]
+        devDependencies: true,
+      },
+    ],
   },
 
   parserOptions: {
-    parser: 'babel-eslint'
+    parser: 'babel-eslint',
   },
 
-  extends: ['plugin:vue/essential', 'plugin:vue/strongly-recommended', '@vue/airbnb']
+  extends: ['plugin:vue/essential', '@vue/airbnb'],
 };

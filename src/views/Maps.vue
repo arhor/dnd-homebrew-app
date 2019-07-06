@@ -1,13 +1,13 @@
 <template>
-  <Maps />
+  <carousel />
 </template>
 
 <script>
-import Maps from "../components/Maps/Maps.vue";
+import Carousel from '../components/Maps/Carousel.vue';
 
 export default {
   components: {
-    Maps
-  }
+    Carousel,
+  },
 };
 </script>

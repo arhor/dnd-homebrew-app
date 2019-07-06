@@ -1,13 +1,13 @@
 <template>
-  <Encounter />
+  <encounter />
 </template>
 
 <script>
-import Encounter from "../components/Encounter/Encounter";
+import Encounter from '../components/Battle/Encounter.vue';
 
 export default {
   components: {
-    Encounter
-  }
+    Encounter,
+  },
 };
 </script>
