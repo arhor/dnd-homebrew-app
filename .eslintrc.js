@@ -5,11 +5,6 @@ module.exports = {
     node: true,
   },
 
-  extends: [
-    'plugin:vue/essential',
-    '@vue/airbnb',
-  ],
-
   rules: {
     'no-console': 'off',
     'no-debugger': 'off',
@@ -17,17 +12,13 @@ module.exports = {
       'error',
       {
         props: true,
-        ignorePropertyModificationsFor: [
-          'state',
-        ],
+        ignorePropertyModificationsFor: ['state'],
       },
     ],
     'no-shadow': [
       'error',
       {
-        allow: [
-          'state',
-        ],
+        allow: ['state'],
       },
     ],
     'import/no-extraneous-dependencies': [
@@ -41,4 +32,6 @@ module.exports = {
   parserOptions: {
     parser: 'babel-eslint',
   },
+
+  extends: ['plugin:vue/essential', '@vue/airbnb'],
 };

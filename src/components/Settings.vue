@@ -9,7 +9,7 @@
                 <v-layout row wrap>
                   <v-flex xs12 md6>
                     <span>Scheme</span>
-                    <v-switch @click="switchTheme" v-model="dark" primary label="Dark"/>
+                    <v-switch @click="switchTheme" v-model="dark" primary label="Dark" />
                   </v-flex>
                   <v-flex xs12 md6>
                     <span>Drawer</span>
@@ -53,7 +53,7 @@
                 </v-layout>
               </v-card-text>
               <v-card-actions>
-                <v-spacer/>
+                <v-spacer />
                 <v-btn flat>Cancel</v-btn>
                 <v-btn flat color="primary">Submit</v-btn>
               </v-card-actions>
