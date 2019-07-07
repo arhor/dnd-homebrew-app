@@ -34,5 +34,16 @@ export default new Router({
       name: 'settings',
       component: () => import('./views/Settings.vue'),
     },
+    {
+      path: '/battle/creation',
+      name: 'battle creation',
+      component: () => import('./views/battle/BattleCreation.vue'),
+    },
+    {
+      path: '/battle/scene/:data',
+      name: 'battle scene',
+      component: () => import('./views/battle/BattleScene.vue'),
+      props: true,
+    },
   ],
 });

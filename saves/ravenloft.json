@@ -1,0 +1,35 @@
+{
+  "players": [
+    {
+      "name": "Нефритовая Тень",
+      "hit_points": null,
+      "armor_class": null,
+      "strength": null,
+      "dexterity": null,
+      "constitution": null,
+      "intelligence": null,
+      "wisdom": null,
+      "charisma": null
+    },
+    {
+      "name": "Train",
+      "hit_points": 66,
+      "armor_class": 14,
+      "strength": 17,
+      "dexterity": 12,
+      "constitution": 15,
+      "intelligence": 8,
+      "wisdom": 13,
+      "charisma": 10,
+      "feats": [
+        {
+          "name": "Alert",
+          "effect": {
+            "target": "initiative",
+            "value": "+5"
+          }
+        }
+      ]
+    }
+  ]
+}

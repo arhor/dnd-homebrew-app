@@ -7,10 +7,7 @@
         v-if="ability && value"
         v-on="on"
       >
-        <v-layout
-          row
-          wrap
-        >
+        <v-layout row wrap>
           <v-flex xs12>
             <strong>{{ ability.name }}</strong>
           </v-flex>

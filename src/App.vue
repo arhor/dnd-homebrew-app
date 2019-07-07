@@ -50,6 +50,8 @@ export default {
     this.$store.dispatch('abilities/load');
     this.$store.dispatch('monsters/load');
     this.$store.dispatch('skills/load');
+    // STUB
+    this.$store.dispatch('game/load');
   },
 };
 </script>

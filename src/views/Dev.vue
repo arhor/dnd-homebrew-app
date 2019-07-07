@@ -1,30 +1,17 @@
 <template>
   <v-container>
     <v-layout>
-      <v-flex
-        sm6
-        offset-sm3
-      >
-        <v-container
-          v-bind="{ [`grid-list-${size}`]: true }"
-          fluid
-        >
-          <v-layout
-            row
-            wrap
-          >
-            <v-flex
+      <v-flex sm6 offset-sm3>
+        <v-container v-bind="{ [`grid-list-${size}`]: true }" fluid>
+          <v-layout row wrap>
+            <v-btn
               v-for="(component, i) in testComponents"
               :key="i"
-              xs3
+              :to="`/${component.name}`"
+              :color="component.color"
             >
-              <v-btn
-                :to="`/${component.name}`"
-                :color="component.color"
-              >
-                {{ component.name }}
-              </v-btn>
-            </v-flex>
+              {{ component.name }}
+            </v-btn>
           </v-layout>
         </v-container>
       </v-flex>
@@ -34,11 +21,14 @@
 
 <script>
 export default {
-  data: () => ({
-    size: 'xs',
-    testComponents: [
-      { name: 'monsters', color: 'success' },
-    ],
-  }),
+  data() {
+    return {
+      size: 'xs',
+      testComponents: [
+        { name: 'monsters', color: 'success' },
+        { name: 'battle/creation', color: 'success' },
+      ],
+    };
+  },
 };
 </script>
