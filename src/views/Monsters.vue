@@ -3,11 +3,11 @@
 </template>
 
 <script>
-import MonsterList from '../components/monster/MonsterList.vue';
+import MonsterList from "../components/monster/MonsterList.vue";
 
 export default {
   components: {
-    MonsterList,
-  },
+    MonsterList
+  }
 };
 </script>

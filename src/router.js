@@ -30,6 +30,16 @@ export default new Router({
       component: () => import('./views/Monsters.vue'),
     },
     {
+      path: '/maps',
+      name: 'maps',
+      component: () => import('./views/Maps.vue'),
+    },
+    {
+      path: '/encounter',
+      name: 'encounter',
+      component: () => import('./views/Encounter.vue'),
+    },
+    {
       path: '/settings',
       name: 'settings',
       component: () => import('./views/Settings.vue'),
