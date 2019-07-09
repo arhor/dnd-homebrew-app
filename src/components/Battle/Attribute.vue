@@ -2,7 +2,7 @@
   <v-chip :color="color" text-color="white">
     <v-avatar :class="`${color} darken-1`">
       <v-img
-        :src="pathTo(icon)"
+        :src="require(`~/assets/images/icons/${icon}.svg`)"
         class="my-3"
         height="23"
         width="23"
@@ -27,11 +27,6 @@ export default {
     color: {
       type: String,
       required: true,
-    },
-  },
-  methods: {
-    pathTo(icon) {
-      return require(`../../assets/images/icons/${icon}.svg`);
     },
   },
 };

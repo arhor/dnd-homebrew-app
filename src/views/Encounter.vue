@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import Encounter from '../components/battle/Encounter.vue';
+import Encounter from '~/components/battle/Encounter.vue';
 
 export default {
   components: {

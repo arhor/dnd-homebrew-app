@@ -5,14 +5,14 @@
         <battle-participant :unit="unit" />
       </v-flex>
     </v-layout>
-    <v-btn @click="prevTurn()">Prev Turn</v-btn>
-    <v-btn @click="nextTurn()">Next Turn</v-btn>
+    <v-btn @click="prevTurn">Prev Turn</v-btn>
+    <v-btn @click="nextTurn">Next Turn</v-btn>
   </v-container>
 </template>
 
 <script>
 import { mapState, mapActions } from 'vuex';
-import BattleParticipant from './BattleParticipant.vue';
+import BattleParticipant from '~/components/battle/BattleParticipant.vue';
 
 export default {
   name: 'BattleSceneDetails',
@@ -41,10 +41,10 @@ export default {
     ]),
   },
   mounted() {
-    const _self = this;
+    const self = this;
     this.$store.dispatch('battle/initialize', {
-      monsters: _self.monsters,
-      players: _self.players,
+      monsters: self.monsters,
+      players: self.players,
     });
   },
   destroyed() {

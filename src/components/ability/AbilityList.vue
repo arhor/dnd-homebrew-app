@@ -15,7 +15,7 @@
 
 <script>
 import { mapState } from 'vuex';
-import AbilityDetails from './AbilityDetails.vue';
+import AbilityDetails from '~/components/ability/AbilityDetails.vue';
 
 export default {
   name: 'AbilityList',

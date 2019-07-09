@@ -23,7 +23,7 @@
 
 <script>
 import { mapGetters } from 'vuex';
-import { notEmptyArray } from '../../utils/ArrayUtils';
+import { notEmptyArray } from '~/utils/ArrayUtils';
 
 export default {
   name: 'MonsterPicker',
@@ -42,7 +42,7 @@ export default {
     clear() {
       this.name = '';
       this.searchResult = [];
-    }
+    },
   },
   data() {
     return {
