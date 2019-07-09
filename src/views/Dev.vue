@@ -27,6 +27,7 @@ export default {
       testComponents: [
         { name: 'monsters', color: 'success' },
         { name: 'battle/creation', color: 'success' },
+        { name: 'monsterpicker', color: 'success' },
       ],
     };
   },

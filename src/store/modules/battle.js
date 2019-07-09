@@ -8,6 +8,11 @@ const state = {
 const getters = {};
 
 const actions = {
+  initialize({ dispatch }, data) {
+    dispatch('initializeMonsters', data.monsters);
+    dispatch('initializePlayers', data.players);
+    dispatch('prepareBattleQueue');
+  },
   initializeMonsters({ commit }, monsters) {
     monsters.forEach((it) => {
       for (let i = 0; i < it.number; i += 1) {
@@ -16,7 +21,9 @@ const actions = {
     });
   },
   initializePlayers({ commit }, players) {
-    players.forEach(it => commit('ADD_TO_BATTLE', new Player(it)));
+    players.forEach((it) => {
+      commit('ADD_TO_BATTLE', new Player(it));
+    });
   },
   prepareBattleQueue({ commit }) {
     commit('SORT_BY_INITIATIVE');
@@ -26,6 +33,9 @@ const actions = {
   },
   prevTurn({ commit }) {
     commit('PREV_TURN');
+  },
+  destroy({ commit }) {
+    commit('CLEAR_ALL_DATA');
   },
 };
 
@@ -54,6 +64,9 @@ const mutations = {
   PREV_TURN(state) {
     const tail = state.queue.pop();
     state.queue.unshift(tail);
+  },
+  CLEAR_ALL_DATA(state) {
+    state.queue = [];
   },
 };
 

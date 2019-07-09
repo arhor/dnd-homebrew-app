@@ -55,5 +55,10 @@ export default new Router({
       component: () => import('./views/battle/BattleScene.vue'),
       props: true,
     },
+    {
+      path: '/monsterpicker',
+      name: 'monster picker',
+      component: () => import('./components/battle/MonsterPicker.vue'),
+    },
   ],
 });

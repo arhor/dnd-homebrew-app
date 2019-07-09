@@ -11,7 +11,7 @@
     </v-checkbox>
     <v-btn
       :to="{
-        path: `/battlescene/${JSON.stringify({ players: selected, monsters: [] })}`,
+        path: `/battle/scene/${JSON.stringify({ players: selected, monsters: [] })}`,
       }"
       color="primary"
     >

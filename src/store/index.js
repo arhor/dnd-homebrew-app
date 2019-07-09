@@ -3,6 +3,7 @@ import Vuex from 'vuex';
 import abilities from './modules/abilities';
 import application from './modules/application';
 import battle from './modules/battle';
+import maps from './modules/maps';
 import monsters from './modules/monsters';
 import game from './modules/game';
 import skills from './modules/skills';
@@ -14,6 +15,7 @@ export default new Vuex.Store({
     abilities,
     application,
     battle,
+    maps,
     monsters,
     game,
     skills,

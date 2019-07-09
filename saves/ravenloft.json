@@ -1,18 +1,42 @@
 {
+  "date": null,
   "players": [
     {
-      "name": "Нефритовая Тень",
-      "hit_points": null,
-      "armor_class": null,
-      "strength": null,
-      "dexterity": null,
-      "constitution": null,
-      "intelligence": null,
-      "wisdom": null,
-      "charisma": null
+      "name": "Тень",
+      "total_level": 7,
+      "classes": [
+        {
+          "name": "Rogue",
+          "level": 7,
+          "archetype": "Arcane Trickster"
+        }
+      ],
+      "exp": null,
+      "hit_points": 46,
+      "armor_class": 15,
+      "strength": 8,
+      "dexterity": 17,
+      "constitution": 12,
+      "intelligence": 14,
+      "wisdom": 10,
+      "charisma": 14
     },
     {
       "name": "Train",
+      "total_level": 7,
+      "classes": [
+        {
+          "name": "Barbarian",
+          "level": 6,
+          "archetype": "Storm Herald"
+        },
+        {
+          "name": "Cleric",
+          "level": 1,
+          "archetype": "Tempest"
+        }
+      ],
+      "exp": null,
       "hit_points": 66,
       "armor_class": 14,
       "strength": 17,
@@ -30,6 +54,66 @@
           }
         }
       ]
+    },
+    {
+      "name": "Криллз",
+      "total_level": 6,
+      "classes": [
+        {
+          "name": "Wizard",
+          "level": 6,
+          "archetype": null
+        }
+      ],
+      "exp": null,
+      "hit_points": 50,
+      "armor_class": 13,
+      "strength": 10,
+      "dexterity": 16,
+      "constitution": 14,
+      "intelligence": 16,
+      "wisdom": 13,
+      "charisma": 11
+    },
+    {
+      "name": "Ума",
+      "total_level": 6,
+      "classes": [
+        {
+          "name": "Paladin",
+          "level": 6,
+          "archetype": null
+        }
+      ],
+      "exp": null,
+      "hit_points": 68,
+      "armor_class": 20,
+      "strength": 16,
+      "dexterity": 10,
+      "constitution": 14,
+      "intelligence": 8,
+      "wisdom": 12,
+      "charisma": 14
+    },
+    {
+      "name": "Тревор",
+      "total_level": 7,
+      "classes": [
+        {
+          "name": "Ranger",
+          "level": 7,
+          "archetype": "Horizon Walker"
+        }
+      ],
+      "exp": null,
+      "hit_points": 60,
+      "armor_class": 21,
+      "strength": 16,
+      "dexterity": 10,
+      "constitution": 15,
+      "intelligence": 10,
+      "wisdom": 14,
+      "charisma": 10
     }
   ]
 }

@@ -21,19 +21,11 @@ export default {
   },
   computed: {
     players() {
-      this.parsedData.players;
+      return JSON.parse(this.data).players;
     },
     monsters() {
-      this.parsedData.monsters;
+      return JSON.parse(this.data).monsters;
     },
-  },
-  data() {
-    return {
-      parsedData: null,
-    };
-  },
-  mounted() {
-    this.parsedData = JSON.parse(this.data);
   },
 };
 </script>

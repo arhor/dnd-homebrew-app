@@ -1,11 +1,20 @@
-/* eslint-disable no-param-reassign */
 import axios from 'axios';
 
 const state = {
+  loaded: false,
   all: [],
 };
 
-const getters = {};
+const getters = {
+  getMonstersByName: state => (name) => {
+    const query = String(name);
+    console.log(query);
+    console.log(name);
+    return query
+      ? state.all.filter(m => m.name.toLowerCase().includes(query))
+      : [];
+  },
+};
 
 const actions = {
   async load({ commit }) {

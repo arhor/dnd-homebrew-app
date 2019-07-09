@@ -4,7 +4,7 @@
       v-for="(item,i) in items"
       :key="i"
       :src="item.src"
-      contain="true">
+      contain>
     </v-carousel-item>
   </v-carousel>
 </template>
@@ -15,7 +15,7 @@ import { mapState } from 'vuex';
 export default {
   name: 'Carousel',
   computed: mapState({
-    item: state => state.maps.Barovia,
+    items: state => state.maps.Barovia,
   }),
 };
 </script>

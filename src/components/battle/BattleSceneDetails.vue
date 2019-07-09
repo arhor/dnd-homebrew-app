@@ -1,13 +1,18 @@
 <template>
   <v-container>
-    <v-layout row>
-      {{ players }}
+    <v-layout row wrap>
+      <v-flex v-for="(unit, i) in queue" :key="`part-${i}`" xs2  px-1>
+        <battle-participant :unit="unit" />
+      </v-flex>
     </v-layout>
+    <v-btn @click="prevTurn()">Prev Turn</v-btn>
+    <v-btn @click="nextTurn()">Next Turn</v-btn>
   </v-container>
 </template>
 
 <script>
 import { mapState, mapActions } from 'vuex';
+import BattleParticipant from './BattleParticipant.vue';
 
 export default {
   name: 'BattleSceneDetails',
@@ -21,6 +26,9 @@ export default {
       required: true,
     },
   },
+  components: {
+    BattleParticipant,
+  },
   computed: {
     ...mapState('battle', [
       'queue',
@@ -33,11 +41,14 @@ export default {
     ]),
   },
   mounted() {
-    this.$store.dispatch('battle/initializeMonsters', this.monsters);
-    this.$store.dispatch('battle/initializePlayers', this.players);
-    this.$store.dispatch('battle/prepareBattleQueue');
-    console.log(this.monsters);
-    console.log(this.players);
+    const _self = this;
+    this.$store.dispatch('battle/initialize', {
+      monsters: _self.monsters,
+      players: _self.players,
+    });
+  },
+  destroyed() {
+    this.$store.dispatch('battle/destroy');
   },
 };
 </script>
