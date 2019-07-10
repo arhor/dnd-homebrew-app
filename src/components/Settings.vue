@@ -66,31 +66,25 @@
 </template>
 
 <script>
-import { mapState } from 'vuex';
+import { mapState, mapActions } from 'vuex';
 
 export default {
-  computed: mapState({
-    dark: state => state.application.dark,
-    drawers: state => state.application.drawers,
-    primaryDrawer: state => state.application.primaryDrawer,
-    footer: state => state.application.footer,
-  }),
+  computed: {
+    ...mapState('application', [
+      'dark',
+      'drawers',
+      'primaryDrawer',
+      'footer',
+    ]),
+  },
   methods: {
-    switchTheme() {
-      this.$store.dispatch('application/switchTheme');
-    },
-    switchMiniMode() {
-      this.$store.dispatch('application/switchMiniMode');
-    },
-    switchFloatingMode() {
-      this.$store.dispatch('application/switchFloatingMode');
-    },
-    switchClippedMode() {
-      this.$store.dispatch('application/switchClippedMode');
-    },
-    switchFooterInsetMode() {
-      this.$store.dispatch('application/switchFooterInsetMode');
-    },
+    ...mapActions('application', [
+      'switchTheme',
+      'switchMiniMode',
+      'switchFloatingMode',
+      'switchClippedMode',
+      'switchFooterInsetMode',
+    ]),
   },
 };
 </script>
