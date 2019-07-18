@@ -1,23 +1,37 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
-import abilities from './modules/abilities';
-import application from './modules/application';
-import battle from './modules/battle';
-import maps from './modules/maps';
-import monsters from './modules/monsters';
-import game from './modules/game';
-import skills from './modules/skills';
+
+import getters from './getters';
+import actions from './actions';
+import mutations from './mutations';
+import modules from './modules';
+
+const state = {
+  name: 'D&D Homebrew App',
+  dark: true,
+  drawers: [
+    'Default (no property)',
+    'Permanent',
+    'Temporary',
+  ],
+  primaryDrawer: {
+    model: null,
+    type: 'default (no property)',
+    clipped: false,
+    floating: false,
+    mini: false,
+  },
+  footer: {
+    inset: false,
+  },
+};
 
 Vue.use(Vuex);
 
 export default new Vuex.Store({
-  modules: {
-    abilities,
-    application,
-    battle,
-    maps,
-    monsters,
-    game,
-    skills,
-  },
+  state,
+  getters,
+  actions,
+  mutations,
+  modules,
 });

@@ -4,32 +4,34 @@
 
 <script>
 import { mapState } from 'vuex';
-import { signed, toPropName } from '../../utils/StringUtils';
-import GenericList from '../generic/GenericList.vue';
+import { signed, toPropName } from '~/utils/StringUtils';
+import GenericList from '~/components/generic/GenericList.vue';
 
 export default {
   name: 'SkillList',
   props: {
     creature: {
       type: Object,
-      default: null,
+      required: true,
     },
   },
   components: {
     GenericList,
   },
-  computed: mapState({
-    allSkills: state => state.skills.all,
-  }),
+  computed: {
+    ...mapState('skills', [
+      'all',
+    ]),
+  },
   data() {
     return {
       skills: [],
     };
   },
   mounted() {
-    const isTraversable = this.allSkills && this.allSkills instanceof Array;
+    const isTraversable = this.all && this.all instanceof Array;
     if (isTraversable) {
-      this.allSkills.forEach((it) => {
+      this.all.forEach((it) => {
         const propName = toPropName(it.name);
         const value = this.creature[propName];
         if (value) {

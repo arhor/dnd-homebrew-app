@@ -1,13 +1,7 @@
 import fs from 'fs';
 
-const state = {
-  all: [],
-  players: null,
-};
+export default {
 
-const getters = {};
-
-const actions = {
   load({ commit }) {
     // const saves = [];
     try {
@@ -27,21 +21,5 @@ const actions = {
       * }
       */
   },
-};
 
-const mutations = {
-  SET_SAVES(state, data) {
-    state.all = data;
-  },
-  SET_CURRENT_GAME(state, data) {
-    state.players = data.players;
-  },
-};
-
-export default {
-  namespaced: true,
-  state,
-  getters,
-  actions,
-  mutations,
 };

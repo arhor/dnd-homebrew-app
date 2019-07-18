@@ -53,18 +53,18 @@
 </template>
 
 <script>
-import AbilityList from '../ability/AbilityList.vue';
-import ActionList from '../action/ActionList.vue';
-import GenericList from '../generic/GenericList.vue';
-import SkillList from '../skill/SkillList.vue';
-import SpecialAbilityList from '../ability/special/SpecialAbilityList.vue';
+import AbilityList from '~/components/ability/AbilityList.vue';
+import ActionList from '~/components/action/ActionList.vue';
+import GenericList from '~/components/generic/GenericList.vue';
+import SkillList from '~/components/skill/SkillList.vue';
+import SpecialAbilityList from '~/components/ability/special/SpecialAbilityList.vue';
 
 export default {
   name: 'MonsterDetails',
   props: {
     monster: {
       type: Object,
-      default: null,
+      required: true,
     },
   },
   components: {

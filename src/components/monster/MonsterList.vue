@@ -7,7 +7,7 @@
       <v-spacer />
       <v-text-field
         v-model="search"
-        append-icon="search"
+        append-icon="shield"
         label="Search"
         single-line
         hide-details
@@ -43,12 +43,11 @@
         </v-alert>
       </template>
     </v-data-table>
-    <v-dialog
-      v-model="dialog"
-      max-width="800"
-    >
-      <monster-details :monster="monster" />
-    </v-dialog>
+    <div v-if="monster">
+      <v-dialog v-model="dialog" max-width="800">
+        <monster-details :monster="monster" />
+      </v-dialog>
+    </div>
   </v-card>
       </v-flex>
     </v-layout>
