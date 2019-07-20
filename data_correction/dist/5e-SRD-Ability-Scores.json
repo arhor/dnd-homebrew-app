@@ -1,0 +1,103 @@
+[
+  {
+    "index": 1,
+    "name": "STR",
+    "full_name": "Strength",
+    "desc": "Strength measures bodily power, athletic training, and the extent to which you can exert raw physical force.",
+    "skills": [
+      {
+        "name": "Athletics"
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "name": "DEX",
+    "full_name": "Dexterity",
+    "desc": "Dexterity measures agility, reflexes, and balance.",
+    "skills": [
+      {
+        "name": "Acrobatics"
+      },
+      {
+        "name": "Sleight of Hand"
+      },
+      {
+        "name": "Stealth"
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "name": "CON",
+    "full_name": "Constitution",
+    "desc": "Constitution measures health, stamina, and vital force.",
+    "skills": []
+  },
+  {
+    "index": 4,
+    "name": "INT",
+    "full_name": "Intelligence",
+    "desc": "Intelligence measures mental acuity, accuracy of recall, and the ability to reason.",
+    "skills": [
+      {
+        "name": "Arcana"
+      },
+      {
+        "name": "History"
+      },
+      {
+        "name": "Investigation"
+      },
+      {
+        "name": "Nature"
+      },
+      {
+        "name": "Religion"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "name": "WIS",
+    "full_name": "Wisdom",
+    "desc": "Wisdom reflects how attuned you are to the world around you and represents perceptiveness and intuition.",
+    "skills": [
+      {
+        "name": "Animal Handling"
+      },
+      {
+        "name": "Insight"
+      },
+      {
+        "name": "Medicine"
+      },
+      {
+        "name": "Perception"
+      },
+      {
+        "name": "Survival"
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "name": "CHA",
+    "full_name": "Charisma",
+    "desc": "Charisma measures your ability to interact effectively with others. It includes such factors as confidence and eloquence, and it can represent a charming or commanding personality.",
+    "skills": [
+      {
+        "name": "Deception"
+      },
+      {
+        "name": "Intimidation"
+      },
+      {
+        "name": "Performance"
+      },
+      {
+        "name": "Persuasion"
+      }
+    ]
+  }
+]

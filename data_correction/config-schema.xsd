@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="appender">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="level" type="loggingLevel"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:simpleType name="loggingLevel">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="INFO"/>
+      <xs:enumeration value="DEBUG"/>
+      <xs:enumeration value="ERROR"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>
