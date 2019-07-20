@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 const { Logger } = require('../../../logger');
 
 const log = new Logger('jobs');
@@ -10,8 +11,8 @@ try {
   files.forEach((file) => {
     const name = file.replace(/\.js/g, '');
     if (name !== 'index') {
-      const path = `./${name}`;
-      const job = require(path); // replace with import()
+      const url = path.resolve(__dirname, `./${name}`);
+      const job = require(url);
       jobs[name] = job;
     }
   });

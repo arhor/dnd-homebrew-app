@@ -1,5 +1,6 @@
 /* eslint-disable no-underscore-dangle */
 const fs = require('fs');
+const path = require('path');
 const { Logger } = require('../../../logger');
 
 const log = new Logger('DataHelper');
@@ -13,7 +14,7 @@ module.exports = class DataHelper {
 
   readData(fileName) {
     const from = this._source(fileName);
-    log.debug(`reading file [${from}]`);
+    log.debug('reading file:', from);
     let data;
     try {
       data = fs.readFileSync(from);
@@ -29,7 +30,7 @@ module.exports = class DataHelper {
     const correctionDir = fs.readdirSync(this.dataTarget);
     if (correctionDir.includes('data')) {
       const to = this._target(fileName);
-      log.debug(`destination file [${to}]`);
+      log.debug('destination file:', to);
       try {
         fs.writeFileSync(to, data);
       } catch (writeError) {
@@ -51,10 +52,10 @@ module.exports = class DataHelper {
   }
 
   _source(name) {
-    return `${this.dataSource}/${this.filePrefix}-${name}.json`;
+    return path.resolve(`${this.dataSource}/${this.filePrefix}-${name}.json`);
   }
 
   _target(name) {
-    return `${this.dataTarget}/data/${this.filePrefix}-${name}.json`;
+    return path.resolve(`${this.dataTarget}/data/${this.filePrefix}-${name}.json`);
   }
 };
