@@ -27,7 +27,7 @@ module.exports = class DataHelper {
   writeData(fileName, data, tries) {
     log.debug('writing data...');
     const correctionDir = fs.readdirSync(this.dataTarget);
-    if (correctionDir.includes('dist')) {
+    if (correctionDir.includes('data')) {
       const to = this._target(fileName);
       log.debug(`destination file [${to}]`);
       try {
@@ -37,10 +37,10 @@ module.exports = class DataHelper {
       }
     } else {
       const num = Number(tries || 0);
-      log.debug(`dist directory is missing, try to create...[${num}]`);
+      log.debug(`data directory is missing, try to create...[${num}]`);
       if (num <= 10) {
         try {
-          fs.mkdirSync(`${this.dataTarget}/dist`);
+          fs.mkdirSync(`${this.dataTarget}/data`);
           this.writeData(fileName, data, num + 1);
         } catch (dirError) {
           log.error(dirError.message);
@@ -55,6 +55,6 @@ module.exports = class DataHelper {
   }
 
   _target(name) {
-    return `${this.dataTarget}/dist/${this.filePrefix}-${name}.json`;
+    return `${this.dataTarget}/data/${this.filePrefix}-${name}.json`;
   }
 };
