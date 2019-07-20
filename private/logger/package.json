@@ -1,0 +1,15 @@
+{
+  "name": "logger",
+  "version": "0.1.0",
+  "description": "Simple logger for node js applications",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "logging"
+  ],
+  "author": "Maksim Buryshynets",
+  "license": "ISC"
+}

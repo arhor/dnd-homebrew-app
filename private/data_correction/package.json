@@ -1,0 +1,15 @@
+{
+  "name": "data-corrector",
+  "version": "0.1.0",
+  "description": "Just data corrector",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "correction"
+  ],
+  "author": "Maksim Buryshynets",
+  "license": "ISC"
+}
