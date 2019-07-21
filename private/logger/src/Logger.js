@@ -1,4 +1,6 @@
 /* eslint-disable no-underscore-dangle */
+const { blue, yellow, red } = require('./colors');
+const match = require('../../experimental/match');
 
 const LEVEL = {
   INFO: 'INFO',
@@ -28,8 +30,36 @@ module.exports = class Logger {
     console.error(message);
   }
 
+  /**
+   * @param {string} msg
+   * @param {string} level
+   * @param {string} params
+   */
   _out(msg, level, params) {
-    let output = `[${level}]`;
+    // let colorized;
+    // switch (level) {
+    //   case LEVEL.INFO:
+    //     colorized = blue(level);
+    //     break;
+    //   case LEVEL.DEBUG:
+    //     colorized = yellow(level);
+    //     break;
+    //   case LEVEL.ERROR:
+    //     colorized = red(level);
+    //     break;
+    //   default:
+    //     colorized = level;
+    //     break;
+    // }
+    // ~~~ experimental feature ~~~
+    const colorized = match(level)(
+      [LEVEL.INFO, _ => blue(_)],
+      [LEVEL.DEBUG, _ => yellow(_)],
+      [LEVEL.ERROR, _ => blue(_)],
+      () => level,
+    );
+
+    let output = `[${colorized}]`;
     if (this.namespace) {
       output = output.concat(` -- ${this.namespace}`);
     }
