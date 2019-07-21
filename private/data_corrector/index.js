@@ -26,7 +26,7 @@ function validateConfig(config) {
 }
 
 try {
-  log.debug('initializing data corrector...');
+  log.info('initializing data corrector...');
   const buffer = fs.readFileSync(`${__dirname}/config.json`);
   const config = JSON.parse(buffer);
 
@@ -39,7 +39,7 @@ try {
     const helper = new DataHelper(dataSource, dataTarget, filePrefix);
 
     Object.keys(jobs).forEach((name) => {
-      log.debug(`running job [${name}]`);
+      log.info(`running job [${name}]`);
       const data = helper.readData(name);
       if (data) {
         const process = jobs[name];
