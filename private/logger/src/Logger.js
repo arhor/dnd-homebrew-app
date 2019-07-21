@@ -19,6 +19,14 @@ const LEVEL = {
  */
 
 /**
+ * ===== Global list of todoshechka =====
+ * 1) output target should be configurable to provide different destinations
+ *    such as file, console, etc.
+ * 2) loggers should provide corresponding colorization according to the env
+ *    (node, browser, etc.)
+ */
+
+/**
  * @param {Logger} logger
  * @param {String} msg
  * @param {String} level
