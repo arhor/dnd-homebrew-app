@@ -26,12 +26,20 @@ function match(arg) {
     return result;
   };
 }
-
+// current
 // const result = match(5)(
 //   [1, x => `${x}`],
 //   [5, x => `result is ${x}`],
 //   () => 'sdsd',
 // );
+
+// possible
+// const res = match(val) (
+//   when(1)(x => some return value)
+//   when(2)(x => some other return)
+//   other(x => default return)
+// );
+
 
 // console.log(result);
 module.exports = match;
