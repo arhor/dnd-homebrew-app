@@ -2,13 +2,13 @@ import Vue from 'vue';
 import Vuetify, { VLayout } from 'vuetify/lib';
 
 Vue.use(Vuetify, {
-  components: {
-    VLayout,
-  },
+    components: {
+        VLayout
+    }
 });
 
 export default new Vuetify({
-  icons: {
-    iconfont: 'mdi',
-  },
+    icons: {
+        iconfont: 'mdi'
+    }
 });

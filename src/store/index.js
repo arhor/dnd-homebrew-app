@@ -8,10 +8,10 @@ import skills from './modules/skills';
 Vue.use(Vuex);
 
 export default new Vuex.Store({
-  modules: {
-    abilities,
-    application,
-    monsters,
-    skills,
-  },
+    modules: {
+        abilities,
+        application,
+        monsters,
+        skills
+    }
 });

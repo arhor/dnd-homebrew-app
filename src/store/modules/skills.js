@@ -2,28 +2,28 @@
 import axios from 'axios';
 
 const state = {
-  all: [],
+    all: []
 };
 
 const getters = {};
 
 const actions = {
-  async load({ commit }) {
-    const { data } = await axios.get('data/5e-SRD-Skills.json');
-    commit('SET_SKILLS', data);
-  },
+    async load({ commit }) {
+        const { data } = await axios.get('data/5e-SRD-Skills.json');
+        commit('SET_SKILLS', data);
+    }
 };
 
 const mutations = {
-  SET_SKILLS(state, payload) {
-    state.all = payload;
-  },
+    SET_SKILLS(state, payload) {
+        state.all = payload;
+    }
 };
 
 export default {
-  namespaced: true,
-  state,
-  getters,
-  actions,
-  mutations,
+    namespaced: true,
+    state,
+    getters,
+    actions,
+    mutations
 };

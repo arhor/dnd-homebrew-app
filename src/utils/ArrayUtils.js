@@ -4,9 +4,7 @@
  * @param {Array} items
  */
 export function notEmptyArray(items) {
-  return items !== null
-      && items !== undefined
-      && items.length > 0;
+    return items !== null && items !== void 0 && items.length > 0;
 }
 
 /**
@@ -15,7 +13,7 @@ export function notEmptyArray(items) {
  * @param {Array} items
  */
 export function commaSeparate(items) {
-  return (items || []).reduce((prev, curr) => `${prev}, ${curr}`);
+    return (items || []).reduce((prev, curr) => `${prev}, ${curr}`);
 }
 
 /**

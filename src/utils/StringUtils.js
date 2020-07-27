@@ -4,7 +4,7 @@
  * @param {string} text
  */
 export function processLinebreaks(text) {
-  return String(text || '').replace(/(\n)|(\r\n)/g, '<br/>');
+    return String(text || '').replace(/(\n)|(\r\n)/g, '<br/>');
 }
 
 /**
@@ -13,8 +13,8 @@ export function processLinebreaks(text) {
  * @param {Number} num
  */
 export function signed(value) {
-  const num = value || 0;
-  return `${num >= 0 ? '+' : '-'}${num}`;
+    const num = value || 0;
+    return `${num >= 0 ? '+' : '-'}${num}`;
 }
 
 /**
@@ -23,7 +23,7 @@ export function signed(value) {
  * @param {String} str
  */
 export function toPropName(str) {
-  return (str || '').replace(/ /g, '_').toLowerCase();
+    return (str || '').replace(/ /g, '_').toLowerCase();
 }
 
 /**
