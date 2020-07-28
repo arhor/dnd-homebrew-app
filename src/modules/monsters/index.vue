@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import MonsterList from '../components/monster/MonsterList.vue';
+import MonsterList from '@/modules/monsters/components/MonsterList.vue';
 
 export default {
     components: {

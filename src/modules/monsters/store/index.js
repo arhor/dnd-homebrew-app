@@ -1,22 +1,21 @@
-/* eslint-disable no-param-reassign */
 import axios from 'axios';
 
 const state = {
-    all: []
+    allMonsters: []
 };
 
 const getters = {};
 
 const actions = {
-    async load({ commit }) {
+    load: async (store) => {
         const { data } = await axios.get('data/5e-SRD-Monsters.json');
-        commit('SET_MONSTERS', data);
+        store.commit('SET_MONSTERS', data);
     }
 };
 
 const mutations = {
-    SET_MONSTERS(state, payload) {
-        state.all = payload;
+    SET_MONSTERS: (state, payload) => {
+        state.allMonsters = payload;
     }
 };
 

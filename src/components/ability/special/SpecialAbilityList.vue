@@ -15,6 +15,7 @@
 
 <script>
 import { processLinebreaks } from '@/utils/StringUtils';
+import { notEmptyArray } from '@/utils/ArrayUtils';
 
 export default {
     name: 'SpecialAbilityList',
@@ -26,11 +27,7 @@ export default {
     },
     computed: {
         notEmpty() {
-            return (
-                this.specialAbilities !== null &&
-                this.specialAbilities !== undefined &&
-                this.specialAbilities.length > 0
-            );
+            return notEmptyArray(this.specialAbilities);
         }
     },
     methods: {

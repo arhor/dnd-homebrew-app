@@ -3,6 +3,9 @@ module.exports = {
     env: {
         node: true
     },
+    settings: {
+        'import/resolver': 'webpack'
+    },
     extends: ['plugin:vue/essential', 'eslint:recommended', '@vue/prettier'],
     parserOptions: {
         parser: 'babel-eslint'
