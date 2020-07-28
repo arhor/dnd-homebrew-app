@@ -13,9 +13,7 @@
         <v-app-bar dark app>
             <v-app-bar-nav-icon @click.stop="displayDrawer = !displayDrawer" />
 
-            <v-toolbar-title>
-                {{ name }}
-            </v-toolbar-title>
+            <v-toolbar-title>{{ name }}</v-toolbar-title>
 
             <v-spacer />
 
@@ -30,7 +28,7 @@
             </v-container>
         </v-main>
 
-        <v-footer app>
+        <v-footer dark app>
             <span class="px-3">&copy; {{ new Date().getFullYear() }}</span>
         </v-footer>
     </v-app>
@@ -50,7 +48,7 @@ export default {
     }),
     mounted() {
         ['abilities', 'monsters', 'spells', 'skills'].forEach(
-            (asset) => void this.$store.dispatch(`${asset}/load`)
+            asset => void this.$store.dispatch(`${asset}/load`)
         );
     }
 };

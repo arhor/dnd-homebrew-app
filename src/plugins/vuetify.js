@@ -1,10 +1,10 @@
+import 'fontsource-roboto';
+import '@mdi/font/css/materialdesignicons.css';
 import Vue from 'vue';
-import Vuetify, { VLayout } from 'vuetify/lib';
+import Vuetify from 'vuetify/lib';
 
 Vue.use(Vuetify, {
-    components: {
-        VLayout
-    }
+    components: {}
 });
 
 export default new Vuetify({

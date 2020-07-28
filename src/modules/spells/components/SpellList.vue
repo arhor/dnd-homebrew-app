@@ -1,13 +1,13 @@
 <template>
-    <v-layout align-center justify-center fill-height>
-        <v-flex xs12>
+    <v-row align="center" justify="center">
+        <v-col cols="12">
             <v-card>
                 <v-card-title>
                     Spells
                     <v-spacer />
                     <v-text-field
                         v-model="search"
-                        append-icon="search"
+                        append-icon="mdi-magnify"
                         label="Search"
                         single-line
                         hide-details
@@ -25,18 +25,10 @@
                         <td>{{ props.item.name }}</td>
                         <td>{{ props.item.school.name }}</td>
                     </template>
-                    <template v-slot:no-results>
-                        <v-alert :value="true" color="error" icon="warning">
-                            Nothing found for '{{ search }}'.
-                        </v-alert>
-                    </template>
                 </v-data-table>
-                <!-- <v-dialog v-model="dialog" max-width="800">
-                    <monster-details :monster="monster" />
-                </v-dialog> -->
             </v-card>
-        </v-flex>
-    </v-layout>
+        </v-col>
+    </v-row>
 </template>
 
 <script>

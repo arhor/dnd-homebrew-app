@@ -7,7 +7,7 @@ const state = {
 const getters = {};
 
 const actions = {
-    load: async (store) => {
+    load: async store => {
         const { data } = await axios.get('data/5e-SRD-Monsters.json');
         store.commit('SET_MONSTERS', data);
     }

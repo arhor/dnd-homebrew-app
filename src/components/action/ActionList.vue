@@ -1,12 +1,13 @@
 <template>
-    <v-layout row wrap>
-        <action-details v-for="(action, i) in actions" :key="`action-${i}`" :action="action" />
-    </v-layout>
+    <v-row>
+        <v-col v-for="(action, i) in actions" :key="`action-${i}`" cols="12">
+            <strong>{{ action.name }}</strong>
+            : {{ action.desc }}
+        </v-col>
+    </v-row>
 </template>
 
 <script>
-import ActionDetails from './ActionDetails.vue';
-
 export default {
     name: 'ActionList',
     props: {
@@ -14,9 +15,6 @@ export default {
             type: Array,
             default: () => []
         }
-    },
-    components: {
-        ActionDetails
     }
 };
 </script>

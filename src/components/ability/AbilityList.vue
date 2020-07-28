@@ -1,9 +1,9 @@
 <template>
-    <v-layout row wrap>
-        <v-flex v-for="(ability, i) in abilities" :key="`ability-${i}`" xs2>
+    <v-row wrap>
+        <v-col v-for="(ability, i) in abilities" :key="`ability-${i}`" cols="2">
             <ability-details :ability="ability" :value="valueOf(ability)" />
-        </v-flex>
-    </v-layout>
+        </v-col>
+    </v-row>
 </template>
 
 <script>
@@ -22,7 +22,7 @@ export default {
         AbilityDetails
     },
     computed: mapState({
-        abilities: (state) => state.abilities.all
+        abilities: state => state.abilities.all
     }),
     methods: {
         valueOf(ability) {

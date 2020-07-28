@@ -31,11 +31,6 @@ const routes = [
         component: () => import('@/modules/maps')
     },
     {
-        path: '/encounter',
-        name: 'encounter',
-        component: () => import('./views/Encounter.vue')
-    },
-    {
         path: '/settings',
         name: 'settings',
         component: () => import('./views/Settings.vue')

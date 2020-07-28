@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
+
 import abilities from '@/store/modules/abilities';
 import skills from '@/store/modules/skills';
 import monsters from '@/modules/monsters/store';
