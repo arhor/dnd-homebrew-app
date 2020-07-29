@@ -1,59 +1,68 @@
 <template>
     <v-card v-if="monster" xs10 md10>
         <v-card-title primary-title>
-            <v-layout row wrap>
-                <v-flex headline xs12>
-                    {{ monster.name }}
-                </v-flex>
-            </v-layout>
+            <v-row>
+                <v-col cols="12" class="headline">{{ monster.name }}</v-col>
+            </v-row>
         </v-card-title>
+
         <v-container grid-list-md>
-            <v-layout row wrap>
-                <v-flex xs12 text-xs-left>
+            <v-row>
+                <v-col cols="12" class="text-xs-left">
                     {{ monster.size }} {{ monster.type }}, {{ monster.alignment }}
-                </v-flex>
-            </v-layout>
+                </v-col>
+            </v-row>
+
             <v-divider />
-            <v-layout row wrap>
-                <v-flex xs12 text-xs-left> Armor class: {{ monster.armor_class }} </v-flex>
-                <v-flex xs12 text-xs-left>
+
+            <v-row>
+                <v-col cols="12" class="text-xs-left">
+                    Armor class: {{ monster.armor_class }}
+                </v-col>
+                <v-col cols="12" class="text-xs-left">
                     Hit points: {{ monster.hit_points }} ({{ monster.hit_dice }})
-                </v-flex>
-                <v-flex xs12 text-xs-left> Speed: {{ monster.speed }} </v-flex>
-            </v-layout>
+                </v-col>
+                <v-col cols="12" class="text-xs-left">Speed: {{ monster.speed }}</v-col>
+            </v-row>
+
             <v-divider />
+
             <ability-list :creature="monster" />
+
             <v-divider />
+
             <generic-list title="Damage vulnerabilities" :items="monster.damage_vulnerabilities" />
             <generic-list title="Damage resistances" :items="monster.damage_resistances" />
             <generic-list title="Damage immunities" :items="monster.damage_immunities" />
+
             <generic-list title="Condition immunities" :items="monster.condition_immunities" />
             <skill-list :creature="monster" />
+
             <generic-list title="Senses" :items="[monster.senses]" />
             <generic-list title="Languages" :items="[monster.languages]" />
-            <v-layout row wrap>
-                <v-flex xs12 text-xs-left>
+
+            <v-row>
+                <v-col cols="12" class="text-xs-left">
                     <strong>Challenge:</strong>
                     {{ monster.challenge_rating }} (# XP)
-                </v-flex>
-            </v-layout>
+                </v-col>
+            </v-row>
+
             <special-ability-list :special-abilities="monster.special_abilities" />
-            <v-flex xs12 text-xs-left>
-                Actions
-            </v-flex>
+
             <v-divider />
+
             <action-list :actions="monster.actions" />
-            <!-- place other content here -->
         </v-container>
     </v-card>
 </template>
 
 <script>
-import AbilityList from '@/components/ability/AbilityList.vue';
+import AbilityList from '@/modules/ability/components/AbilityList.vue';
 import ActionList from '@/components/action/ActionList.vue';
 import GenericList from '@/components/generic/GenericList.vue';
-import SkillList from '@/components/skill/SkillList.vue';
-import SpecialAbilityList from '@/components/ability/special/SpecialAbilityList.vue';
+import SkillList from '@/modules/skill/components/SkillList.vue';
+import SpecialAbilityList from '@/modules/ability/components/special/SpecialAbilityList.vue';
 
 export default {
     name: 'MonsterDetails',

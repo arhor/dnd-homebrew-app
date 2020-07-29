@@ -4,8 +4,8 @@
 
 <script>
 import { mapState } from 'vuex';
-import { signed, toPropName } from '../../utils/StringUtils';
-import GenericList from '../generic/GenericList.vue';
+import { signed, toPropName } from '@/utils/StringUtils';
+import GenericList from '@/components/generic/GenericList.vue';
 
 export default {
     name: 'SkillList',

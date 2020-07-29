@@ -4,7 +4,11 @@
  * @param {Array} items
  */
 export function notEmptyArray(items) {
-    return items !== null && items !== void 0 && items.length > 0;
+    return !isEmptyArray(items);
+}
+
+export function isEmptyArray(items) {
+    return items !== null && items !== void 0 && items.length === 0;
 }
 
 /**

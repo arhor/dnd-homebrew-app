@@ -1,20 +1,22 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
 
-import abilities from '@/store/modules/abilities';
-import skills from '@/store/modules/skills';
-import monsters from '@/modules/monsters/store';
-import spells from '@/modules/spells/store';
+import abilities from '@/modules/ability/store';
 import maps from '@/modules/maps/store';
+import monsters from '@/modules/monsters/store';
+import skills from '@/modules/skill/store';
+import spells from '@/modules/spells/store';
 
 Vue.use(Vuex);
 
-export default new Vuex.Store({
+const store = new Vuex.Store({
     modules: {
         abilities,
         maps,
         monsters,
-        spells,
-        skills
+        skills,
+        spells
     }
 });
+
+export default store;

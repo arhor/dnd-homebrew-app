@@ -1,16 +1,13 @@
 <template>
-    <v-layout v-if="notEmpty" row wrap>
-        <v-flex xs12 text-xs-left>
-            <strong v-if="title">
-                {{ title + ':' }}
-            </strong>
-            {{ commaSeparatedString }}
-        </v-flex>
-    </v-layout>
+    <v-row v-if="notEmpty">
+        <v-col cols="12" class="text-xs-left">
+            <strong v-if="title">{{ title + ':' }}</strong> {{ commaSeparatedString }}
+        </v-col>
+    </v-row>
 </template>
 
 <script>
-import { commaSeparate, notEmptyArray } from '../../utils/ArrayUtils';
+import { commaSeparate, isEmptyArray } from '@/utils/ArrayUtils.js';
 
 export default {
     name: 'GenericList',
@@ -26,7 +23,7 @@ export default {
     },
     computed: {
         notEmpty() {
-            return notEmptyArray(this.items);
+            return !isEmptyArray(this.items);
         },
         commaSeparatedString() {
             return commaSeparate(this.items);
